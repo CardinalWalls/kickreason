@@ -1,0 +1,149 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KickReason — the debate node</title>
+<link rel="stylesheet" href="kr.css">
+<style>
+.node-hero{display:grid;grid-template-columns:1.5fr 1fr;gap:22px;align-items:start}
+@media(max-width:840px){.node-hero{grid-template-columns:1fr}}
+.q-big{font-family:var(--serif);font-size:clamp(26px,4vw,40px);line-height:1.06;letter-spacing:-.02em;margin:6px 0 14px}
+.lean-box{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:20px;text-align:center}
+.lean-num{font-family:var(--mono);font-size:60px;font-weight:600;color:var(--amber);line-height:1}
+.lean-sub{font-family:var(--mono);font-size:12px;color:var(--faint);text-transform:uppercase;letter-spacing:.1em;margin-top:4px}
+.lean-vs{font-size:13px;color:var(--dim);margin-top:12px;border-top:1px solid var(--line);padding-top:12px}
+.lean-vs b{color:var(--ink);font-family:var(--mono)}
+.sectitle{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);margin:34px 0 14px;display:flex;align-items:center;gap:10px}
+.sectitle::after{content:"";flex:1;height:1px;background:var(--line)}
+.layers{display:flex;flex-direction:column;gap:10px}
+.layer{background:var(--bg2);border:1px solid var(--line);border-radius:11px;overflow:hidden}
+.layer-head{padding:14px 16px;display:flex;align-items:center;gap:13px;cursor:pointer}
+.layer-head:hover{background:var(--bg3)}
+.layer-ico{width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-family:var(--mono);font-weight:600;font-size:12px;border:1px solid var(--line2);color:var(--amber);flex-shrink:0}
+.layer-title{flex:1} .layer-title .t{font-weight:600;font-size:15px} .layer-title .s{font-size:12px;color:var(--faint);font-family:var(--mono)}
+.lean{font-family:var(--mono);font-size:12px;padding:3px 9px;border-radius:6px;border:1px solid}
+.lean.up{color:var(--green);border-color:rgba(65,221,138,.3)} .lean.down{color:var(--red);border-color:rgba(255,93,108,.35)} .lean.flat{color:var(--dim);border-color:var(--line2)}
+.chev{color:var(--faint);transition:.3s} .layer.open .chev{transform:rotate(90deg)}
+.layer-body{max-height:0;overflow:hidden;transition:max-height .4s ease} .layer.open .layer-body{max-height:340px}
+.layer-body-in{padding:0 16px 16px 61px;font-size:14.5px;color:var(--dim)}
+.src{font-family:var(--mono);font-size:11.5px;color:var(--faint);margin-top:9px}.src b{color:var(--blue);font-weight:500}
+.split{display:grid;grid-template-columns:1fr 1fr;gap:14px}@media(max-width:680px){.split{grid-template-columns:1fr}}
+.case{border-radius:12px;padding:17px;border:1px solid var(--line)}
+.case.for{background:rgba(65,221,138,.04);border-color:rgba(65,221,138,.2)}
+.case.against{background:rgba(255,93,108,.04);border-color:rgba(255,93,108,.2)}
+.case h4{font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:8px}
+.case.for h4{color:var(--green)} .case.against h4{color:var(--red)}
+.case p{font-size:14px;color:var(--dim)}
+.change{background:var(--bg2);border-left:2px solid var(--amber);border-radius:0 11px 11px 0;padding:15px 18px;font-size:15px}
+.change b{color:var(--amber)}
+.argue{background:var(--bg2);border:1px solid var(--line2);border-radius:14px;padding:20px;margin-top:8px}
+.argue label{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint)}
+input[type=range]{width:100%;accent-color:var(--amber);margin:9px 0}
+.resp{background:var(--bg3);border-left:2px solid var(--amber);border-radius:0 9px 9px 0;padding:12px 14px;font-size:14px;color:var(--dim);margin-top:8px;min-height:46px}.resp b{color:var(--ink)}
+.srcrow{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.srcchip{font-family:var(--mono);font-size:11.5px;border:1px solid var(--line2);border-radius:6px;padding:6px 10px;cursor:pointer;color:var(--blue);background:var(--bg3);transition:.2s}.srcchip:hover{border-color:var(--blue)}
+.lock-in{display:flex;gap:8px;margin-top:6px}
+.lock-in input{flex:1;background:var(--bg3);border:1px solid var(--line2);border-radius:8px;padding:11px;color:var(--ink);font-family:var(--mono)}
+.sb{margin-top:18px}
+.sb-row{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:14px}
+.sb-row .who{width:120px;font-family:var(--mono);font-size:12px;color:var(--dim)}
+.sb-row .p{font-family:var(--mono);font-weight:600;width:54px}
+.sb-row .bar{flex:1;height:7px;border-radius:4px;background:var(--bg3);overflow:hidden;max-width:200px}
+.sb-row .bar i{display:block;height:100%}
+</style></head><body>
+
+<nav><div class="nav-in">
+  <a class="logo" href="index.html"><span class="dot"></span>Kick<b>Reason</b></a>
+  <div class="nav-links"><a href="index.html#mechanism">Mechanism</a><a href="node.html" class="on">Debate</a><a href="match.html">Match Room</a><a href="scoreboard.html">Scoreboard</a><a href="index.html#film">Film</a></div>
+</div></nav>
+
+<div class="wrap">
+  <div class="crumb"><a href="#">Road to the Trophy</a><span class="sep">/</span><a href="#">Group C</a><span class="sep">/</span><a href="match.html">Argentina v Saudi Arabia</a><span class="sep">/</span><span style="color:var(--amber)">this node</span></div>
+
+  <div class="node-hero reveal">
+    <div>
+      <div class="eyebrow">Debatable node · locked pre-kickoff</div>
+      <div class="q-big">Will Saudi Arabia’s high press &amp; offside line break Argentina — the thing the 87% ignores?</div>
+      <div class="tag">FIFA World Cup 2022 · Group C · 22 Nov 2022 · <span class="pill real">REAL match</span> · <span class="pill mock">MOCK product lean</span></div>
+      <div class="grade-strip">
+        <span class="pill real lg">GRADED</span>
+        <span class="res">Saudi Arabia won 2–1.</span>
+        <span class="dim">The market (Argentina 87%) scored Brier <b style="color:var(--red)">0.76</b> on this node — a coin-flip is 0.25.</span>
+      </div>
+    </div>
+    <div class="lean-box">
+      <div class="lean-sub">KickReason lean · Saudi to win</div>
+      <div class="lean-num">22%</div>
+      <div class="tag" style="margin-top:6px">confidence: moderate</div>
+      <div class="lean-vs">
+        vs market <b>13%</b> &nbsp; · &nbsp; vs 538 <b>8%</b> &nbsp; · &nbsp; vs Elo <b>5%</b><br>
+        <span class="faint" style="font-size:12px">we leaned higher on the tail than every baseline.</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- the why, layered -->
+  <div class="sectitle reveal">the why — layers of factors</div>
+  <div class="layers reveal" id="layers"></div>
+
+  <!-- both cases -->
+  <div class="sectitle reveal">the case both ways</div>
+  <div class="split reveal">
+    <div class="case for"><h4>▲ Case for the upset</h4><p>Saudi’s synchronised high line + post-half-time press waves attack Argentina’s slow build directly. Asian champions, drilled, fearless. The market prices reputation (a 36-game unbeaten run), not this specific tactical mismatch.</p></div>
+    <div class="case against"><h4>▼ Case against (the counter)</h4><p>Argentina are simply better and will out-create badly — and did (xG 2.49 vs 0.15). A high line is high-risk: one ball in behind and it collapses. Quality usually drowns a plan over 90 minutes. This is a <i>tail</i> call, not a “Saudi are better” call.</p></div>
+  </div>
+  <div class="change reveal" style="margin-top:14px"><b>What would change our mind:</b> Argentina confirmed to drop the line / rotate Messi; or a second independent source flags a Saudi back-line injury. Either pushes this back toward the market.</div>
+
+  <!-- argue -->
+  <div class="sectitle reveal">argue with it</div>
+  <div class="argue reveal">
+    <label>1 · Challenge the number — drag to your view</label>
+    <input type="range" min="2" max="60" value="22" id="slider" oninput="chal(this.value)">
+    <div class="resp" id="resp"><b>KickReason:</b> Move the slider — I’ll defend my number with the evidence behind it.</div>
+    <label style="display:block;margin-top:16px">2 · Challenge a source →</label>
+    <div class="srcrow">
+      <span class="srcchip" onclick="src('xg')">StatsBomb xG</span>
+      <span class="srcchip" onclick="src('mkt')">de-vig market</span>
+      <span class="srcchip" onclick="src('press')">Saudi press data</span>
+    </div>
+    <label style="display:block;margin-top:8px">3 · Lock your own take — graded the same way ours is</label>
+    <div class="lock-in"><input id="take" type="number" min="0" max="100" placeholder="your % for Saudi"><button class="btn primary" onclick="lock()">Lock it</button></div>
+    <div class="sb" id="sb"></div>
+  </div>
+
+  <!-- sources -->
+  <div class="sectitle reveal">sources · tiered</div>
+  <div class="panel reveal" style="font-family:var(--mono);font-size:13px;line-height:2">
+    <div><span class="pill real">T1 official</span> &nbsp; StatsBomb event data — xG, shots, offside events <span class="faint">(REAL)</span></div>
+    <div><span class="pill real">T2 market</span> &nbsp; De-vigged bookmaker closing line <span class="faint">(REAL)</span></div>
+    <div><span class="pill mock">T3 analyst</span> &nbsp; The Athletic tactical preview; Saudi pressing breakdown <span class="faint">(illustrative)</span></div>
+  </div>
+</div>
+
+<footer><div class="wrap">
+  <div class="foot-logo">Kick<b>Reason</b></div>
+  <p class="foot-note">One node. Researched, sourced, argued, and graded in public. This is the unit a frozen-formula app can’t offer — you can’t argue with a frozen number. <span class="pill real">REAL</span> = from our graded 2022 library · <span class="pill mock">MOCK</span> = product mock-up.</p>
+</div></footer>
+
+<script>
+const LAYERS=[
+ {ic:"FRM",t:"Form &amp; motivation",s:"form",lean:"flat",dir:"FLAT",txt:"Argentina ride a 36-match unbeaten run — but run-length is a reputation signal the market over-weights. Saudi arrive as Asian champions with nothing to lose.",src:"ESPN form guide · Sky preview"},
+ {ic:"LUP",t:"Lineups &amp; injuries",s:"lineups",lean:"flat",dir:"FLAT",txt:"Both near full-strength; no decisive availability edge. So this node's value is tactical, not team-news.",src:"confirmed XI feed"},
+ {ic:"TAC",t:"Tactics — the crux",s:"tactics",lean:"up",dir:"+UPSET",txt:"Saudi's aggressive high line + waves of pressing right after half-time attack Argentina's slow build. This is the diagnostic factor — and on the day it caught Argentina offside ~10 times (3 goals chalked off).",src:"The Athletic preview · Saudi press analysis"},
+ {ic:"xG",t:"Underlying data",s:"stats · StatsBomb",lean:"flat",dir:"NUANCE",txt:"Argentina would dominate xG 2.49 vs 0.15. A pure-xG model still favours Argentina — so the edge is the press/offside read, not chance creation. The upset is conversion variance + a 0.033-xG screamer (Al-Dawsari 52').",src:"StatsBomb event data (REAL)"},
+ {ic:"MKT",t:"The market line",s:"de-vig market",lean:"down",dir:"ANCHOR",txt:"Closing line implies Argentina ~87% / Saudi ~13%. We don't echo it — we ask where it's mispriced. The press/offside crux argues the tail is fatter than 13%.",src:"de-vig bookmaker close (REAL)"},
+];
+const L=document.getElementById('layers');
+LAYERS.forEach((l,i)=>L.insertAdjacentHTML('beforeend',`<div class="layer ${i===2?'open':''}"><div class="layer-head" onclick="this.parentElement.classList.toggle('open')"><div class="layer-ico">${l.ic}</div><div class="layer-title"><div class="t">${l.t}</div><div class="s">layer · ${l.s}</div></div><div class="lean ${l.lean}">${l.dir}</div><div class="chev">›</div></div><div class="layer-body"><div class="layer-body-in">${l.txt}<div class="src">sources: <b>${l.src}</b></div></div></div></div>`));
+
+const RESP={low:["Below 10%? You're trusting the unbeaten run. Saudi's line caught Argentina offside <b>10 times</b> here — the press is structural, not a fluke. The tail is fatter than the brand suggests.","press"],near:["~13% is exactly the market. We lean <b>higher (22%)</b> because the press/offside crux is mispriced — not because Saudi are 'better'.","mkt"],high:["Above 35% over-bets one tactic. Argentina still out-create badly (xG 2.49 vs 0.15) — variance, not dominance, decides it. Don't flip the favourite.","xg"]};
+function chal(v){v=+v;let r=v<10?RESP.low:v<26?RESP.near:RESP.high;document.getElementById('resp').innerHTML="<b>KickReason:</b> "+r[0];}
+const SRC={xg:"<b>StatsBomb xG (REAL):</b> Argentina 2.49, Saudi 0.15. Argentina created more — so this is a tail call, not 'Saudi outplayed them'. The 22% survives the challenge: it prices a fat tail, not a favourite flip.",mkt:"<b>De-vig market (REAL):</b> close implied Argentina ~87% / Saudi ~13%. We cite it as the thing to beat, never as truth.",press:"<b>Saudi press data (REAL/narrative):</b> the synchronised high line caught Argentina offside ~10 times (3 goals chalked off) — the repeatable mechanism behind the fat tail."};
+function src(k){document.getElementById('resp').innerHTML=SRC[k];}
+const SB=[["KickReason","22","kr",22],["FiveThirtyEight","8","real",8],["de-vig market","13","real",13],["Elo","5","real",5]];
+function render(extra){const el=document.getElementById('sb');let rows=SB.slice();if(extra!=null)rows.splice(1,0,["YOU",extra,"you",+extra]);
+ el.innerHTML='<div class="tag" style="margin-bottom:6px">scoreboard · "Saudi to win" · graded after kickoff</div>'+rows.map(r=>`<div class="sb-row"><span class="who" style="${r[2]==='you'?'color:var(--amber)':''}">${r[0]}</span><span class="p" style="${r[2]==='you'?'color:var(--amber)':r[2]==='kr'?'color:var(--amber)':''}">${r[1]}%</span><span class="bar"><i style="width:${Math.min(r[3]*3,100)}%;background:${r[2]==='you'?'var(--amber)':r[2]==='kr'?'linear-gradient(90deg,var(--amber),var(--amber2))':'var(--line2)'}"></i></span>${r[2]==='real'?'<span class="pill real">REAL</span>':r[2]==='you'?'<span class="pill mock">your take</span>':'<span class="pill mock">our lean</span>'}</div>`).join('')
+ +'<div class="sb-row" style="border:none;margin-top:4px"><span class="who" style="color:var(--green)">RESULT</span><span class="p" style="color:var(--green);width:auto">Saudi won 2–1 → highest leans were least wrong</span><span class="pill real">REAL</span></div>';}
+render();
+function lock(){const v=document.getElementById('take').value;if(v==='')return;render(v);}
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)e.target.classList.add('in')}),{threshold:.1});
+document.querySelectorAll('.reveal').forEach(r=>io.observe(r));
+</script></body></html>
