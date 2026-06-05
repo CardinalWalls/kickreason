@@ -1,0 +1,23 @@
+# Secrets — never commit
+.miroapi
+.githubauth
+.kaggleauth
+*.token
+**/access_token
+**/kaggle.json
+.env
+.env.*
+
+# Environments / caches / OS
+.venv/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+# Large, regenerable data (rebuild with wc-data-library)
+**/lib2022/events/
+**/lib2022/lineups/
+*.zip
+/tmp/
