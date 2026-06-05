@@ -20,10 +20,18 @@ h1 em{font-style:italic;color:var(--amber);font-weight:600}
 .pcard .go{margin-top:14px;font-family:var(--mono);font-size:12px;color:var(--amber)}
 .legend{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;font-size:13px;color:var(--dim)}
 .legend .box{display:flex;align-items:center;gap:7px;border:1px solid var(--line);border-radius:8px;padding:7px 12px;background:var(--bg2)}
+.filmwrap{margin:18px 0 6px;text-align:center;scroll-margin-top:80px}
+.film-eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--amber);margin-bottom:12px}
+.film-h{font-family:var(--serif);font-weight:500;font-size:clamp(24px,4.4vw,40px);letter-spacing:-.02em;margin-bottom:20px}
+.film-h em{font-style:italic;color:var(--amber2)}
+.film-card{max-width:920px;margin:0 auto;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#000;box-shadow:0 0 0 1px rgba(255,176,46,.1),0 30px 80px -30px rgba(0,0,0,.85)}
+.film-card video{display:block;width:100%;aspect-ratio:16/9;background:#000}
+.film-cap{font-family:var(--mono);font-size:12.5px;color:var(--faint);margin-top:16px}
+.film-cap a{color:var(--amber)}
 </style></head><body>
 <nav><div class="nav-in">
   <a class="logo" href="index.html"><span class="dot"></span>Kick<b>Reason</b></a>
-  <div class="nav-links"><a href="node.html">Debate</a><a href="match.html">Match Room</a><a href="scoreboard.html">Scoreboard</a></div>
+  <div class="nav-links"><a href="node.html">Debate</a><a href="match.html">Match Room</a><a href="scoreboard.html">Scoreboard</a><a href="#film">Film</a></div>
 </div></nav>
 <div class="wrap">
   <div class="hero"><div class="halo"></div>
@@ -51,6 +59,14 @@ h1 em{font-style:italic;color:var(--amber);font-weight:600}
       <div class="go">open →</div>
     </a>
   </div>
+  <section id="film" class="filmwrap">
+    <div class="film-eyebrow">▶ the film · 1:43</div>
+    <h2 class="film-h">The whole story, <em>narrated</em>.</h2>
+    <div class="film-card">
+      <video controls preload="metadata" playsinline poster="film-poster.jpg" src="kickreason.mp4"></video>
+    </div>
+    <p class="film-cap">We graded an entire World Cup to prove it — then ran the same engine forward at 2026. &nbsp;<a href="kickreason.mp4" download>↓ download mp4</a></p>
+  </section>
   <div class="legend">
     <span class="box"><span class="pill real">REAL</span> computed from our graded 2022 World Cup library</span>
     <span class="box"><span class="pill mock">MOCK</span> illustrative product mock-up</span>
