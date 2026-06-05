@@ -1,78 +1,312 @@
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>KickReason — the three pages</title>
-<link rel="stylesheet" href="kr.css">
+<title>KickReason — FIFA World Cup 2026 · argue with every pick</title>
+<meta property="og:title" content="KickReason — argue with every pick">
+<meta property="og:description" content="The World Cup as one graded forecast graph. We publish our accuracy where the industry leaves the page blank.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Sora:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-.hero{padding:60px 0 30px;text-align:center;position:relative}
-.hero .halo{position:absolute;top:-120px;left:50%;transform:translateX(-50%);width:640px;height:420px;background:radial-gradient(ellipse,var(--amberglow),transparent 65%);pointer-events:none}
-h1{font-family:var(--serif);font-weight:900;font-size:clamp(38px,7vw,72px);line-height:.98;letter-spacing:-.03em;position:relative}
-h1 em{font-style:italic;color:var(--amber);font-weight:600}
-.sub{font-family:var(--serif);font-style:italic;font-size:clamp(18px,3vw,26px);opacity:.85;margin-top:6px}
-.tagline{color:var(--dim);font-size:17px;max-width:60ch;margin:22px auto 0}
-.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin:46px 0}
-@media(max-width:820px){.cards{grid-template-columns:1fr}}
-.pcard{display:block;background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:24px;transition:.25s;position:relative;overflow:hidden}
-.pcard:hover{border-color:var(--amber);transform:translateY(-4px)}
-.pcard .n{font-family:var(--mono);font-size:12px;color:var(--faint);letter-spacing:.1em}
-.pcard h2{font-family:var(--serif);font-size:24px;font-weight:600;margin:10px 0 8px;color:var(--ink)}
-.pcard p{font-size:14.5px;color:var(--dim);margin-bottom:14px}
-.pcard .why{font-family:var(--mono);font-size:11.5px;color:var(--amber);border-top:1px solid var(--line);padding-top:12px}
-.pcard .go{margin-top:14px;font-family:var(--mono);font-size:12px;color:var(--amber)}
-.legend{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;font-size:13px;color:var(--dim)}
-.legend .box{display:flex;align-items:center;gap:7px;border:1px solid var(--line);border-radius:8px;padding:7px 12px;background:var(--bg2)}
-.filmwrap{margin:18px 0 6px;text-align:center;scroll-margin-top:80px}
-.film-eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--amber);margin-bottom:12px}
-.film-h{font-family:var(--serif);font-weight:500;font-size:clamp(24px,4.4vw,40px);letter-spacing:-.02em;margin-bottom:20px}
-.film-h em{font-style:italic;color:var(--amber2)}
-.film-card{max-width:920px;margin:0 auto;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#000;box-shadow:0 0 0 1px rgba(255,176,46,.1),0 30px 80px -30px rgba(0,0,0,.85)}
-.film-card video{display:block;width:100%;aspect-ratio:16/9;background:#000}
-.film-cap{font-family:var(--mono);font-size:12.5px;color:var(--faint);margin-top:16px}
-.film-cap a{color:var(--amber)}
+:root{
+  --bg:#04110a; --bg2:#071a0f; --pitch:#0a2414;
+  --green:#1bd96a; --green2:#10b15a; --greenink:#063a1d;
+  --gold:#ffcf3f; --gold2:#ffe79a;
+  --white:#f1fff6; --dim:#9dc6ac; --faint:#5d8a6f;
+  --red:#ff5247; --redglow:rgba(255,82,71,.16);
+  --line:rgba(255,255,255,.10); --line2:rgba(255,255,255,.18);
+  --display:"Anton",Impact,sans-serif; --sans:"Sora",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--white);font-family:var(--sans);line-height:1.5;overflow-x:hidden;
+  background-image:radial-gradient(120% 80% at 50% -10%,rgba(27,217,106,.08),transparent 60%)}
+/* grain */
+body::after{content:"";position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.05;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+a{color:inherit;text-decoration:none}
+.mono{font-family:var(--mono)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px;position:relative;z-index:2}
+
+/* ── NAV ── */
+nav{position:sticky;top:0;z-index:60;backdrop-filter:blur(12px);background:linear-gradient(rgba(4,17,10,.82),rgba(4,17,10,.4));border-bottom:1px solid var(--line)}
+.nav-in{max-width:1180px;margin:0 auto;padding:14px 24px;display:flex;align-items:center;gap:18px}
+.logo{font-family:var(--display);font-size:25px;letter-spacing:.01em;display:flex;align-items:center;gap:10px;text-transform:uppercase}
+.logo .ball{width:22px;height:22px;border-radius:50%;background:
+  radial-gradient(circle at 35% 30%,#fff,#dfeee4 40%,#9fc7ad 75%,#5d8a6f);
+  box-shadow:0 0 16px rgba(27,217,106,.6),inset 0 0 0 1px rgba(0,0,0,.2);position:relative;flex:none;animation:spinball 6s linear infinite}
+.logo .ball::before{content:"";position:absolute;inset:0;border-radius:50%;
+  background:radial-gradient(circle at 50% 50%,#0a2414 18%,transparent 19%),
+  radial-gradient(circle at 20% 75%,#0a2414 10%,transparent 11%),
+  radial-gradient(circle at 80% 70%,#0a2414 10%,transparent 11%)}
+.logo b{color:var(--gold)}
+.nav-links{margin-left:auto;display:flex;gap:5px;font-family:var(--mono);font-size:12px;letter-spacing:.04em}
+.nav-links a{color:var(--dim);padding:8px 13px;border-radius:7px;border:1px solid transparent;transition:.18s;text-transform:uppercase}
+.nav-links a:hover{color:var(--white);border-color:var(--line2);background:rgba(255,255,255,.04)}
+.nav-links a.film{color:var(--greenink);background:var(--gold);font-weight:600}
+.nav-links a.film:hover{background:var(--gold2);color:#000}
+
+/* ── HERO ── */
+.hero{position:relative;min-height:94vh;display:flex;flex-direction:column;justify-content:center;padding:60px 0 30px;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;z-index:0;pointer-events:none;background:
+  radial-gradient(55% 45% at 14% -5%,rgba(255,207,63,.20),transparent 60%),
+  radial-gradient(55% 45% at 86% -5%,rgba(27,217,106,.22),transparent 60%),
+  radial-gradient(90% 70% at 50% 120%,rgba(16,177,90,.16),transparent 70%)}
+.glow{position:absolute;left:50%;top:40%;width:1000px;height:1000px;z-index:0;transform:translate(-50%,-50%);border-radius:50%;
+  background:conic-gradient(from 0deg,transparent,rgba(27,217,106,.10) 18%,transparent 33%,rgba(255,207,63,.10) 55%,transparent 70%);
+  filter:blur(50px);animation:spin 26s linear infinite;pointer-events:none}
+/* perspective pitch */
+.pitch{position:absolute;left:50%;bottom:-2px;z-index:0;width:200%;height:52vh;transform:translateX(-50%) perspective(820px) rotateX(64deg);transform-origin:bottom center;
+  background:repeating-linear-gradient(90deg,rgba(27,217,106,.07) 0 90px,rgba(16,177,90,.13) 90px 180px);
+  -webkit-mask-image:linear-gradient(to top,#000 6%,transparent 82%);mask-image:linear-gradient(to top,#000 6%,transparent 82%)}
+.pitch::before{content:"";position:absolute;left:50%;top:0;bottom:0;width:3px;background:rgba(255,255,255,.16);transform:translateX(-50%)}
+.pitch::after{content:"";position:absolute;left:50%;top:46%;width:280px;height:280px;border:3px solid rgba(255,255,255,.15);border-radius:50%;transform:translate(-50%,-50%)}
+
+.eyebrow{font-family:var(--mono);font-size:13px;letter-spacing:.28em;text-transform:uppercase;color:var(--gold);
+  display:inline-flex;align-items:center;gap:11px;opacity:0;animation:rise .7s .05s forwards}
+.eyebrow::before{content:"";width:34px;height:2px;background:var(--gold)}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(56px,12.5vw,168px);line-height:.86;letter-spacing:.005em;
+  text-transform:uppercase;margin:20px 0 0;text-wrap:balance}
+h1 .l1{display:block;opacity:0;animation:rise .8s .12s forwards}
+h1 .l2{display:block;opacity:0;animation:rise .8s .22s forwards;
+  color:transparent;-webkit-text-stroke:2px var(--green);
+  position:relative}
+h1 .l2 b{font-weight:400;-webkit-text-stroke:0;color:var(--gold);
+  text-shadow:0 0 38px rgba(255,207,63,.45)}
+.kick-sub{max-width:62ch;margin:26px 0 0;font-size:clamp(16px,2vw,21px);color:var(--dim);opacity:0;animation:rise .8s .34s forwards}
+.kick-sub b{color:var(--white)}
+.cta{display:flex;gap:14px;flex-wrap:wrap;margin-top:34px;opacity:0;animation:rise .8s .46s forwards}
+.btn{font-family:var(--mono);font-size:13.5px;letter-spacing:.06em;text-transform:uppercase;font-weight:600;
+  padding:15px 24px;border-radius:11px;border:1px solid var(--line2);display:inline-flex;align-items:center;gap:10px;transition:.2s;cursor:pointer}
+.btn.primary{background:var(--gold);color:var(--greenink);border-color:var(--gold);box-shadow:0 10px 40px -10px rgba(255,207,63,.6)}
+.btn.primary:hover{background:var(--gold2);transform:translateY(-2px)}
+.btn.ghost{color:var(--white);background:rgba(255,255,255,.03)}
+.btn.ghost:hover{border-color:var(--green);color:var(--green);transform:translateY(-2px)}
+
+/* broadcast lower-third (the hook stat) */
+.lower3{position:relative;margin-top:46px;display:inline-flex;align-items:stretch;border-radius:12px;overflow:hidden;
+  border:1px solid var(--line2);background:rgba(4,17,10,.6);backdrop-filter:blur(6px);max-width:100%;
+  opacity:0;animation:rise .8s .6s forwards;box-shadow:0 20px 60px -25px #000}
+.lower3 .live{background:var(--red);color:#fff;font-family:var(--mono);font-size:11px;font-weight:600;letter-spacing:.14em;
+  display:flex;align-items:center;gap:7px;padding:0 16px;text-transform:uppercase}
+.lower3 .live::before{content:"";width:9px;height:9px;border-radius:50%;background:#fff;animation:blink 1.1s steps(1) infinite}
+.lower3 .body{padding:13px 20px}
+.lower3 .ttl{font-family:var(--display);font-size:clamp(17px,2.4vw,24px);text-transform:uppercase;letter-spacing:.01em;line-height:1}
+.lower3 .meta{font-family:var(--mono);font-size:12px;color:var(--dim);margin-top:6px}
+.lower3 .meta .wrong{color:var(--red);font-weight:600}
+.lower3 .meta .big{color:var(--gold);font-weight:600}
+
+/* flag ticker */
+.ticker{position:relative;z-index:2;margin-top:50px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+  background:rgba(4,17,10,.5);overflow:hidden;opacity:0;animation:rise .8s .7s forwards}
+.ticker .track{display:flex;gap:0;width:max-content;animation:marquee 38s linear infinite;font-size:15px}
+.ticker .it{padding:11px 18px;font-family:var(--mono);font-size:12.5px;letter-spacing:.08em;color:var(--dim);
+  display:flex;align-items:center;gap:9px;border-right:1px solid var(--line);text-transform:uppercase;white-space:nowrap}
+.ticker .it .fl{font-size:18px}
+.ticker:hover .track{animation-play-state:paused}
+
+/* ── STAT BAND ── */
+.statband{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line);
+  border-radius:16px;overflow:hidden;margin:64px 0}
+@media(max-width:760px){.statband{grid-template-columns:1fr}}
+.stat{background:var(--bg2);padding:30px 26px;position:relative}
+.stat .n{font-family:var(--display);font-size:clamp(44px,6vw,72px);line-height:.9;color:var(--green)}
+.stat:nth-child(2) .n{color:var(--gold)} .stat:nth-child(3) .n{color:var(--white)}
+.stat .l{font-family:var(--mono);font-size:12.5px;color:var(--dim);margin-top:12px;letter-spacing:.04em;text-transform:uppercase}
+
+/* ── SECTION HEADERS ── */
+.sec{padding:30px 0}
+.sec-eyebrow{font-family:var(--mono);font-size:12.5px;letter-spacing:.26em;text-transform:uppercase;color:var(--gold);
+  display:inline-flex;align-items:center;gap:11px;margin-bottom:16px}
+.sec-eyebrow::before{content:"";width:28px;height:2px;background:var(--gold)}
+.sec-h{font-family:var(--display);font-size:clamp(34px,6vw,68px);line-height:.92;text-transform:uppercase;letter-spacing:.005em}
+.sec-h em{font-style:normal;color:var(--green)}
+.sec-sub{color:var(--dim);font-size:17px;max-width:64ch;margin-top:14px}
+
+/* ── FILM ── */
+#film{scroll-margin-top:80px;padding:66px 0}
+.film-card{position:relative;margin-top:30px;border-radius:20px;overflow:hidden;background:#000;
+  border:1px solid var(--line2);box-shadow:0 0 0 1px rgba(27,217,106,.2),0 40px 110px -40px #000,0 0 90px -30px rgba(27,217,106,.35)}
+.film-card::before,.film-card::after{content:"";position:absolute;width:34px;height:34px;z-index:4;pointer-events:none}
+.film-card::before{top:14px;left:14px;border-top:3px solid var(--gold);border-left:3px solid var(--gold)}
+.film-card::after{bottom:14px;right:14px;border-bottom:3px solid var(--gold);border-right:3px solid var(--gold)}
+.film-card video{display:block;width:100%;aspect-ratio:16/9;background:#000;position:relative;z-index:2}
+.tvtag{position:absolute;top:16px;right:18px;z-index:5;font-family:var(--mono);font-size:11px;letter-spacing:.14em;
+  color:#fff;background:var(--red);padding:6px 12px;border-radius:6px;display:flex;align-items:center;gap:7px;text-transform:uppercase;pointer-events:none}
+.tvtag::before{content:"";width:8px;height:8px;border-radius:50%;background:#fff;animation:blink 1.1s steps(1) infinite}
+.playbtn{position:absolute;inset:0;z-index:3;display:flex;align-items:center;justify-content:center;cursor:pointer;
+  background:radial-gradient(circle at 50% 50%,rgba(4,17,10,.15),rgba(4,17,10,.55));transition:.3s}
+.playbtn.hide{opacity:0;pointer-events:none}
+.playbtn .disc{width:92px;height:92px;border-radius:50%;background:var(--gold);color:var(--greenink);
+  display:flex;align-items:center;justify-content:center;font-size:34px;padding-left:6px;
+  box-shadow:0 0 0 12px rgba(255,207,63,.18),0 0 60px rgba(255,207,63,.5);animation:pulsering 2.4s ease-out infinite}
+.film-cap{font-family:var(--mono);font-size:13px;color:var(--faint);margin-top:18px;display:flex;gap:18px;flex-wrap:wrap;align-items:center}
+.film-cap b{color:var(--white)} .film-cap a{color:var(--gold)}
+
+/* ── CARDS ── */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}
+@media(max-width:860px){.cards{grid-template-columns:1fr}}
+.pcard{position:relative;display:block;background:linear-gradient(180deg,var(--bg2),var(--bg));border:1px solid var(--line);
+  border-radius:16px;padding:26px;overflow:hidden;transition:.25s}
+.pcard::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;background:var(--green);transform:scaleY(0);transform-origin:top;transition:.3s}
+.pcard:hover{transform:translateY(-5px);border-color:var(--line2)}
+.pcard:hover::before{transform:scaleY(1)}
+.pcard .n{font-family:var(--mono);font-size:12px;color:var(--gold);letter-spacing:.12em}
+.pcard h3{font-family:var(--display);font-size:30px;text-transform:uppercase;margin:12px 0 10px;letter-spacing:.01em}
+.pcard p{font-size:14.5px;color:var(--dim);margin-bottom:16px}
+.pcard .why{font-family:var(--mono);font-size:11.5px;color:var(--green);border-top:1px solid var(--line);padding-top:13px}
+.pcard .go{margin-top:14px;font-family:var(--mono);font-size:12px;color:var(--gold);text-transform:uppercase;letter-spacing:.08em}
+
+/* ── PROOF BOARD ── */
+.board{margin-top:30px;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--bg2)}
+.board .hd{display:grid;grid-template-columns:2.4fr .8fr .7fr .9fr 1fr;gap:10px;padding:14px 20px;
+  font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);border-bottom:1px solid var(--line)}
+.board .rw{display:grid;grid-template-columns:2.4fr .8fr .7fr .9fr 1fr;gap:10px;padding:15px 20px;align-items:center;
+  border-bottom:1px solid var(--line);transition:.18s}
+.board .rw:last-child{border-bottom:0}
+.board .rw:hover{background:rgba(255,255,255,.03)}
+.board .fx{font-weight:600;font-size:15px}
+.board .st{font-family:var(--mono);font-size:12px;color:var(--dim);text-transform:uppercase}
+.board .mk{font-family:var(--mono);font-size:14px;color:var(--white)}
+.board .br{font-family:var(--display);font-size:24px}
+.board .vd{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;text-align:right;justify-self:end;
+  padding:4px 10px;border-radius:6px;white-space:nowrap}
+.wrongrow .br{color:var(--red)} .wrongrow .vd{color:var(--red);background:var(--redglow)}
+.rightrow .br{color:var(--green)} .rightrow .vd{color:var(--green);background:rgba(27,217,106,.12)}
+@media(max-width:760px){.board .hd,.board .rw{grid-template-columns:1.6fr .6fr 1fr;}.board .hd span:nth-child(2),.board .rw .st,.board .hd span:nth-child(4),.board .mk{display:none}}
+.board-note{font-family:var(--mono);font-size:12px;color:var(--faint);margin-top:14px}
+.board-note .pill{color:var(--green);border:1px solid rgba(27,217,106,.4);background:rgba(27,217,106,.08);
+  border-radius:5px;padding:2px 8px;font-size:10px;letter-spacing:.1em;text-transform:uppercase;margin-right:8px}
+
+/* ── FOOTER ── */
+footer{margin-top:50px;border-top:1px solid var(--line);padding:50px 0 70px;text-align:center;position:relative}
+.foot-logo{font-family:var(--display);font-size:38px;text-transform:uppercase}
+.foot-logo b{color:var(--gold)}
+.foot-note{color:var(--dim);font-size:15px;margin-top:14px;max-width:60ch;margin-inline:auto}
+.foot-meta{font-family:var(--mono);font-size:11.5px;color:var(--faint);margin-top:22px;letter-spacing:.06em}
+
+/* ── keyframes ── */
+@keyframes rise{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+@keyframes spin{to{transform:translate(-50%,-50%) rotate(360deg)}}
+@keyframes spinball{to{transform:rotate(360deg)}}
+@keyframes marquee{to{transform:translateX(-50%)}}
+@keyframes blink{50%{opacity:.15}}
+@keyframes pulsering{0%{box-shadow:0 0 0 0 rgba(255,207,63,.5),0 0 60px rgba(255,207,63,.5)}70%{box-shadow:0 0 0 26px rgba(255,207,63,0),0 0 60px rgba(255,207,63,.5)}100%{box-shadow:0 0 0 0 rgba(255,207,63,0),0 0 60px rgba(255,207,63,.5)}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important}.hero .eyebrow,h1 .l1,h1 .l2,.kick-sub,.cta,.lower3,.ticker{opacity:1!important}}
 </style></head><body>
+
 <nav><div class="nav-in">
-  <a class="logo" href="index.html"><span class="dot"></span>Kick<b>Reason</b></a>
-  <div class="nav-links"><a href="node.html">Debate</a><a href="match.html">Match Room</a><a href="scoreboard.html">Scoreboard</a><a href="#film">Film</a></div>
+  <a class="logo" href="index.html"><span class="ball"></span>Kick<b>Reason</b></a>
+  <div class="nav-links">
+    <a href="node.html">Debate</a><a href="match.html">Match Room</a><a href="scoreboard.html">Scoreboard</a><a class="film" href="#film">▶ Film</a>
+  </div>
 </div></nav>
-<div class="wrap">
-  <div class="hero"><div class="halo"></div>
-    <h1>Argue with <em>every pick</em>.</h1>
-    <div class="sub">All the way to the champion.</div>
-    <p class="tagline">KickOracle hands you a frozen number and hides the rest. KickReason makes every prediction a <b style="color:var(--ink)">debatable node</b> — researched live, sourced, argued, and graded in public. Here are the three pages that carry it.</p>
-  </div>
-  <div class="cards">
-    <a class="pcard" href="node.html">
-      <div class="n">01 · the unit</div><h2>The Debate Node</h2>
-      <p>One question, the lean, the layered why, the counter-case, what would change it — and you argue back: challenge the number, challenge a source, lock your take.</p>
-      <div class="why">KO can’t do this — you can’t argue with a frozen number.</div>
-      <div class="go">open →</div>
-    </a>
-    <a class="pcard" href="scoreboard.html">
-      <div class="n">02 · the trust</div><h2>The Scoreboard</h2>
-      <p>The public track record: calibration curve, Brier &amp; CLV over locked calls, KickReason vs market vs 538 vs Elo, every call graded — on calibration, not win/loss.</p>
-      <div class="why">The accuracy page KickOracle leaves blank.</div>
-      <div class="go">open →</div>
-    </a>
-    <a class="pcard" href="match.html">
-      <div class="n">03 · the depth</div><h2>The Match Room</h2>
-      <p>One match → 47 debatable nodes: 1X2, correct score, handicap, BTTS, totals, player props, specials — each leaned vs the market and graded.</p>
-      <div class="why">Why “who wins?” can’t serve a bettor who needs the scoreline.</div>
-      <div class="go">open →</div>
-    </a>
-  </div>
-  <section id="film" class="filmwrap">
-    <div class="film-eyebrow">▶ the film · 1:43</div>
-    <h2 class="film-h">The whole story, <em>narrated</em>.</h2>
-    <div class="film-card">
-      <video controls preload="metadata" playsinline poster="film-poster.jpg" src="kickreason.mp4"></video>
+
+<!-- ══ HERO ══ -->
+<header class="hero">
+  <div class="glow"></div><div class="pitch"></div>
+  <div class="wrap">
+    <span class="eyebrow">FIFA World Cup 2026 · 48 teams · one graded graph</span>
+    <h1><span class="l1">Argue with</span><span class="l2"><b>every pick.</b></span></h1>
+    <p class="kick-sub">KickOracle hands you a frozen number and hides the rest. <b>KickReason</b> turns every prediction into a debatable node — researched live, sourced, argued, and <b>graded in public</b>, all the way to the champion.</p>
+    <div class="cta">
+      <a class="btn primary" href="#film">▶ Watch the film · 1:43</a>
+      <a class="btn ghost" href="node.html">Enter the debate →</a>
     </div>
-    <p class="film-cap">We graded an entire World Cup to prove it — then ran the same engine forward at 2026. &nbsp;<a href="kickreason.mp4" download>↓ download mp4</a></p>
-  </section>
-  <div class="legend">
-    <span class="box"><span class="pill real">REAL</span> computed from our graded 2022 World Cup library</span>
-    <span class="box"><span class="pill mock">MOCK</span> illustrative product mock-up</span>
+
+    <div class="lower3">
+      <div class="live">● Replay</div>
+      <div class="body">
+        <div class="ttl">Argentina 1–2 Saudi Arabia</div>
+        <div class="meta">Market said <span class="big">87%</span> · graded Brier <span class="big">0.759</span> · <span class="wrong">confidently wrong</span></div>
+      </div>
+    </div>
   </div>
+
+  <div class="ticker"><div class="track" id="tk"></div></div>
+</header>
+
+<div class="wrap">
+
+  <!-- ══ STAT BAND ══ -->
+  <div class="statband">
+    <div class="stat"><div class="n">8,367</div><div class="l">graded question-nodes · 2022 replayed</div></div>
+    <div class="stat"><div class="n">0.262</div><div class="l">mean market Brier (coin-flip = 0.25)</div></div>
+    <div class="stat"><div class="n">64</div><div class="l">matches · every one sourced &amp; scored</div></div>
+  </div>
+
+  <!-- ══ FILM ══ -->
+  <section id="film" class="sec">
+    <div class="sec-eyebrow">The film · 1:43</div>
+    <h2 class="sec-h">The whole story, <em>narrated.</em></h2>
+    <p class="sec-sub">We graded an entire World Cup to prove the discipline — then pointed the same engine forward at 2026. The number, the sources, the counter-case, and a scorecard we publish win or lose.</p>
+    <figure class="film-card">
+      <span class="tvtag">● Film</span>
+      <video id="vid" controls preload="metadata" playsinline poster="film-poster.jpg" src="kickreason.mp4"></video>
+      <div class="playbtn" id="play"><div class="disc">▶</div></div>
+    </figure>
+    <div class="film-cap"><span><b>1:43</b> · 1920×1080</span><span>narrated commentary</span><span>built with MiroMind + the compiler</span><a href="kickreason.mp4" download>↓ download mp4</a></div>
+  </section>
+
+  <!-- ══ THE THREE PAGES ══ -->
+  <section class="sec">
+    <div class="sec-eyebrow">One machine · three rooms</div>
+    <h2 class="sec-h">The unit. The trust. <em>The depth.</em></h2>
+    <div class="cards">
+      <a class="pcard" href="node.html">
+        <div class="n">01 · the unit</div><h3>The Debate Node</h3>
+        <p>One question — the lean, the layered why, the counter-case, what would change it — and you argue back: challenge the number, challenge a source, lock your take.</p>
+        <div class="why">KO can’t do this. You can’t argue with a frozen number.</div>
+        <div class="go">open →</div>
+      </a>
+      <a class="pcard" href="scoreboard.html">
+        <div class="n">02 · the trust</div><h3>The Scoreboard</h3>
+        <p>The public track record: calibration curve, Brier &amp; CLV over locked calls, KickReason vs market vs 538 vs Elo — every call graded on calibration, not vibes.</p>
+        <div class="why">The accuracy page KickOracle leaves blank.</div>
+        <div class="go">open →</div>
+      </a>
+      <a class="pcard" href="match.html">
+        <div class="n">03 · the depth</div><h3>The Match Room</h3>
+        <p>One match → 47 debatable nodes: 1X2, correct score, handicap, BTTS, totals, player props, specials — each leaned vs the market and graded.</p>
+        <div class="why">Why “who wins?” can’t serve a bettor who needs the scoreline.</div>
+        <div class="go">open →</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- ══ PROOF BOARD ══ -->
+  <section class="sec">
+    <div class="sec-eyebrow">2022 · graded in public</div>
+    <h2 class="sec-h">Right on the chalk. <em>Wrong on the moments you remember.</em></h2>
+    <p class="sec-sub">The market is sharp on the favourites and confidently wrong on the upsets that defined the tournament. No opinion — the Brier score delivers the verdict.</p>
+    <div class="board">
+      <div class="hd"><span>Match</span><span>Stage</span><span>Mkt</span><span>Brier</span><span>Verdict</span></div>
+      <div class="rw wrongrow"><div class="fx">Argentina 1–2 Saudi Arabia</div><div class="st">Group</div><div class="mk">87%</div><div class="br">0.759</div><div class="vd">fav LOST</div></div>
+      <div class="rw wrongrow"><div class="fx">Germany 1–2 Japan</div><div class="st">Group</div><div class="mk">68%</div><div class="br">0.458</div><div class="vd">fav LOST</div></div>
+      <div class="rw wrongrow"><div class="fx">Morocco 1–0 Portugal</div><div class="st">Quarter-final</div><div class="mk">60%</div><div class="br">0.360</div><div class="vd">fav LOST</div></div>
+      <div class="rw rightrow"><div class="fx">Argentina 2–1 Australia</div><div class="st">Round of 16</div><div class="mk">76%</div><div class="br">0.058</div><div class="vd">fav held</div></div>
+      <div class="rw rightrow"><div class="fx">Argentina 3–3 France (4–2 pens)</div><div class="st">Final</div><div class="mk">53%</div><div class="br">0.225</div><div class="vd">champion</div></div>
+    </div>
+    <div class="board-note"><span class="pill">Real</span>computed from our graded 2022 World Cup library · open the Scoreboard for all 13 marquee calls.</div>
+  </section>
+
 </div>
-<footer><div class="wrap"><div class="foot-logo">Kick<b>Reason</b></div>
-  <p class="foot-note">Proven on 2022 · live for 2026. Three pages, one machine: the unit, the trust, the depth.</p>
-</div></footer>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-logo">Kick<b>Reason</b></div>
+    <p class="foot-note">Proven on 2022 · live for 2026. One machine, three rooms: the unit, the trust, the depth. We publish our accuracy where the industry leaves the page blank.</p>
+    <div class="foot-meta">FIFA WORLD CUP 2026 · MIROMIND DEEP RESEARCH · ARGUE WITH EVERY PICK</div>
+  </div>
+</footer>
+
+<script>
+// flag ticker — qualified / marquee nations (duplicated for seamless loop)
+var NAT=[["🇺🇸","USA"],["🇨🇦","Canada"],["🇲🇽","Mexico"],["🇦🇷","Argentina"],["🇧🇷","Brazil"],["🇫🇷","France"],["🇪🇸","Spain"],["🏴󠁧󠁢󠁥󠁮󠁧󠁿","England"],["🇵🇹","Portugal"],["🇩🇪","Germany"],["🇳🇱","Netherlands"],["🇧🇪","Belgium"],["🇭🇷","Croatia"],["🇲🇦","Morocco"],["🇯🇵","Japan"],["🇰🇷","Korea"],["🇺🇾","Uruguay"],["🇨🇴","Colombia"],["🇸🇳","Senegal"],["🇨🇭","Switzerland"]];
+var row=NAT.concat(NAT).map(function(n){return '<span class="it"><span class="fl">'+n[0]+'</span>'+n[1]+'</span>';}).join('');
+document.getElementById('tk').innerHTML=row;
+// custom play button
+var v=document.getElementById('vid'),pb=document.getElementById('play');
+pb.addEventListener('click',function(){v.play();pb.classList.add('hide');});
+v.addEventListener('play',function(){pb.classList.add('hide');});
+v.addEventListener('pause',function(){if(!v.ended&&v.currentTime>0)pb.classList.remove('hide');});
+</script>
 </body></html>
