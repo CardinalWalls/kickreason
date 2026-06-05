@@ -1,0 +1,80 @@
+{
+ "match_id": 3857295,
+ "date": "2022-11-27",
+ "stage": "Group Stage",
+ "home_team": "Japan",
+ "away_team": "Costa Rica",
+ "score": {
+  "home": 0,
+  "away": 1
+ },
+ "winner": "Costa Rica",
+ "team_xg": {
+  "Japan": 0.774,
+  "Costa Rica": 0.199
+ },
+ "shots": {
+  "Japan": 13,
+  "Costa Rica": 4
+ },
+ "shots_on_target": {
+  "Japan": 3,
+  "Costa Rica": 1
+ },
+ "possession_proxy_pass_share": {
+  "Japan": 0.568,
+  "Costa Rica": 0.432
+ },
+ "goals": [
+  {
+   "minute": 80,
+   "second": 8,
+   "player": "Keysher Fuller Spence",
+   "team": "Costa Rica",
+   "xg": 0.12,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 40,
+   "player": "Anthony Daniel Contreras Enríquez",
+   "team": "Costa Rica",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 43,
+   "player": "Miki Yamane",
+   "team": "Japan",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 60,
+   "player": "Celso Borges Mora",
+   "team": "Costa Rica",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 69,
+   "player": "Francisco Javier Calvo Quesada",
+   "team": "Costa Rica",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 83,
+   "player": "Ko Itakura",
+   "team": "Japan",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 92,
+   "player": "Wataru Endo",
+   "team": "Japan",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3825,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

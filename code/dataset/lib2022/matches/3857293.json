@@ -1,0 +1,95 @@
+{
+ "match_id": 3857293,
+ "date": "2022-12-02",
+ "stage": "Group Stage",
+ "home_team": "Ghana",
+ "away_team": "Uruguay",
+ "score": {
+  "home": 0,
+  "away": 2
+ },
+ "winner": "Uruguay",
+ "team_xg": {
+  "Ghana": 1.393,
+  "Uruguay": 1.637
+ },
+ "shots": {
+  "Ghana": 9,
+  "Uruguay": 12
+ },
+ "shots_on_target": {
+  "Ghana": 4,
+  "Uruguay": 6
+ },
+ "possession_proxy_pass_share": {
+  "Ghana": 0.512,
+  "Uruguay": 0.488
+ },
+ "goals": [
+  {
+   "minute": 25,
+   "second": 30,
+   "player": "Giorgian Daniel De Arrascaeta Benedetti",
+   "team": "Uruguay",
+   "xg": 0.711,
+   "type": "Open Play",
+   "body_part": "Head"
+  },
+  {
+   "minute": 31,
+   "second": 2,
+   "player": "Giorgian Daniel De Arrascaeta Benedetti",
+   "team": "Uruguay",
+   "xg": 0.167,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 18,
+   "player": "Darwin Gabriel Núñez Ribeiro",
+   "team": "Uruguay",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 59,
+   "player": "Luis Alberto Suárez Díaz",
+   "team": "Uruguay",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 85,
+   "player": "Kamaldeen Sulemana",
+   "team": "Ghana",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 86,
+   "player": "Sebastián Coates Nión",
+   "team": "Uruguay",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 98,
+   "player": "Alidu Seidu",
+   "team": "Ghana",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 100,
+   "player": "José María Giménez de Vargas",
+   "team": "Uruguay",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 100,
+   "player": "Edinson Roberto Cavani Gómez",
+   "team": "Uruguay",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3495,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

@@ -1,0 +1,33 @@
+{
+ "day": "2022-11-22",
+ "focus": [
+  "Argentina",
+  "Saudi Arabia"
+ ],
+ "kickoff_utc": "10:00",
+ "goals": "Messi pen 9'; Al-Shehri 47'; Al-Dawsari 52' (winner ~11:00 UTC)",
+ "total_tweets": 2797,
+ "peak_hour_utc": 11,
+ "peak_hour_tweets": 2540,
+ "Argentina_mentions": 1975,
+ "Saudi Arabia_mentions": 2155,
+ "Argentina_mention_sentiment": 0.3009,
+ "Saudi Arabia_mention_sentiment": 0.3166,
+ "hourly": [
+  {
+   "hour_utc": 10,
+   "tweets": 257,
+   "mean_sentiment": 0.2672,
+   "mentions_Argentina": 158,
+   "mentions_Saudi Arabia": 149
+  },
+  {
+   "hour_utc": 11,
+   "tweets": 2540,
+   "mean_sentiment": 0.2794,
+   "mentions_Argentina": 1817,
+   "mentions_Saudi Arabia": 2006
+  }
+ ],
+ "note": "Sampled hashtag scrape — the SHAPE (volume spike + mention-share flip at the moment) is the signal, not absolute volume. VADER sentiment is noisy (see vader_validation.json); lead with volume."
+}

@@ -1,0 +1,77 @@
+{
+ "match_id": 3857273,
+ "date": "2022-11-25",
+ "stage": "Group Stage",
+ "home_team": "Wales",
+ "away_team": "Iran",
+ "score": {
+  "home": 0,
+  "away": 2
+ },
+ "winner": "Iran",
+ "team_xg": {
+  "Wales": 0.616,
+  "Iran": 1.454
+ },
+ "shots": {
+  "Wales": 10,
+  "Iran": 21
+ },
+ "shots_on_target": {
+  "Wales": 3,
+  "Iran": 6
+ },
+ "possession_proxy_pass_share": {
+  "Wales": 0.606,
+  "Iran": 0.394
+ },
+ "goals": [
+  {
+   "minute": 97,
+   "second": 56,
+   "player": "Roozbeh Cheshmi",
+   "team": "Iran",
+   "xg": 0.033,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 100,
+   "second": 37,
+   "player": "Ramin Rezaeian",
+   "team": "Iran",
+   "xg": 0.199,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 47,
+   "player": "Joe Rodon",
+   "team": "Wales",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 83,
+   "player": "Wayne Hennessey",
+   "team": "Wales",
+   "card": "Red Card"
+  },
+  {
+   "minute": 94,
+   "player": "Ramin Rezaeian",
+   "team": "Iran",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 94,
+   "player": "Alireza Jahanbakhsh",
+   "team": "Iran",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3133,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

@@ -1,0 +1,74 @@
+{
+ "match_id": 3869151,
+ "date": "2022-12-03",
+ "stage": "Round of 16",
+ "home_team": "Argentina",
+ "away_team": "Australia",
+ "score": {
+  "home": 2,
+  "away": 1
+ },
+ "winner": "Argentina",
+ "team_xg": {
+  "Argentina": 1.482,
+  "Australia": 0.426
+ },
+ "shots": {
+  "Argentina": 14,
+  "Australia": 5
+ },
+ "shots_on_target": {
+  "Argentina": 5,
+  "Australia": 1
+ },
+ "possession_proxy_pass_share": {
+  "Argentina": 0.604,
+  "Australia": 0.396
+ },
+ "goals": [
+  {
+   "minute": 34,
+   "second": 35,
+   "player": "Lionel Andrés Messi Cuccittini",
+   "team": "Argentina",
+   "xg": 0.067,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  },
+  {
+   "minute": 56,
+   "second": 41,
+   "player": "Julián Álvarez",
+   "team": "Argentina",
+   "xg": 0.281,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 76,
+   "second": 11,
+   "player": "Enzo Fernandez",
+   "team": "Australia",
+   "xg": null,
+   "type": "Own Goal",
+   "body_part": null
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 14,
+   "player": "Jackson Irvine",
+   "team": "Australia",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 37,
+   "player": "Miloš Degenek",
+   "team": "Australia",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 4150,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

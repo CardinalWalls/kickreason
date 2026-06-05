@@ -1,0 +1,26 @@
+{
+  "_note": "PROVEN kernel output (2026-06-05): MiroMind research prose (runs/kernel-nodes.json) → format-obedient structuring pass → layered, sourced nodes. sau_arg_2022 = fully valid (4 layers, 4 real sources). usa_advance = clean layers but 0 real sources (its research call under-captured; structurer honestly flagged all_sources_real=false, did NOT invent).",
+  "nodes": [
+    {
+      "node_id": "sau_arg_2022", "probability": 4, "direction": "down", "moved_from": 13,
+      "layers": {
+        "odds": {"text": "Saudi Arabia's pre-match win probability is ~4%, derived from betting markets favoring Argentina at ~87% (the remaining ~13% split between a draw and a Saudi win).", "source_url": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup"},
+        "narrative": {"text": "Argentina entered as an overwhelming favorite against a Saudi side ranked 51st, so a Saudi win was priced as an extreme underdog outcome — one of the biggest upsets in World Cup history.", "source_url": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_Group_C"},
+        "magic_moment": {"text": "Saudi Arabia stunned eventual champion Argentina, winning the Group C match 2-1 on 22 November 2022 at Lusail Stadium.", "source_url": "https://sports.yahoo.com/soccer/article/26-days-to-the-world-cup-saudi-arabia-stuns-eventual-champion-argentina-120000409.html"},
+        "stats": {"text": "Final result Saudi Arabia 2-1 Argentina, with Saudi Arabia ranked 51st in the FIFA rankings at the time.", "source_url": "https://www.365scores.com/football/match/fifa-world-cup-5930/argentina-saudi-arabia-2378-5087-5930"}
+      },
+      "all_sources_real": true, "valid": true
+    },
+    {
+      "node_id": "usa_advance", "probability": 88, "direction": "neutral", "moved_from": 88,
+      "layers": {
+        "odds": {"text": "About 88% to advance, from a de-vigged market line around -750 (~87-89% implied to qualify).", "source_url": ""},
+        "narrative": {"text": "USA is clearly stronger than one or two Group D opponents and gains host-nation advantage, which offsets a reportedly doubtful key forward over a 3-game group.", "source_url": ""},
+        "magic_moment": {"text": "No single decisive moment named (forward fixture); host advantage + depth keep advancement ~9-in-10.", "source_url": ""},
+        "stats": {"text": "A de-vig line of ~-750 corresponds to roughly 87-89% implied probability to qualify.", "source_url": ""}
+      },
+      "all_sources_real": false, "valid": false,
+      "_caveat": "research call under-captured sources (84 searches, 0 stored). Fix in the research step, not structuring."
+    }
+  ]
+}

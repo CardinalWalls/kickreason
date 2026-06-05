@@ -1,0 +1,56 @@
+{
+ "match_id": 3857269,
+ "date": "2022-11-28",
+ "stage": "Group Stage",
+ "home_team": "Brazil",
+ "away_team": "Switzerland",
+ "score": {
+  "home": 1,
+  "away": 0
+ },
+ "winner": "Brazil",
+ "team_xg": {
+  "Brazil": 0.923,
+  "Switzerland": 0.289
+ },
+ "shots": {
+  "Brazil": 13,
+  "Switzerland": 6
+ },
+ "shots_on_target": {
+  "Brazil": 5,
+  "Switzerland": 0
+ },
+ "possession_proxy_pass_share": {
+  "Brazil": 0.538,
+  "Switzerland": 0.462
+ },
+ "goals": [
+  {
+   "minute": 82,
+   "second": 15,
+   "player": "Carlos Henrique Casimiro",
+   "team": "Brazil",
+   "xg": 0.069,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 49,
+   "player": "Fabian Rieder",
+   "team": "Switzerland",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 51,
+   "player": "Frederico Rodrigues Santos",
+   "team": "Brazil",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3786,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

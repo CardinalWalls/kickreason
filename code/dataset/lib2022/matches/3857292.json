@@ -1,0 +1,95 @@
+{
+ "match_id": 3857292,
+ "date": "2022-12-01",
+ "stage": "Group Stage",
+ "home_team": "Costa Rica",
+ "away_team": "Germany",
+ "score": {
+  "home": 2,
+  "away": 4
+ },
+ "winner": "Germany",
+ "team_xg": {
+  "Costa Rica": 1.035,
+  "Germany": 4.316
+ },
+ "shots": {
+  "Costa Rica": 7,
+  "Germany": 31
+ },
+ "shots_on_target": {
+  "Costa Rica": 5,
+  "Germany": 11
+ },
+ "possession_proxy_pass_share": {
+  "Costa Rica": 0.328,
+  "Germany": 0.672
+ },
+ "goals": [
+  {
+   "minute": 9,
+   "second": 31,
+   "player": "Serge Gnabry",
+   "team": "Germany",
+   "xg": 0.09,
+   "type": "Open Play",
+   "body_part": "Head"
+  },
+  {
+   "minute": 57,
+   "second": 39,
+   "player": "Yeltsin Ignacio Tejeda Valverde",
+   "team": "Costa Rica",
+   "xg": 0.48,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 69,
+   "second": 7,
+   "player": "Manuel Neuer",
+   "team": "Costa Rica",
+   "xg": null,
+   "type": "Own Goal",
+   "body_part": null
+  },
+  {
+   "minute": 72,
+   "second": 4,
+   "player": "Kai Havertz",
+   "team": "Germany",
+   "xg": 0.475,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 84,
+   "second": 2,
+   "player": "Kai Havertz",
+   "team": "Germany",
+   "xg": 0.31,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  },
+  {
+   "minute": 88,
+   "second": 13,
+   "player": "Niclas Füllkrug",
+   "team": "Germany",
+   "xg": 0.51,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 75,
+   "player": "Óscar Esau Duarte Gaitán",
+   "team": "Costa Rica",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3869,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

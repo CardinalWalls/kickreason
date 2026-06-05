@@ -1,0 +1,22 @@
+{
+  "total": 8367,
+  "valuable": 1060,
+  "resolved_marquee": 35,
+  "by_category": {
+    "futures": 40,
+    "group": 128,
+    "progression": 192,
+    "match_core": 2624,
+    "player_prop": 5383
+  },
+  "by_layer": {
+    "odds": 2984,
+    "stats": 5248,
+    "narrative": 135
+  },
+  "named_player_props": 540,
+  "squad_slot_props (honest long tail)": 4843,
+  "matches": 64,
+  "teams": 32,
+  "groups": 8
+}

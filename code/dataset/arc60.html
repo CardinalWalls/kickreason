@@ -1,0 +1,239 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WE GRADED AN ENTIRE WORLD CUP · 60s</title>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@700;800&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#080a09;--panel:#121514;--panel2:#191d18;--ink:#f3f1e9;--mute:#9aa39a;--faint:#5d655c;--line:#262b25;
+  --edge:#4cf0a3;--down:#ff6b5e;--break:#ffc24d;--star:#ffd76b;--narr:#8ab4ff}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:"Hanken Grotesk",sans-serif;line-height:1.45;overflow:hidden}
+.mono{font-family:"JetBrains Mono",monospace}
+.stage{position:fixed;inset:0;display:grid;place-items:center}
+.beat{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;align-items:center;
+  padding:6vh 7vw;opacity:0;transform:translateY(14px);transition:opacity .55s ease,transform .55s ease;pointer-events:none}
+.beat.on{opacity:1;transform:none}
+.kicker{font-family:"JetBrains Mono";font-size:13px;letter-spacing:.32em;text-transform:uppercase;color:var(--edge);margin-bottom:18px}
+.title{font-family:"Bricolage Grotesque";font-weight:800;font-size:clamp(30px,5.4vw,62px);line-height:1.02;letter-spacing:-.02em;text-align:center;max-width:14ch}
+.title .hl{color:var(--edge)} .title .red{color:var(--down)} .title .gold{color:var(--star)}
+.sub{color:var(--mute);font-size:clamp(15px,1.7vw,20px);margin-top:18px;max-width:46ch;text-align:center}
+
+/* hero — one event, three layers */
+.hero{width:min(1000px,92vw)}
+.heroTop{font-family:"Bricolage Grotesque";font-weight:800;font-size:clamp(22px,3vw,38px);text-align:center;margin-bottom:6px}
+.heroScore{font-family:"JetBrains Mono";color:var(--mute);text-align:center;margin-bottom:26px;font-size:14px}
+.layers{display:grid;gap:12px}
+.lyr{display:grid;grid-template-columns:148px 1fr;gap:18px;align-items:center;background:var(--panel);border:1px solid var(--line);
+  border-left:4px solid var(--lc);border-radius:12px;padding:16px 20px;opacity:0;transform:translateX(-12px);transition:.5s}
+.lyr.on{opacity:1;transform:none}
+.lyr .tag{font-family:"JetBrains Mono";font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--lc);font-weight:700}
+.lyr .sys{font-size:11px;color:var(--faint);margin-top:3px}
+.lyr .body{font-size:clamp(14px,1.55vw,17px)}
+.lyr .src{font-family:"JetBrains Mono";font-size:11px;color:var(--faint);margin-top:5px}
+.lyr.mm{--lc:var(--star)} .lyr.nv{--lc:var(--narr)} .lyr.od{--lc:var(--edge)} .lyr.st{--lc:#c9a0ff}
+.grade{display:flex;align-items:baseline;gap:14px;margin-top:5px}
+.grade .num{font-family:"Bricolage Grotesque";font-weight:800;font-size:34px;color:var(--down)}
+.grade .lab{font-family:"JetBrains Mono";font-size:12px;color:var(--down)}
+
+/* trace -> compile */
+.compileWrap{width:min(1040px,94vw);display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.col h3{font-family:"JetBrains Mono";font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--faint);margin-bottom:10px}
+.trace{background:#0c0f0d;border:1px solid var(--line);border-radius:12px;padding:14px 16px;height:46vh;overflow:hidden;font-family:"JetBrains Mono";font-size:12.5px}
+.tline{color:var(--mute);margin-bottom:7px;opacity:0;transform:translateY(6px);transition:.3s}
+.tline.on{opacity:1;transform:none}
+.tline .act{color:var(--narr)} .tline.search .act{color:var(--break)} .tline.fetch .act{color:var(--edge)}
+.chips{display:flex;flex-direction:column;gap:10px}
+.chip{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--lc);border-radius:10px;padding:12px 15px;
+  opacity:0;transform:scale(.96);transition:.45s}
+.chip.on{opacity:1;transform:none}
+.chip .tag{font-family:"JetBrains Mono";font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--lc);font-weight:700}
+.chip .b{font-size:14px;margin-top:4px}
+
+/* arc table + dag */
+.arcWrap{width:min(1080px,95vw)}
+.arcHead{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:16px;flex-wrap:wrap;gap:10px}
+.meanBox{text-align:right}
+.meanBox .n{font-family:"Bricolage Grotesque";font-weight:800;font-size:52px;line-height:1}
+.meanBox .l{font-family:"JetBrains Mono";font-size:11px;color:var(--faint)}
+table{width:100%;border-collapse:collapse;font-size:13.5px}
+th,td{text-align:left;padding:7px 10px;border-bottom:1px solid var(--line)}
+th{font-family:"JetBrains Mono";font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--faint);font-weight:400}
+td.r,th.r{text-align:right}
+tr.row{opacity:0;transform:translateX(-8px);transition:.32s}
+tr.row.on{opacity:1;transform:none}
+.wrong{color:var(--down);font-weight:600} .right{color:var(--edge)}
+.pill{font-family:"JetBrains Mono";font-size:10px;padding:2px 7px;border-radius:5px;border:1px solid var(--lc);color:var(--lc)}
+
+/* champion + 2026 */
+.champ{font-family:"Bricolage Grotesque";font-weight:800;font-size:clamp(34px,6vw,76px);color:var(--star);text-align:center;letter-spacing:-.02em}
+
+/* hud */
+.hud{position:fixed;left:0;right:0;bottom:0;padding:14px 22px;display:flex;align-items:center;gap:16px;
+  background:linear-gradient(transparent,rgba(0,0,0,.55));z-index:20}
+.bar{flex:1;height:4px;background:var(--line);border-radius:3px;overflow:hidden}
+.bar > i{display:block;height:100%;width:0;background:var(--edge)}
+.btn{font-family:"JetBrains Mono";font-weight:700;font-size:12px;letter-spacing:.06em;color:var(--bg);background:var(--edge);
+  border:none;border-radius:7px;padding:9px 16px;cursor:pointer;text-transform:uppercase}
+.tcode{font-family:"JetBrains Mono";font-size:12px;color:var(--mute);min-width:78px}
+.beatlab{font-family:"JetBrains Mono";font-size:11px;color:var(--faint);min-width:200px;text-align:right}
+.brand{position:fixed;top:18px;left:22px;font-family:"Bricolage Grotesque";font-weight:800;font-size:16px;z-index:20}
+.brand .dot{color:var(--edge)}
+.live{position:fixed;top:18px;right:22px;font-family:"JetBrains Mono";font-size:11px;color:var(--edge);
+  border:1px solid var(--edge);border-radius:5px;padding:4px 9px;z-index:20}
+.live::before{content:"● "} .pending{color:var(--break);border-color:var(--break)}
+.note{position:fixed;top:54px;right:22px;font-family:"JetBrains Mono";font-size:10.5px;color:var(--faint);z-index:20}
+</style></head><body>
+<div class="brand">THE LEDGER<span class="dot">.</span></div>
+<div class="live" id="live">data: loading…</div>
+<div class="note" id="note"></div>
+<div class="stage" id="stage"></div>
+<div class="hud">
+  <button class="btn" id="play" onclick="toggle()">▶ Play</button>
+  <span class="tcode" id="tcode">0.0s / 60s</span>
+  <div class="bar"><i id="fill"></i></div>
+  <span class="beatlab" id="blab"></span>
+</div>
+<script>
+// ── the 60s timeline: each beat owns a window [t0,t1) and a render() ──
+let ARC=null, TRACE=[];
+const $=s=>document.querySelector(s), stage=$('#stage');
+function esc(s){return (s||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
+function host(u){try{return new URL(u).hostname.replace('www.','')}catch(e){return 'source'}}
+function findNode(id){return (ARC&&ARC.nodes||[]).find(n=>(n.node_id||n.id)===id)}
+
+const BEATS=[
+ {t0:0,t1:6,label:'title',  render:beatTitle},
+ {t0:6,t1:23,label:'magic moment · 3 layers deep', render:beatHero},
+ {t0:23,t1:35,label:'the reasoning, compiled',      render:beatCompile},
+ {t0:35,t1:46,label:'the whole arc, graded',        render:beatArc},
+ {t0:46,t1:53,label:'the champion',                 render:beatChamp},
+ {t0:53,t1:60,label:'now it is live for 2026',      render:beat2026},
+];
+let cur=-1;
+function showBeat(i){
+  if(i===cur) return; cur=i;
+  stage.innerHTML='';
+  const el=document.createElement('div'); el.className='beat'; el.id='beat'; stage.appendChild(el);
+  BEATS[i].render(el);
+  requestAnimationFrame(()=>el.classList.add('on'));
+}
+// progressive reveal helper: reveal children with class .seq at local progress
+function seq(el,p,n,cls='on'){ // p in [0,1] over the beat; reveal n items
+  const items=[...el.querySelectorAll('.seq')];
+  const k=Math.floor(p*(items.length+1));
+  items.forEach((it,idx)=>it.classList.toggle(cls, idx<k));
+}
+
+function beatTitle(el){
+  const cards=[
+    ['WE GRADED','AN ENTIRE','<span class="hl">WORLD CUP.</span>'],
+    ['NOT JUST THE SCORELINE —','<span class="gold">THE KEY NARRATIVE.</span>',''],
+    ['THEN WE BUILT IT','<span class="hl">LIVE FOR 2026.</span>',''],
+  ];
+  el.innerHTML='<div class="title" id="tt"></div>';
+  el._cards=cards; el._tt=$('#tt');
+}
+function beatHero(el){
+  const n=findNode('arg-ksa');
+  el.classList.add('hero');
+  if(!n){el.innerHTML='<div class="sub">arc data pending — run <span class="mono">python3 dataset/arc_build.py</span></div>';return;}
+  const L=n.layers||{}, mm=(L.magic_moment||[])[ (L.magic_moment||[]).length-1 ]||{}, nv=(L.narrative||[])[0]||{},
+        od=L.odds||{}, st=(L.stats||[])[0]||{}, g=(od.grade||n.grade||{});
+  el.innerHTML=`
+    <div class="heroTop">${esc(n.fixture||'')}</div>
+    <div class="heroScore mono">${esc((n.outcome||{}).score||'')} · ${esc(n.competition||'')}</div>
+    <div class="layers">
+      <div class="lyr mm seq"><div><div class="tag">magic moment</div><div class="sys">${esc(mm.system||'broadcast / the star')}</div></div>
+        <div><div class="body"><b>${esc(mm.minute||'')} ${esc(mm.scorer||'')}</b> — ${esc(mm.text||'')}</div><div class="src">↗ ${host(mm.source_url)}</div></div></div>
+      <div class="lyr nv seq"><div><div class="tag">narrative</div><div class="sys">${esc(nv.system||'the analyst')}</div></div>
+        <div><div class="body"><b>${esc(nv.storyline||'')}</b> — ${esc(nv.text||'')}</div><div class="src">↗ ${host(nv.source_url)}</div></div></div>
+      <div class="lyr st seq"><div><div class="tag">stats</div><div class="sys">${esc(st.system||'the data co')}</div></div>
+        <div><div class="body">${esc(st.metric||'')}: <b>${esc(st.value||'')}</b> — ${esc(st.text||'')}</div><div class="src">↗ ${host(st.source_url)}</div></div></div>
+      <div class="lyr od seq"><div><div class="tag">odds + grade</div><div class="sys">${esc(od.system||'the prediction system')}</div></div>
+        <div><div class="body">The system priced <b>${esc(g.favourite||(n.pre_match||{}).favourite||'')} ${g.market_prob!=null?Math.round(g.market_prob*100)+'%':''}</b> to win — and was wrong.
+          <div class="grade"><span class="num" id="briern">0.00</span><span class="lab">BRIER · graded WRONG (coin-flip 0.25)</span></div></div></div></div>
+    </div>`;
+  el._brier=(g.brier!=null?g.brier:0); el._briern=$('#briern');
+}
+function beatCompile(el){
+  el.classList.add('compileWrap');
+  el.innerHTML=`
+    <div class="col"><h3>1 · the reasoning (raw MiroMind trace)</h3><div class="trace" id="trace"></div></div>
+    <div class="col"><h3>2 · compiled into layers (distilled, sourced)</h3><div class="chips">
+      <div class="chip mm seq" style="--lc:var(--star)"><div class="tag">magic_moment</div><div class="b">the decisive goal + scorer + minute</div></div>
+      <div class="chip nv seq" style="--lc:var(--narr)"><div class="tag">narrative</div><div class="b">the tactical WHY, from named outlets</div></div>
+      <div class="chip od seq" style="--lc:var(--edge)"><div class="tag">odds</div><div class="b">the calibrated probability — then graded</div></div>
+      <div class="chip st seq" style="--lc:#c9a0ff"><div class="tag">stats</div><div class="b">xG · shots · possession · set-pieces</div></div>
+    </div></div>`;
+  el._trace=$('#trace');
+}
+function beatArc(el){
+  el.classList.add('arcWrap');
+  const s=(ARC&&ARC.summary)||{};
+  const nodes=(ARC&&ARC.nodes||[]).filter(n=>(n.grade||{}).graded);
+  let rows=nodes.map(n=>{const g=n.grade; const won=g.favourite_won;
+    return `<tr class="row seq"><td>${esc(n.fixture)}</td><td>${esc(n.stage)}</td>
+      <td class="r">${Math.round(g.market_prob*100)}%</td>
+      <td class="${won?'right':'wrong'}">${won?'fav won':'fav LOST'}</td>
+      <td class="r ${g.beats_coin_flip?'':'wrong'}">${g.brier.toFixed(3)}</td></tr>`}).join('');
+  el.innerHTML=`
+    <div class="arcHead">
+      <div><div class="kicker">the whole arc · graded by the rig</div>
+        <div class="title" style="font-size:clamp(22px,3.2vw,40px);text-align:left;max-width:none">The market was right on the chalk —<br><span class="red">confidently wrong on the moments you remember.</span></div></div>
+      <div class="meanBox"><div class="n" id="meann">—</div><div class="l">mean market Brier · ${s.n_market_confidently_wrong||0} confidently wrong</div></div>
+    </div>
+    <table><thead><tr><th>Node</th><th>Stage</th><th class="r">Mkt%</th><th>Result</th><th class="r">Brier</th></tr></thead>
+    <tbody>${rows||'<tr><td colspan=5 class="mono">arc data pending — run python3 dataset/arc_build.py</td></tr>'}</tbody></table>`;
+  el._mean=(s.mean_market_brier!=null?s.mean_market_brier:0); el._meann=$('#meann');
+}
+function beatChamp(el){
+  const r=(ARC&&ARC.dag)||{};
+  el.innerHTML=`<div class="kicker">root of the graph</div>
+    <div class="champ">${esc(r.fixture||'Argentina — World Cup champion')}</div>
+    <div class="sub">${esc(r.note||'Messi’s title. The whole arc above is how it was won — every node sourced, every price graded.')}</div>`;
+}
+function beat2026(el){
+  el.innerHTML=`<div class="kicker">past = proof · future = product</div>
+    <div class="title">Now it’s live for <span class="hl">2026.</span></div>
+    <div class="sub">The same compiler, the same four layers, the same grade — running forward on every match of the World Cup. A number is a guess. <b style="color:var(--ink)">A forecast you can audit and check is intelligence.</b></div>`;
+}
+
+// per-frame local animation inside the active beat
+function animateBeat(i,p){
+  const el=$('#beat'); if(!el) return;
+  const b=BEATS[i];
+  if(b.label==='title'){ const idx=Math.min(2,Math.floor(p*3)); if(el._tt) el._tt.innerHTML=el._cards[idx].join('<br>'); }
+  if(b.render===beatHero){ seq(el,Math.min(1,p*1.15),0); if(el._briern){const v=Math.min(1,Math.max(0,(p-0.55)/0.4))*el._brier; el._briern.textContent=v.toFixed(2);} }
+  if(b.render===beatCompile){
+    const tp=Math.min(1,p*1.4);
+    if(el._trace){const k=Math.floor(tp*TRACE.length); while(el._trace.children.length<k){const j=el._trace.children.length;const s=TRACE[j];
+      const d=document.createElement('div'); d.className='tline '+(s.action||''); d.innerHTML='<span class="act">['+(s.action||'think')+']</span> '+esc(s.t||''); el._trace.appendChild(d); requestAnimationFrame(()=>d.classList.add('on')); el._trace.scrollTop=el._trace.scrollHeight; } }
+    seq(el,Math.max(0,(p-0.45)/0.55),0);
+  }
+  if(b.render===beatArc){ seq(el,Math.min(1,p*1.3),0); if(el._meann){const v=Math.min(1,Math.max(0,(p-0.1)/0.5))*el._mean; el._meann.textContent=v.toFixed(3);} }
+}
+
+// ── clock ──
+let playing=false, t=0, last=0;
+function frame(ts){
+  if(!playing){last=ts;return;}
+  const dt=(ts-last)/1000; last=ts; t=Math.min(60,t+dt);
+  const i=BEATS.findIndex(b=>t>=b.t0&&t<b.t1); const bi=i<0?BEATS.length-1:i;
+  showBeat(bi); animateBeat(bi,(t-BEATS[bi].t0)/(BEATS[bi].t1-BEATS[bi].t0));
+  $('#fill').style.width=(t/60*100)+'%'; $('#tcode').textContent=t.toFixed(1)+'s / 60s'; $('#blab').textContent=BEATS[bi].label;
+  if(t>=60){playing=false;$('#play').textContent='↻ Replay';}
+  requestAnimationFrame(frame);
+}
+function toggle(){
+  if(t>=60){t=0;cur=-1;}
+  playing=!playing; $('#play').textContent=playing?'❚❚ Pause':'▶ Play';
+  if(playing){last=performance.now();requestAnimationFrame(frame);}
+}
+async function boot(){
+  try{ const r=await fetch('/arc'); const d=await r.json();
+    if(d&&d.summary&&(d.nodes||[]).length){ARC=d; TRACE=d.trace||[]; $('#live').textContent='data: real · '+d.summary.n_graded+' graded'; $('#note').textContent='mean Brier '+d.summary.mean_market_brier;}
+    else{ $('#live').textContent='arc pending'; $('#live').classList.add('pending'); $('#note').textContent='run: python3 dataset/arc_build.py'; }
+  }catch(e){ $('#live').textContent='no /arc (open via serve_demo.py)'; $('#live').classList.add('pending'); }
+  showBeat(0);
+}
+boot();
+</script></body></html>

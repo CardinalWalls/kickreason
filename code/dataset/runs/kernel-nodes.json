@@ -1,0 +1,76 @@
+[
+  {
+    "node_id": "sau_arg_2022",
+    "question": "Saudi Arabia vs Argentina, 2022 FIFA World Cup group stage (RESOLVED). Build this node; probability = pre-match chance Saudi Arabia win.",
+    "probability": null,
+    "direction": "neutral",
+    "moved_from": 13,
+    "layers": {
+      "odds": {
+        "text": "",
+        "source_url": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup"
+      },
+      "narrative": {
+        "text": "",
+        "source_url": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_Group_C"
+      },
+      "magic_moment": {
+        "text": "",
+        "source_url": "https://sports.yahoo.com/soccer/article/26-days-to-the-world-cup-saudi-arabia-stuns-eventual-champion-argentina-120000409.html"
+      },
+      "stats": {
+        "text": "",
+        "source_url": "https://www.365scores.com/football/match/fifa-world-cup-5930/argentina-saudi-arabia-2378-5087-5930"
+      }
+    },
+    "valid": false,
+    "_meta": {
+      "elapsed_s": 90.9,
+      "nsearch": 2,
+      "nfetch": 2,
+      "trace_sources": 14,
+      "n_layers": 0,
+      "n_sourced": 4,
+      "timed_out": false,
+      "error": null
+    },
+    "_raw": "## Node: `sau_arg_2022` – Saudi Arabia vs Argentina, 2022 World Cup Group Stage\n\n**Question:**  \n“Saudi Arabia vs Argentina, 2022 FIFA World Cup group stage (RESOLVED). Probability = pre‑match chance Saudi Arabia win.”\n\n**Event description**\n\n- Match: Argentina vs Saudi Arabia  \n- Tournament: 2022 FIFA World Cup, Group C  \n- Date: 22 November 2022  \n- Venue: Lusail Stadium, Lusail  \n- Result: Saudi Arabia 2–1 Argentina [1]\n\nThis is widely documented as one of the biggest upsets in World Cup history, with Argentina coming in as a very strong favorite and Saudi Arabia ranked 51st in the FIFA rankings at the time [1].\n\n### Target quantity\n\nThe node’s probability should represent:\n\n> The **pre‑match implied chance that Saudi Arabia would win the match in regulation** (i.e., excluding draws), as reflected by betting/market odds just before kickoff.\n\n### Assessment of pre‑match win probability\n\n- Contemporary descriptions consistently frame this as a massive upset and “statistically the biggest upset in World Cup history,” driven by extremely lopsided pre‑match odds in favor of Argentina.\n- Your **current_status** notes “pre-match market ~87% Argentina,” which implies:\n  - Argentina win: ~87%  \n  - Remaining 13% is split between Saudi win and draw.\n- Typical elite‑vs‑minnow World Cup group‑stage odds (for a team as strong as Argentina vs a team ranked ~50th) usually put:\n  - Argentina win in the 75–85% range,\n  - Draw around 10–18%,\n  - Saudi win around 3–10%, depending on book and overround.\n\nGiven:\n- The match is frequently described as *one of* or *the* biggest World Cup upsets ever, suggesting Saudi’s pre‑match win probability was lower than a typical “big favorite vs underdog” case.\n- Your starting anchor (market ~87% for Argentina) leaves only 13% total for draw + Saudi.\n- In such a split, markets generally assign more weight to the draw than to the extreme underdog win.\n\nA reasonable decomposition of that ~13% remainder would be roughly:\n\n- Draw: ~8–10%\n- Saudi win: ~3–5%\n\nThis aligns with how bookmakers usually price three‑way outcomes in highly uneven fixtures.\n\n### Recommended node value\n\nFor a prediction/forecasting node that needs a **single number** representing the pre‑match Saudi win probability:\n\n- **Final probability:** **4%** pre‑match chance Saudi Arabia win (0.04)\n- **Resolution:** Saudi Arabia in fact **won 2–1**, so the event occurred.\n\nYou can encode the node as:\n\n```json\n{\n  \"node_id\": \"sau_arg_2022\",\n  \"question\": \"Saudi Arabia vs Argentina, 2022 FIFA World Cup group stage (RESOLVED). Probability = pre-match chance Saudi Arabia win.\",\n  \"event_description\": {\n    \"match\": \"Argentina vs Saudi Arabia\",\n    \"tournament\": \"2022 FIFA World Cup, Group C\",\n    \"date\": \"2022-11-22\",\n    \"venue\": \"Lusail Stadium, Lusail\",\n    \"result\": \"Saudi Arabia 2–1 Argentina\"\n  },\n  \"type\": \"historical_implied_probability\",\n  \"probability\": 4,\n  \"probability_units\": \"percent\",\n  \"basis\": \"World Cup group-stage betting markets strongly favored Argentina (~87% to win), leaving ~13% for draw+Saudi. Given typical three-way splits in heavily one-sided matches and contemporary descriptions of this as one of the biggest upsets ever, a Saudi win probability around 3–5% is appropriate; set to 4% as a reasonable point estimate.\",\n  \"resolved_outcome\": true,\n  \"resolved_value\": 1\n}\n```\n\nThis keeps your original intuition (“massive favorite Argentina”) but refines the Saudi win probability from a total non‑Argentina number (13%) to a more realistic underdog slice (~4%) within that total.\n\n---\n\n**References**\n\n[1] 2022 FIFA WORLD CUP GROUP C. <https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_Group_C>.  \n[2] SAUDI SCRIPT FLIP STUNS ARGENTINA. <https://www.fifa.com/en/tournaments/mens/worldcup/articles/argentina-saudi-arabia-2022>."
+  },
+  {
+    "node_id": "usa_advance",
+    "question": "Will the USA advance from Group D at the 2026 FIFA World Cup?",
+    "probability": null,
+    "direction": "neutral",
+    "moved_from": 88,
+    "layers": {
+      "odds": {
+        "text": "",
+        "source_url": null
+      },
+      "narrative": {
+        "text": "",
+        "source_url": null
+      },
+      "magic_moment": {
+        "text": "",
+        "source_url": null
+      },
+      "stats": {
+        "text": "",
+        "source_url": null
+      }
+    },
+    "valid": false,
+    "_meta": {
+      "elapsed_s": 192.2,
+      "nsearch": 84,
+      "nfetch": 0,
+      "trace_sources": 0,
+      "n_layers": 0,
+      "n_sourced": 0,
+      "timed_out": false,
+      "error": null
+    },
+    "_raw": "**Answer:**  \nBased on the information you’ve provided (implied probability ~88% from a de‑vigged market line around -750, USA as host nation, and a key forward reportedly doubtful), the United States is **highly likely but not virtually certain** to advance from Group D. I would keep the **advance probability in roughly the 85–90% band**, with **~88% still a reasonable central estimate**.\n\n### How to interpret that 88%\n\n- A de‑vigged line of about **-750** typically corresponds to **~87–89% implied probability** for the event in question (here: “USA to qualify from group”).\n- Host‑nation advantage (familiar conditions, travel, crowd, refereeing tendencies, etc.) usually adds several percentage points to group‑qualification chances for a team roughly at USA’s level.\n- The note that “a key forward is reportedly doubtful” is a **negative adjustment**, but in a 3‑game group stage:\n  - One attacking injury rarely collapses a strong favourite’s qualification odds.\n  - Depth, set‑pieces, and home advantage can partially offset the loss.\n\nNetting those factors together, the betting‑market baseline (~88%) already looks as if it’s **pricing in**:\n- USA being clearly stronger than at least one or two group opponents,\n- Reasonable but not overwhelming risk from injuries and variance,\n- The structural advantage of being host.\n\n### Actionable takeaway\n\n- If you’re using 88% as your node value for “USA advance from Group D,” it is **aligned with a realistic range** and doesn’t look obviously off.\n- A sensible working range:  \n  - **Conservative:** 85%  \n  - **Central / current status:** **88%**  \n  - **Optimistic (if injury news improves):** up to ~90%\n\nSo, to answer the question directly:  \n**It is very likely (around 9-in-10) that the USA will advance from Group D, and your current 88% estimate is a solid, defensible figure.**"
+  }
+]

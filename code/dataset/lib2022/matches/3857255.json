@@ -1,0 +1,80 @@
+{
+ "match_id": 3857255,
+ "date": "2022-12-01",
+ "stage": "Group Stage",
+ "home_team": "Japan",
+ "away_team": "Spain",
+ "score": {
+  "home": 2,
+  "away": 1
+ },
+ "winner": "Japan",
+ "team_xg": {
+  "Japan": 1.158,
+  "Spain": 0.858
+ },
+ "shots": {
+  "Japan": 6,
+  "Spain": 12
+ },
+ "shots_on_target": {
+  "Japan": 3,
+  "Spain": 5
+ },
+ "possession_proxy_pass_share": {
+  "Japan": 0.188,
+  "Spain": 0.812
+ },
+ "goals": [
+  {
+   "minute": 11,
+   "second": 0,
+   "player": "Álvaro Borja Morata Martín",
+   "team": "Spain",
+   "xg": 0.331,
+   "type": "Open Play",
+   "body_part": "Head"
+  },
+  {
+   "minute": 47,
+   "second": 48,
+   "player": "Ritsu Doan",
+   "team": "Japan",
+   "xg": 0.028,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  },
+  {
+   "minute": 50,
+   "second": 14,
+   "player": "Ao Tanaka",
+   "team": "Japan",
+   "xg": 0.873,
+   "type": "Open Play",
+   "body_part": "Other"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 38,
+   "player": "Ko Itakura",
+   "team": "Japan",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 43,
+   "player": "Shogo Taniguchi",
+   "team": "Japan",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 44,
+   "player": "Maya Yoshida",
+   "team": "Japan",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 4450,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

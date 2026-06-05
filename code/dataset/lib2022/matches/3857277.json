@@ -1,0 +1,40 @@
+{
+ "match_id": 3857277,
+ "date": "2022-11-23",
+ "stage": "Group Stage",
+ "home_team": "Morocco",
+ "away_team": "Croatia",
+ "score": {
+  "home": 0,
+  "away": 0
+ },
+ "winner": "Draw",
+ "team_xg": {
+  "Morocco": 0.363,
+  "Croatia": 0.85
+ },
+ "shots": {
+  "Morocco": 8,
+  "Croatia": 5
+ },
+ "shots_on_target": {
+  "Morocco": 2,
+  "Croatia": 1
+ },
+ "possession_proxy_pass_share": {
+  "Morocco": 0.359,
+  "Croatia": 0.641
+ },
+ "goals": [],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 77,
+   "player": "Sofyan Amrabat",
+   "team": "Morocco",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3719,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

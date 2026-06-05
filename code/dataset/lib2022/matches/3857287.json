@@ -1,0 +1,46 @@
+{
+ "match_id": 3857287,
+ "date": "2022-11-24",
+ "stage": "Group Stage",
+ "home_team": "Uruguay",
+ "away_team": "South Korea",
+ "score": {
+  "home": 0,
+  "away": 0
+ },
+ "winner": "Draw",
+ "team_xg": {
+  "Uruguay": 0.417,
+  "South Korea": 0.493
+ },
+ "shots": {
+  "Uruguay": 10,
+  "South Korea": 7
+ },
+ "shots_on_target": {
+  "Uruguay": 1,
+  "South Korea": 0
+ },
+ "possession_proxy_pass_share": {
+  "Uruguay": 0.552,
+  "South Korea": 0.448
+ },
+ "goals": [],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 55,
+   "player": "José Martín Cáceres Silva",
+   "team": "Uruguay",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 87,
+   "player": "Gue-Sung Cho",
+   "team": "South Korea",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3462,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

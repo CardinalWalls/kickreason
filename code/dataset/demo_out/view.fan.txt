@@ -1,0 +1,18 @@
+┌──────────────────────────────────────────────────────────────┐
+│  WORLD CUP 2026 · PREDICTION CARD                             │
+└──────────────────────────────────────────────────────────────┘
+
+  Q:  Will the USA advance from Group D?
+  PICK:  ✅ YES — USA advance   (88%, very likely)
+  Sharp-market de-vig says 88.2% (line -750) — we agree.
+
+  Why (plain words):
+    1. Recent odds: ESPN says USA is -750 to advance from Group D.
+       └ source: nytimes.com [T2]
+    2. However, the user wants a single probability that the USMNT will advance from their group, presumably from the group stage to the round of 32.
+       └ source: en.wikipedia.org [T3]
+    3. Key Factors: Team form, injuries, head-to-head history, goal difference potential, etc — a worry for USA.
+       └ source: (model reasoning) [T4]
+
+  Group D:  USA · Paraguay · Australia · Turkey   (all 3 USA games effectively home: LA / Seattle)
+  Built from 21 sourced evidence nodes (15 sources) — same trace, no number typed in.

@@ -1,0 +1,71 @@
+{
+ "match_id": 3857285,
+ "date": "2022-11-21",
+ "stage": "Group Stage",
+ "home_team": "Senegal",
+ "away_team": "Netherlands",
+ "score": {
+  "home": 0,
+  "away": 2
+ },
+ "winner": "Netherlands",
+ "team_xg": {
+  "Senegal": 0.691,
+  "Netherlands": 1.124
+ },
+ "shots": {
+  "Senegal": 15,
+  "Netherlands": 10
+ },
+ "shots_on_target": {
+  "Senegal": 4,
+  "Netherlands": 3
+ },
+ "possession_proxy_pass_share": {
+  "Senegal": 0.467,
+  "Netherlands": 0.533
+ },
+ "goals": [
+  {
+   "minute": 83,
+   "second": 50,
+   "player": "Cody Mathès Gakpo",
+   "team": "Netherlands",
+   "xg": 0.286,
+   "type": "Open Play",
+   "body_part": "Head"
+  },
+  {
+   "minute": 98,
+   "second": 18,
+   "player": "Davy Klaassen",
+   "team": "Netherlands",
+   "xg": 0.348,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 55,
+   "player": "Matthijs de Ligt",
+   "team": "Netherlands",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 93,
+   "player": "Nampalys Mendy",
+   "team": "Senegal",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 95,
+   "player": "Idrissa Gana Gueye",
+   "team": "Senegal",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3133,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

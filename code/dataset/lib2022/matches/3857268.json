@@ -1,0 +1,74 @@
+{
+ "match_id": 3857268,
+ "date": "2022-11-23",
+ "stage": "Group Stage",
+ "home_team": "Belgium",
+ "away_team": "Canada",
+ "score": {
+  "home": 1,
+  "away": 0
+ },
+ "winner": "Belgium",
+ "team_xg": {
+  "Belgium": 0.67,
+  "Canada": 2.546
+ },
+ "shots": {
+  "Belgium": 9,
+  "Canada": 22
+ },
+ "shots_on_target": {
+  "Belgium": 3,
+  "Canada": 3
+ },
+ "possession_proxy_pass_share": {
+  "Belgium": 0.527,
+  "Canada": 0.473
+ },
+ "goals": [
+  {
+   "minute": 43,
+   "second": 32,
+   "player": "Michy Batshuayi Tunga",
+   "team": "Belgium",
+   "xg": 0.25,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 7,
+   "player": "Yannick Ferreira Carrasco",
+   "team": "Belgium",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 52,
+   "player": "Thomas Meunier",
+   "team": "Belgium",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 55,
+   "player": "Amadou Onana",
+   "team": "Belgium",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 80,
+   "player": "Alphonso Davies",
+   "team": "Canada",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 82,
+   "player": "Alistair Johnston",
+   "team": "Canada",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3499,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

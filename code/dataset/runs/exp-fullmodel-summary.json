@@ -1,0 +1,132 @@
+{
+  "experiment": "full-model-economics",
+  "model": "mirothinker-1-7-deepresearch",
+  "n_questions": 3,
+  "n_ok": 3,
+  "n_timed_out": 0,
+  "n_retried_empty": 0,
+  "wall_clock_s": 291.2,
+  "workers": 3,
+  "per_call": [
+    {
+      "id": "match",
+      "kind": "match",
+      "elapsed_s": 223.5,
+      "ttfb_s": 4.4,
+      "usage": {
+        "prompt_tokens": 224640,
+        "completion_tokens": 9097,
+        "total_tokens": 233737,
+        "completion_tokens_details": {
+          "reasoning_tokens": 8775
+        },
+        "num_search_queries": 2
+      },
+      "nsearch": 12,
+      "nfetch": 2,
+      "nsources": 77,
+      "answer_chars": 1246,
+      "retried_empty": false,
+      "timed_out": false,
+      "error": null
+    },
+    {
+      "id": "advance",
+      "kind": "team-advance",
+      "elapsed_s": 291.2,
+      "ttfb_s": 4.5,
+      "usage": {
+        "prompt_tokens": 210682,
+        "completion_tokens": 8108,
+        "total_tokens": 218790,
+        "completion_tokens_details": {
+          "reasoning_tokens": 7596
+        },
+        "num_search_queries": 5
+      },
+      "nsearch": 13,
+      "nfetch": 5,
+      "nsources": 81,
+      "answer_chars": 1908,
+      "retried_empty": false,
+      "timed_out": false,
+      "error": null
+    },
+    {
+      "id": "prop",
+      "kind": "player-prop",
+      "elapsed_s": 101.1,
+      "ttfb_s": 4.4,
+      "usage": {
+        "prompt_tokens": 103907,
+        "completion_tokens": 5009,
+        "total_tokens": 108916,
+        "completion_tokens_details": {
+          "reasoning_tokens": 4519
+        }
+      },
+      "nsearch": 7,
+      "nfetch": 0,
+      "nsources": 41,
+      "answer_chars": 1566,
+      "retried_empty": false,
+      "timed_out": false,
+      "error": null
+    }
+  ],
+  "full_model_profile": {
+    "latency_s": {
+      "values": [
+        223.5,
+        291.2,
+        101.1
+      ],
+      "median": 223.5,
+      "min": 101.1,
+      "max": 291.2
+    },
+    "prompt_tokens": {
+      "values": [
+        224640,
+        210682,
+        103907
+      ],
+      "median": 210682
+    },
+    "completion_tokens": {
+      "values": [
+        9097,
+        8108,
+        5009
+      ],
+      "median": 8108
+    },
+    "total_tokens": {
+      "values": [
+        233737,
+        218790,
+        108916
+      ],
+      "median": 218790,
+      "min": 108916,
+      "max": 233737
+    }
+  },
+  "mini_baseline": {
+    "same_q": {
+      "elapsed_s": 52.0,
+      "total_tokens": 88000
+    },
+    "forward_median_s": 240.0,
+    "prior_full_model_point": {
+      "elapsed_s": 228.3,
+      "total_tokens": 184315,
+      "note": "probe-match-fullmodel.json"
+    }
+  },
+  "full_vs_mini": {
+    "latency_multiplier_same_q_basis": 4.3,
+    "token_multiplier_same_q_basis": 2.5,
+    "latency_multiplier_vs_forward_median": 0.9
+  }
+}

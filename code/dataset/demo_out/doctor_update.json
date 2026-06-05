@@ -1,0 +1,14 @@
+{
+  "news": "BREAKING: USMNT key forward ruled OUT of the group stage with a hamstring injury (US Soccer, 2026-06-05).",
+  "node_flipped": "wc26-usa-advance::n11",
+  "node_dir_before": "up",
+  "node_dir_after": "down",
+  "parent_prob_before": 88,
+  "parent_prob_after": 85,
+  "market_anchor_pct": 88,
+  "anchor_line": -750,
+  "edge_pts_below_line": 3,
+  "stale_ancestors": [
+    "champion"
+  ]
+}

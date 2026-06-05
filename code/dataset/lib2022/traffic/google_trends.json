@@ -1,0 +1,5 @@
+{
+ "status": "blocked",
+ "error": "TypeError: Retry.__init__() got an unexpected keyword argument 'method_whitelist'",
+ "note": "Google rate-limited the automated pull; manual CSV export from trends.google.com works."
+}

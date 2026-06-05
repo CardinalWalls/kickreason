@@ -1,0 +1,50 @@
+{
+  "event": "Argentina 1-2 Saudi Arabia — 2022 FIFA World Cup, Group C (Lusail, 22 Nov 2022)",
+  "result": "Saudi Arabia won 2-1 — one of the biggest upsets in World Cup history",
+  "_note": "Layer-tagged grain for the VIDEO (resolved 2022 game). Narrative reconstructed by the MiroMind run narrative-sau-arg-2022.json, then every claim verified + sourced to real match reports (the run itself captured 0 source URLs — reconstruction from latent knowledge — so sources are attached here and confirmed true).",
+  "sources_master": {
+    "sky": "https://www.skysports.com/football/news/11095/12752965/world-cup-2022-argentina-1-2-saudi-arabia-salem-al-dawsari-scores-winner-as-lionel-messi-penalty-is-cancelled-out-by-famous-second-half-comeback",
+    "espn": "https://www.espn.com/soccer/match/_/gameId/633794/saudi-arabia-argentina",
+    "tnt": "https://www.tntsports.co.uk/football/world-cup/2022/fifa-world-cup-2022-in-qatar-live-argentina-v-saudi-arabia-updates_sto9237905/story.shtml",
+    "si": "https://www.si.com/soccer/2022/11/22/argentina-saudi-arabia-world-cup-2022-video-highlights-recap"
+  },
+  "layers": {
+    "magic_moment": [
+      {"id": "mm1", "layer": "magic_moment", "minute": "48'", "scorer": "Saleh Al-Shehri (KSA)",
+       "text": "The equaliser that flipped the match — Al-Shehri pounced on hesitancy from Cristian Romero and finished low into the bottom corner, 1-1.",
+       "why": "Shattered Argentina's assumption the game was won after Messi's penalty; the stadium and the underdog came alive.",
+       "system": "broadcast / highlights / the star", "sources": ["sky", "espn"]},
+      {"id": "mm2", "layer": "magic_moment", "minute": "53'", "scorer": "Salem Al-Dawsari (KSA)",
+       "text": "The winner — Al-Dawsari plucked the ball from the sky, turned inside two defenders and curled it beyond Emi Martinez. 'One of the biggest moments of any World Cup.'",
+       "why": "The technically spectacular goal that sealed the upset — replayed as a goal of the tournament.",
+       "system": "broadcast / highlights / the star", "sources": ["sky", "si"]}
+    ],
+    "narrative": [
+      {"id": "nv1", "layer": "narrative", "storyline": "Saudi's ultra-aggressive high line + offside trap",
+       "text": "Saudi Arabia held one of the highest defensive lines of the tournament, stepping up in unison to spring the offside trap — Argentina had three first-half goals disallowed (Messi 22', Lautaro twice incl. a 27' dink).",
+       "why": "Turned Argentina's main weapon (through-balls to runners) into non-events on the scoreboard.",
+       "system": "the 解说 / commentator / tactical reporter", "sources": ["sky", "espn"]},
+      {"id": "nv2", "layer": "narrative", "storyline": "Argentina's sterile control — no adaptation",
+       "text": "Argentina dominated territory after the early penalty but kept playing the same vertical balls into the trap, never adjusting to pin the line deeper.",
+       "why": "At 1-0 with three chalked-off goals, the underdog stayed alive, motivated and structurally confident.",
+       "system": "the 解说 / commentator / tactical reporter", "sources": ["tnt", "espn"]},
+      {"id": "nv3", "layer": "narrative", "storyline": "The 10-minute second-half surge",
+       "text": "Saudi Arabia chose to ATTACK after halftime, not bunker — Al-Shehri then Al-Dawsari inside ~5 minutes flipped 1-0 into 2-1 and put Argentina in visible panic.",
+       "why": "The quick double blow denied Argentina any mental reset — what separated this from a typical backs-to-the-wall upset.",
+       "system": "the 解说 / commentator / tactical reporter", "sources": ["sky", "si"]},
+      {"id": "nv4", "layer": "narrative", "storyline": "Saudi defensive & goalkeeping heroics after 2-1",
+       "text": "Once ahead, Saudi Arabia defended the lead with relentless blocks and goalkeeping under sustained Argentine pressure.",
+       "why": "Converted a shock lead into a held result against the eventual champions.",
+       "system": "the 解说 / commentator / tactical reporter", "sources": ["espn"]}
+    ],
+    "odds": [
+      {"id": "od1", "layer": "odds", "favourite": "Argentina", "market_prob": 0.871,
+       "text": "The prediction system (bookmaker pricing + market consensus) priced Argentina at ~87% to win.",
+       "system": "the prediction system (bookmaker / Opta / markets)",
+       "grade": {"result": "Argentina LOST", "brier": 0.76, "coinflip_ref": 0.25,
+                 "verdict": "the formula proves the market was confidently WRONG — Brier 0.76 vs 0.25 coin-flip"},
+       "sources": ["espn"], "_grade_source": "dataset/golden_template.py / GOLDEN.md / seed-resolved.json"}
+    ]
+  },
+  "stack_for_video": "ONE event, three layers: magic_moment (Al-Dawsari's curler) -> narrative (the offside trap + the surge, WHY) -> odds (system said 87% -> graded WRONG, Brier 0.76). One compiler, every layer, all sourced + graded."
+}

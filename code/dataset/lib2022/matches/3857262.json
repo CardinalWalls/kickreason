@@ -1,0 +1,74 @@
+{
+ "match_id": 3857262,
+ "date": "2022-12-02",
+ "stage": "Group Stage",
+ "home_team": "South Korea",
+ "away_team": "Portugal",
+ "score": {
+  "home": 2,
+  "away": 1
+ },
+ "winner": "South Korea",
+ "team_xg": {
+  "South Korea": 1.399,
+  "Portugal": 0.974
+ },
+ "shots": {
+  "South Korea": 12,
+  "Portugal": 13
+ },
+ "shots_on_target": {
+  "South Korea": 6,
+  "Portugal": 6
+ },
+ "possession_proxy_pass_share": {
+  "South Korea": 0.385,
+  "Portugal": 0.615
+ },
+ "goals": [
+  {
+   "minute": 4,
+   "second": 53,
+   "player": "Ricardo Jorge Luz Horta",
+   "team": "Portugal",
+   "xg": 0.292,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 26,
+   "second": 43,
+   "player": "Young-Gwon Kim",
+   "team": "South Korea",
+   "xg": 0.624,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  },
+  {
+   "minute": 90,
+   "second": 28,
+   "player": "Hee-Chan Hwang",
+   "team": "South Korea",
+   "xg": 0.422,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 35,
+   "player": "Kang-In Lee",
+   "team": "South Korea",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 92,
+   "player": "Hee-Chan Hwang",
+   "team": "South Korea",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3378,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

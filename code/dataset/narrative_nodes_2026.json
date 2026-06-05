@@ -1,0 +1,38 @@
+{
+  "event": "Will the USA advance from Group D — 2026 FIFA World Cup (forward, live)",
+  "_note": "Narrative-layer grain for the 2026 WEBPAGE, from MiroMind run narrative-usa-advance.json (19,789 chars, 35 sources captured natively). These are DISTINCT tactical/player/motivation/opponent storylines — NOT odds restatements — so they break the evidence monoculture. Each cites a real captured source.",
+  "sources": {
+    "analyst": "https://theanalyst.com/articles/world-cup-2026-group-d-predictions-preview",
+    "athletic": "https://www.nytimes.com/athletic/7288444/2026/06/05/world-cup-group-d-analysis-usmnt/",
+    "rotowire": "https://www.rotowire.com/soccer/article/2026-world-cup-group-d-preview-united-states-paraguay-australia-turkiye-tactics-lineups-set-pieces-odds-110622",
+    "yahoo": "https://sports.yahoo.com/articles/2026-world-cup-group-d-175112217.html",
+    "flashscore": "https://www.flashscore.com/news/2026-world-cup-group-d-history-key-players-fixtures-and-predictions-usa-turkey-paraguay-australia/p2oPsdyf/"
+  },
+  "nodes": [
+    {"id": "nv26-1", "layer": "narrative", "grain": "tactics", "prob_direction": "neutral",
+     "storyline": "Pochettino's back-three/back-four hybrid",
+     "text": "Pochettino toggles a 3-4-2-1 / 3-2-5-in-possession with a 4-4-2 or 5-3-2 mid-block out of possession — the group turns on whether the shape is opponent-specific enough to stay solid AND create.",
+     "sources": ["athletic", "rotowire"]},
+    {"id": "nv26-2", "layer": "narrative", "grain": "key_player", "prob_direction": "up",
+     "storyline": "The defensive spine under host pressure",
+     "text": "Richards + Ream + Adams must control chaos in an even group; their experience and durability are the steadying factor.",
+     "sources": ["athletic", "flashscore"]},
+    {"id": "nv26-3", "layer": "narrative", "grain": "star", "prob_direction": "up",
+     "storyline": "Pulisic's 'legacy World Cup' — or a too-predictable attack",
+     "text": "If Pulisic leads and the attack varies, the US advance comfortably; if it becomes predictable against compact blocks, it tightens.",
+     "sources": ["analyst", "yahoo"]},
+    {"id": "nv26-4", "layer": "narrative", "grain": "motivation", "prob_direction": "neutral",
+     "storyline": "Host-nation pressure — supercharge or tighten",
+     "text": "Three effectively-home games (LA/Seattle) can lift the US — or make them play tense in a must-deliver group.",
+     "sources": ["athletic", "yahoo"]},
+    {"id": "nv26-5", "layer": "narrative", "grain": "opponent", "prob_direction": "down",
+     "storyline": "Paraguay's physical mid-block + transition punch",
+     "text": "Paraguay sit in a compact 4-4-2 and counter — the US risk getting hit in transition if they over-commit.",
+     "sources": ["rotowire", "analyst"]},
+    {"id": "nv26-6", "layer": "narrative", "grain": "opponent", "prob_direction": "down",
+     "storyline": "Türkiye's fluid rotations in a high-stakes finale",
+     "text": "Türkiye's rotating front and likely must-win final match could drag the US around if the group is still alive.",
+     "sources": ["rotowire", "flashscore"]}
+  ],
+  "monoculture_fix": "These 6 are distinct narrative grains (tactics/key_player/star/motivation/opponent x2) with real sources — replacing the prior ~18 odds-echo nodes as the webpage's narrative layer. The odds layer stays (the 91% market anchor); the narrative layer now carries real, different intel."
+}

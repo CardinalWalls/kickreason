@@ -1,0 +1,187 @@
+{
+ "day": "2022-12-18",
+ "focus": [
+  "Argentina",
+  "France"
+ ],
+ "kickoff_utc": "15:00",
+ "goals": "Messi 22',108'; Di Maria 35'; Mbappe 80',81'(pen),118'; Argentina win pens",
+ "total_tweets": 34408,
+ "peak_hour_utc": 17,
+ "peak_hour_tweets": 8470,
+ "Argentina_mentions": 18448,
+ "France_mentions": 15014,
+ "Argentina_mention_sentiment": 0.3031,
+ "France_mention_sentiment": 0.2359,
+ "hourly": [
+  {
+   "hour_utc": 0,
+   "tweets": 58,
+   "mean_sentiment": 0.3551,
+   "mentions_Argentina": 24,
+   "mentions_France": 10
+  },
+  {
+   "hour_utc": 1,
+   "tweets": 48,
+   "mean_sentiment": 0.2523,
+   "mentions_Argentina": 14,
+   "mentions_France": 7
+  },
+  {
+   "hour_utc": 2,
+   "tweets": 64,
+   "mean_sentiment": 0.3389,
+   "mentions_Argentina": 21,
+   "mentions_France": 16
+  },
+  {
+   "hour_utc": 3,
+   "tweets": 64,
+   "mean_sentiment": 0.2902,
+   "mentions_Argentina": 33,
+   "mentions_France": 21
+  },
+  {
+   "hour_utc": 4,
+   "tweets": 89,
+   "mean_sentiment": 0.3083,
+   "mentions_Argentina": 40,
+   "mentions_France": 42
+  },
+  {
+   "hour_utc": 5,
+   "tweets": 118,
+   "mean_sentiment": 0.3642,
+   "mentions_Argentina": 67,
+   "mentions_France": 43
+  },
+  {
+   "hour_utc": 6,
+   "tweets": 129,
+   "mean_sentiment": 0.352,
+   "mentions_Argentina": 72,
+   "mentions_France": 52
+  },
+  {
+   "hour_utc": 7,
+   "tweets": 145,
+   "mean_sentiment": 0.3386,
+   "mentions_Argentina": 90,
+   "mentions_France": 52
+  },
+  {
+   "hour_utc": 8,
+   "tweets": 212,
+   "mean_sentiment": 0.3974,
+   "mentions_Argentina": 137,
+   "mentions_France": 91
+  },
+  {
+   "hour_utc": 9,
+   "tweets": 238,
+   "mean_sentiment": 0.3668,
+   "mentions_Argentina": 123,
+   "mentions_France": 95
+  },
+  {
+   "hour_utc": 10,
+   "tweets": 266,
+   "mean_sentiment": 0.3077,
+   "mentions_Argentina": 151,
+   "mentions_France": 103
+  },
+  {
+   "hour_utc": 11,
+   "tweets": 265,
+   "mean_sentiment": 0.3432,
+   "mentions_Argentina": 144,
+   "mentions_France": 86
+  },
+  {
+   "hour_utc": 12,
+   "tweets": 401,
+   "mean_sentiment": 0.3036,
+   "mentions_Argentina": 228,
+   "mentions_France": 158
+  },
+  {
+   "hour_utc": 13,
+   "tweets": 421,
+   "mean_sentiment": 0.321,
+   "mentions_Argentina": 226,
+   "mentions_France": 162
+  },
+  {
+   "hour_utc": 14,
+   "tweets": 617,
+   "mean_sentiment": 0.3022,
+   "mentions_Argentina": 353,
+   "mentions_France": 271
+  },
+  {
+   "hour_utc": 15,
+   "tweets": 4812,
+   "mean_sentiment": 0.1768,
+   "mentions_Argentina": 2978,
+   "mentions_France": 1740
+  },
+  {
+   "hour_utc": 16,
+   "tweets": 4115,
+   "mean_sentiment": 0.1322,
+   "mentions_Argentina": 2021,
+   "mentions_France": 2323
+  },
+  {
+   "hour_utc": 17,
+   "tweets": 8470,
+   "mean_sentiment": 0.1701,
+   "mentions_Argentina": 4321,
+   "mentions_France": 4305
+  },
+  {
+   "hour_utc": 18,
+   "tweets": 5960,
+   "mean_sentiment": 0.3482,
+   "mentions_Argentina": 3135,
+   "mentions_France": 2759
+  },
+  {
+   "hour_utc": 19,
+   "tweets": 2608,
+   "mean_sentiment": 0.375,
+   "mentions_Argentina": 1319,
+   "mentions_France": 981
+  },
+  {
+   "hour_utc": 20,
+   "tweets": 1395,
+   "mean_sentiment": 0.3608,
+   "mentions_Argentina": 705,
+   "mentions_France": 455
+  },
+  {
+   "hour_utc": 21,
+   "tweets": 2387,
+   "mean_sentiment": 0.3713,
+   "mentions_Argentina": 1440,
+   "mentions_France": 727
+  },
+  {
+   "hour_utc": 22,
+   "tweets": 1074,
+   "mean_sentiment": 0.3473,
+   "mentions_Argentina": 594,
+   "mentions_France": 358
+  },
+  {
+   "hour_utc": 23,
+   "tweets": 452,
+   "mean_sentiment": 0.2997,
+   "mentions_Argentina": 212,
+   "mentions_France": 157
+  }
+ ],
+ "note": "Sampled hashtag scrape — the SHAPE (volume spike + mention-share flip at the moment) is the signal, not absolute volume. VADER sentiment is noisy (see vader_validation.json); lead with volume."
+}

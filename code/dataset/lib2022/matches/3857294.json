@@ -1,0 +1,59 @@
+{
+ "match_id": 3857294,
+ "date": "2022-11-29",
+ "stage": "Group Stage",
+ "home_team": "Netherlands",
+ "away_team": "Qatar",
+ "score": {
+  "home": 2,
+  "away": 0
+ },
+ "winner": "Netherlands",
+ "team_xg": {
+  "Netherlands": 1.714,
+  "Qatar": 0.144
+ },
+ "shots": {
+  "Netherlands": 13,
+  "Qatar": 5
+ },
+ "shots_on_target": {
+  "Netherlands": 4,
+  "Qatar": 3
+ },
+ "possession_proxy_pass_share": {
+  "Netherlands": 0.631,
+  "Qatar": 0.369
+ },
+ "goals": [
+  {
+   "minute": 25,
+   "second": 55,
+   "player": "Cody Mathès Gakpo",
+   "team": "Netherlands",
+   "xg": 0.14,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 48,
+   "second": 55,
+   "player": "Frenkie de Jong",
+   "team": "Netherlands",
+   "xg": 0.688,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 51,
+   "player": "Nathan Aké",
+   "team": "Netherlands",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 4311,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

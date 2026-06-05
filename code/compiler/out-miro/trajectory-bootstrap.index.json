@@ -1,0 +1,1500 @@
+{
+  "schema_version": 1,
+  "source_transcript": "input/this-conversation.transcript.md",
+  "counts": {
+    "turns": 10,
+    "pages": 26,
+    "edges": 49,
+    "facts": 11,
+    "decisions": 6,
+    "steps": 45,
+    "concepts": 16
+  },
+  "intent_ledger": {
+    "stable_intent": [
+      "win the MiroMind deep-research lane with reasoning transparency (推理透明), not a black box",
+      "compile human interaction into a MiroVerse-aligned audited trajectory, maintained by the MiroMind API",
+      "the compiler (middle layer) is the product, not the consumer",
+      "the golden example is a FutureX-style verifiable prediction (the F1 archetype)",
+      "the bootstrap case (building this demo) is the control group",
+      "disturbances come from real human or agent interaction, not injected myths",
+      "build a bootstrap compiler that eats THIS conversation, learning from wow-harness and gbrain",
+      "trust demonstration is a separate track with a real metric under the A2UI philosophy"
+    ],
+    "rejected_directions": [
+      {
+        "what": "Gemini Live two-loop architecture",
+        "reason": "off-target for the real story; consumer is secondary",
+        "turn": "turns/03-human"
+      },
+      {
+        "what": "NVDA hold-or-trim golden example",
+        "reason": "no verifiable ground truth, a golden case needs a resolvable outcome",
+        "turn": "turns/05-human"
+      },
+      {
+        "what": "the R/T/P (research/test/practice) framing",
+        "reason": "cosplay; we are actually compiling knowledge through interaction right now",
+        "turn": "turns/07-human"
+      },
+      {
+        "what": "abstract plan documents",
+        "reason": "no more plan docs; build the artifact",
+        "turn": "turns/07-human"
+      },
+      {
+        "what": "the downstream live-chat-agent consumer",
+        "reason": "a dream, out of scope for now",
+        "turn": "turns/07-human"
+      },
+      {
+        "what": "the wow-harness launch-article docs as the related reading",
+        "reason": "wrong; the related article is the TOWOW distributed-harness PDF",
+        "turn": "turns/09-human"
+      }
+    ],
+    "open_questions": [
+      "which lane fits a trauma-informed survivor agent",
+      "which recently-resolved FutureX-style instance to use as the golden example"
+    ],
+    "operator_entries": [
+      {
+        "ts": "2026-06-04T10:30",
+        "goal": "confirm hosted MiroMind API and its typed trace",
+        "selected": "turns/04-ai",
+        "record": "assets/golden_nvda_raw_trace.sse"
+      },
+      {
+        "ts": "2026-06-04T14:00",
+        "goal": "build the bootstrap compiler on this conversation",
+        "selected": "turns/08-ai",
+        "record": "compiler/"
+      }
+    ]
+  },
+  "classified_intents": [
+    {
+      "intent": "win the MiroMind deep-research lane with reasoning transparency (推理透明), not a black box",
+      "change_classification": "implementation"
+    },
+    {
+      "intent": "compile human interaction into a MiroVerse-aligned audited trajectory, maintained by the MiroMind API",
+      "change_classification": "contract"
+    },
+    {
+      "intent": "the compiler (middle layer) is the product, not the consumer",
+      "change_classification": "implementation"
+    },
+    {
+      "intent": "the golden example is a FutureX-style verifiable prediction (the F1 archetype)",
+      "change_classification": "implementation"
+    },
+    {
+      "intent": "the bootstrap case (building this demo) is the control group",
+      "change_classification": "implementation"
+    },
+    {
+      "intent": "disturbances come from real human or agent interaction, not injected myths",
+      "change_classification": "implementation"
+    },
+    {
+      "intent": "build a bootstrap compiler that eats THIS conversation, learning from wow-harness and gbrain",
+      "change_classification": "implementation"
+    },
+    {
+      "intent": "trust demonstration is a separate track with a real metric under the A2UI philosophy",
+      "change_classification": "implementation"
+    }
+  ],
+  "pages": [
+    {
+      "slug": "turns/01-human",
+      "type": "turn:human",
+      "title": "Trauma-informed survivor support agent. Which of the three hackathon",
+      "compiled_truth": "Trauma-informed survivor support agent. Which of the three hackathon lanes, or the MiroMind deep-research lane? I want 推理透明.\n@intent: win the MiroMind deep-research lane with reasoning transparency (推理透明), not a black box\n@open: which lane fits a trauma-informed survivor agent",
+      "content_hash": "bc8a37f9de37",
+      "effective_date": "2026-06-04T08:10",
+      "effective_date_source": "turn_ts"
+    },
+    {
+      "slug": "turns/02-ai",
+      "type": "turn:ai",
+      "title": "Researched the MiroMind ecosystem and A2UI. Proposed a two-loop",
+      "compiled_truth": "Researched the MiroMind ecosystem and A2UI. Proposed a two-loop design: Gemini Live as the fast voice loop, MiroFlow as the slow verified loop, sharing a decision-surface ontology.\n@step: research MiroMind API + A2UI + Gemini Live :: two-loop maintained-surface design",
+      "content_hash": "b0b9545168b0",
+      "effective_date": "2026-06-04T08:30",
+      "effective_date_source": "turn_ts"
+    },
+    {
+      "slug": "turns/03-human",
+      "type": "turn:human",
+      "title": "Forget Gemini Live. Best use of the MiroMind API.",
+      "compiled_truth": "Forget Gemini Live. Best use of the MiroMind API. Scene is investment. The main story is: compile the user's interaction into a structured trace that fits the MiroVerse dataset, updated by the MiroMind API — regardless of consumer. Make milestones, rules, harness, a closed-loop checklist, and how I as a human can feel it. A golden example matters.\n@reject: Gemini Live two-loop architecture :: off-target for the real story; consumer is secondary\n@intent: compile human interaction into a MiroVerse-aligned audited trajectory, maintained by the MiroMind API\n@intent: the compiler (middle layer) is the product, not the consumer",
+      "content_hash": "faaf569f9607",
+      "effective_date": "2026-06-04T09:00",
+      "effective_date_source": "turn_ts"
+    },
+    {
+      "slug": "turns/04-ai",
+      "type": "turn:ai",
+      "title": "I called the key in .miroapi. There IS a",
+      "compiled_truth": "I called the key in .miroapi. There IS a hosted deep-research API — my earlier \"no official API\" was wrong. The MiroMind API uses an OpenAI-compatible SSE stream and emits a typed reasoning_steps trace. I proposed NVDA \"hold or trim\" as the golden example.\n\n## Facts\n\n<!--- gbrain:facts:begin -->\n| # | claim | kind | confidence | visibility | notability | valid_from | valid_until | source | context | claim_metric | claim_value |\n|---|-------|------|------------|------------|------------|------------|-------------|--------|---------|--------------|-------------|\n| 1 | MiroMind ships a hosted deep-research API at api.miromind.ai | fact | 1.0 | world | high | 2026-06-04 | | live call | OpenAI-compatible SSE | | |\n| 2 | The MiroMind API streams a typed reasoning_steps trace | fact | 1.0 | world | high | 2026-06-04 | | live call | thinking/web_search/fetch_url_content | | |\n| 3 | MiroThinker context window | fact | 1.0 | world | medium | 2026-06-04 | | /v1/models | 256K | context_window | 262144 |\n| 4 | An NVDA deep-research query ran 9+ min and timed out | event | 0.9 | world | medium | 2026-06-04 | | curl --max-time 560 | 逻辑长征, very thorough | call_minutes | 9.3 |\n| 5 | That query ran 77 web_search and 23 fetch steps | event | 1.0 | world | low | 2026-06-04 | | captured trace | grounded in SEC 10-K + Reuters | search_steps | 77 |\n<!--- gbrain:facts:end -->\n\n@step: verify the MiroMind API live; capture an NVDA trace :: hosted deep-research confirmed, slow\n@decision: confirm hosted MiroMind API and its typed trace :: selected=turns/04-ai :: record=assets/golden_nvda_raw_trace.sse\n@trust: id=api_no_official; initial=null; advice=null; final=null; ai_correct=false; switched=true; agreed=false; expanded=true; note=AI claimed no official API; human supplied .miroapi proving a hosted deep-research API exists",
+      "content_hash": "091ae9ec7245",
+      "effective_date": "2026-06-04T10:30",
+      "effective_date_source": "turn_ts"
+    },
+    {
+      "slug": "turns/05-human",
+      "type": "turn:human",
+      "title": "NVDA has no verifiable ground truth — it isn't",
+      "compiled_truth": "NVDA has no verifiable ground truth — it isn't golden. Find a golden example from the MiroVerse or MiroFlow use cases, like the official F1 race. Use the bootstrap case — how we build this hackathon demo itself — as the control group, not the golden example. We are not building; we research, test, and practice what already exists in Miro's ecosystem. Disturbances should come from real human or agent interaction. Demonstrating human trust needs separate research and a real metric, like the philosophy of A2UI.\n@reject: NVDA hold-or-trim golden example :: no verifiable ground truth, a golden case needs a resolvable outcome\n@intent: the golden example is a FutureX-style verifiable prediction (the F1 archetype)\n@intent: the bootstrap case (building this demo) is the control group\n@intent: disturbances come from real human or agent interaction, not injected myths\n@open: which recently-resolved FutureX-style instance to use as the golden example",
+      "content_hash": "2d6237145b50",
+      "effective_date": "2026-06-04T11:00",
+      "effective_date_source": "turn_ts"
+    },
+    {
+      "slug": "turns/06-ai",
+      "type": "turn:ai",
+      "title": "Researched MiroMind's golden cases and the HCI trust literature.",
+      "compiled_truth": "Researched MiroMind's golden cases and the HCI trust literature. MiroFlow tops FutureX; MiroVerse is gated static QA and lacks human-in-the-loop trajectories — that gap is the pitch. The trust target is appropriate reliance, not raw trust.\n\n## Facts\n\n<!--- gbrain:facts:begin -->\n| # | claim | kind | confidence | visibility | notability | valid_from | valid_until | source | context | claim_metric | claim_value |\n|---|-------|------|------------|------------|------------|------------|-------------|--------|---------|--------------|-------------|\n| 1 | MiroFlow ranked #1 on the FutureX future-prediction benchmark | fact | 0.95 | world | high | 2025-09-10 | | arXiv 2508.11987 | golden cases are verifiable predictions | futurex_rank | 1 |\n| 2 | MiroVerse is gated static QA and lacks human-in-the-loop trajectories | fact | 0.9 | world | high | 2026-06-04 | | HF dataset card | the data class we produce | | |\n| 3 | The defensible HCI claim is appropriate reliance (RAIR/RSR), not raw trust | belief | 0.85 | world | high | 2026-06-04 | | Lee & See 2004; Schemmer 2023 | override-when-wrong, rely-when-right | | |\n<!--- gbrain:facts:end -->\n\n@step: ground the golden example in FutureX + the trust track in HCI :: FutureX verifiable; appropriate reliance\n@trust: id=scene_nvda; initial=null; advice=null; final=null; ai_correct=false; switched=true; agreed=false; expanded=true; note=AI advised NVDA; human overrode to a FutureX-style verifiable prediction",
+      "content_hash": "1177bb61c5d3",
+      "effective_date": "2026-06-04T12:30",
+      "effective_date_source": "turn_ts"
+    },
+    {
+      "slug": "turns/07-human",
+      "type": "turn:human",
+      "title": "We still don't have a plan. We don't even",
+      "compiled_truth": "We still don't have a plan. We don't even have a bootstrap compiler for our current conversation. Right now we are doing MiroMind-like interference with knowledge, not a cosplay of R/T/P. Learn from the wow-harness that compiles the user's intent and vice versa, and gbrain for knowledge compile — both have repo copies on this computer. Demonstrating human confidence needs a separate track with a real metric, the A2UI philosophy. The downstream live-chat-agent consumer is just a dream.\n@reject: the R/T/P (research/test/practice) framing :: cosplay; we are actually compiling knowledge through interaction right now\n@reject: abstract plan documents :: no more plan docs; build the artifact\n@reject: the downstream live-chat-agent consumer :: a dream, out of scope for now\n@intent: build a bootstrap compiler that eats THIS conversation, learning from wow-harness and gbrain\n@intent: trust demonstration is a separate track with a real metric under the A2UI philosophy",
+      "content_hash": "28f6a25ece3f",
+      "effective_date": "2026-06-04T13:00",
+      "effective_date_source": "turn_ts"
+    },
+    {
+      "slug": "turns/08-ai",
+      "type": "turn:ai",
+      "title": "Located the references and ran a grounding workflow. The",
+      "compiled_truth": "Located the references and ran a grounding workflow. The bootstrap compiler uses the MiroMind API as its one LLM step; gbrain produces the zero-LLM knowledge graph; wow-harness compiles intent into a gated, frozen contract; the TOWOW article frames it as 降维换行动 / 升维做存储 with the human as 上升端.\n\n## Facts\n\n<!--- gbrain:facts:begin -->\n| # | claim | kind | confidence | visibility | notability | valid_from | valid_until | source | context | claim_metric | claim_value |\n|---|-------|------|------------|------------|------------|------------|-------------|--------|---------|--------------|-------------|\n| 1 | wow-harness compiles intent via a fail-closed 9-Gate state machine | fact | 0.9 | world | medium | 2026-06-04 | | wow-harness lead SKILL | intent compile (降维) | | |\n| 2 | gbrain wires a knowledge graph with zero LLM calls per page write | fact | 0.95 | world | high | 2026-06-04 | | gbrain link-extraction.ts | knowledge compile (升维) | | |\n| 3 | TOWOW frames the loop as 降维换行动 plus 升维做存储, human as 上升端 | belief | 0.9 | world | high | 2026-06-04 | | 通向智流 distributed-harness article | the compiler is the 升维存储 layer | | |\n<!--- gbrain:facts:end -->\n\n@step: study wow-harness + gbrain + intent-ledger + A2UI; synthesize the compiler spec :: grounded, schemas extracted\n@decision: build the bootstrap compiler on this conversation :: selected=turns/08-ai :: record=compiler/\n@trust: id=framing_rtp; initial=null; advice=null; final=null; ai_correct=null; switched=true; agreed=false; expanded=true; note=AI advised an R/T/P framing; human rejected it as cosplay (deferred: no external ground truth)\n@trust: id=arch_gemini; initial=null; advice=null; final=null; ai_correct=null; switched=true; agreed=false; expanded=true; note=AI advised a Gemini two-loop; human dropped Gemini (deferred: strategic, not verifiably wrong)\n@trust: id=grounding_harnesses; initial=null; advice=null; final=null; ai_correct=true; switched=false; agreed=true; expanded=true; note=AI correctly located and read wow-harness, gbrain, and TOWOW; human relied on that grounding",
+      "content_hash": "00ae2d868a5b",
+      "effective_date": "2026-06-04T14:00",
+      "effective_date_source": "turn_ts"
+    },
+    {
+      "slug": "turns/09-human",
+      "type": "turn:human",
+      "title": "The related article is the PDF in the ToWow",
+      "compiled_truth": "The related article is the PDF in the ToWow folder, not the launch articles. Stop reading the wrong things.\n@reject: the wow-harness launch-article docs as the related reading :: wrong; the related article is the TOWOW distributed-harness PDF\n@trust: id=related_article; initial=null; advice=null; final=null; ai_correct=false; switched=true; agreed=false; expanded=true; note=AI guessed the wrong related article twice; human corrected to the TOWOW PDF",
+      "content_hash": "1b711158ee62",
+      "effective_date": "2026-06-04T14:20",
+      "effective_date_source": "turn_ts"
+    },
+    {
+      "slug": "turns/10-ai",
+      "type": "turn:ai",
+      "title": "Read 通向智流 / 分布式 Harness. The bootstrap compiler produces",
+      "compiled_truth": "Read 通向智流 / 分布式 Harness. The bootstrap compiler produces the audited 状态/快照 the MiroVerse corpus lacks; it uses the MiroMind API as the execution unit and gbrain-style extraction for the graph. Built it and ran it on this conversation.\n@step: build extract/wow/trust/miro/compile and run on this transcript :: artifact emitted",
+      "content_hash": "c8fe4fc59830",
+      "effective_date": "2026-06-04T15:00",
+      "effective_date_source": "turn_ts"
+    },
+    {
+      "slug": "scenes/trauma",
+      "type": "concept",
+      "title": "trauma",
+      "compiled_truth": "",
+      "effective_date_source": "derived"
+    },
+    {
+      "slug": "orgs/miromind",
+      "type": "concept",
+      "title": "MiroMind",
+      "compiled_truth": "",
+      "effective_date_source": "derived"
+    },
+    {
+      "slug": "concepts/a2ui",
+      "type": "concept",
+      "title": "A2UI",
+      "compiled_truth": "",
+      "effective_date_source": "derived"
+    },
+    {
+      "slug": "tools/gemini-live",
+      "type": "concept",
+      "title": "Gemini Live",
+      "compiled_truth": "",
+      "effective_date_source": "derived"
+    },
+    {
+      "slug": "tools/miroflow",
+      "type": "concept",
+      "title": "MiroFlow",
+      "compiled_truth": "",
+      "effective_date_source": "derived"
+    },
+    {
+      "slug": "api/miromind-api",
+      "type": "concept",
+      "title": "MiroMind API",
+      "compiled_truth": "",
+      "effective_date_source": "derived"
+    },
+    {
+      "slug": "data/miroverse",
+      "type": "concept",
+      "title": "MiroVerse",
+      "compiled_truth": "",
+      "effective_date_source": "derived"
+    },
+    {
+      "slug": "scenes/nvda",
+      "type": "concept",
+      "title": "NVDA",
+      "compiled_truth": "",
+      "effective_date_source": "derived"
+    },
+    {
+      "slug": "bench/futurex",
+      "type": "concept",
+      "title": "FutureX",
+      "compiled_truth": "",
+      "effective_date_source": "derived"
+    },
+    {
+      "slug": "concepts/human-in-the-loop",
+      "type": "concept",
+      "title": "human-in-the-loop",
+      "compiled_truth": "",
+      "effective_date_source": "derived"
+    },
+    {
+      "slug": "concepts/appropriate-reliance",
+      "type": "concept",
+      "title": "appropriate reliance",
+      "compiled_truth": "",
+      "effective_date_source": "derived"
+    },
+    {
+      "slug": "concepts/bootstrap-compiler",
+      "type": "concept",
+      "title": "bootstrap compiler",
+      "compiled_truth": "",
+      "effective_date_source": "derived"
+    },
+    {
+      "slug": "tools/wow-harness",
+      "type": "concept",
+      "title": "wow-harness",
+      "compiled_truth": "",
+      "effective_date_source": "derived"
+    },
+    {
+      "slug": "tools/gbrain",
+      "type": "concept",
+      "title": "gbrain",
+      "compiled_truth": "",
+      "effective_date_source": "derived"
+    },
+    {
+      "slug": "concepts/towow",
+      "type": "concept",
+      "title": "TOWOW",
+      "compiled_truth": "",
+      "effective_date_source": "derived"
+    },
+    {
+      "slug": "concepts/dimension-loop",
+      "type": "concept",
+      "title": "降维",
+      "compiled_truth": "",
+      "effective_date_source": "derived"
+    }
+  ],
+  "edges": [
+    {
+      "from_slug": "turns/01-human",
+      "to_slug": "scenes/trauma",
+      "link_type": "mentions",
+      "context": "mentioned: trauma",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/01-human",
+      "to_slug": "orgs/miromind",
+      "link_type": "mentions",
+      "context": "mentioned: MiroMind",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/02-ai",
+      "to_slug": "orgs/miromind",
+      "link_type": "mentions",
+      "context": "mentioned: MiroMind",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/02-ai",
+      "to_slug": "concepts/a2ui",
+      "link_type": "mentions",
+      "context": "mentioned: A2UI",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/02-ai",
+      "to_slug": "tools/gemini-live",
+      "link_type": "mentions",
+      "context": "mentioned: Gemini Live",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/02-ai",
+      "to_slug": "tools/miroflow",
+      "link_type": "mentions",
+      "context": "mentioned: MiroFlow",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/03-human",
+      "to_slug": "tools/gemini-live",
+      "link_type": "mentions",
+      "context": "mentioned: Gemini Live",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/03-human",
+      "to_slug": "api/miromind-api",
+      "link_type": "mentions",
+      "context": "mentioned: MiroMind API",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/03-human",
+      "to_slug": "data/miroverse",
+      "link_type": "mentions",
+      "context": "mentioned: MiroVerse",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "tools/gemini-live",
+      "to_slug": "api/miromind-api",
+      "link_type": "uses",
+      "context": "Gemini Live …. Best use of the… MiroMind API",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/04-ai",
+      "to_slug": "api/miromind-api",
+      "link_type": "mentions",
+      "context": "mentioned: deep-research API",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/04-ai",
+      "to_slug": "scenes/nvda",
+      "link_type": "mentions",
+      "context": "mentioned: NVDA",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "api/miromind-api",
+      "to_slug": "scenes/nvda",
+      "link_type": "produces",
+      "context": "MiroMind API …uses an OpenAI-compatible SSE stream and emits a typed reasoning_steps trace. I proposed… NVDA",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/05-human",
+      "to_slug": "scenes/nvda",
+      "link_type": "mentions",
+      "context": "mentioned: NVDA",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/05-human",
+      "to_slug": "data/miroverse",
+      "link_type": "mentions",
+      "context": "mentioned: MiroVerse",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/05-human",
+      "to_slug": "tools/miroflow",
+      "link_type": "mentions",
+      "context": "mentioned: MiroFlow",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/05-human",
+      "to_slug": "orgs/miromind",
+      "link_type": "mentions",
+      "context": "mentioned: Miro",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/05-human",
+      "to_slug": "concepts/a2ui",
+      "link_type": "mentions",
+      "context": "mentioned: A2UI",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "scenes/nvda",
+      "to_slug": "data/miroverse",
+      "link_type": "lacks",
+      "context": "NVDA …has no verifiable ground truth — it isn't golden. Find a golden example from the… MiroVerse",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/06-ai",
+      "to_slug": "orgs/miromind",
+      "link_type": "mentions",
+      "context": "mentioned: MiroMind",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/06-ai",
+      "to_slug": "tools/miroflow",
+      "link_type": "mentions",
+      "context": "mentioned: MiroFlow",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/06-ai",
+      "to_slug": "bench/futurex",
+      "link_type": "mentions",
+      "context": "mentioned: FutureX",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/06-ai",
+      "to_slug": "data/miroverse",
+      "link_type": "mentions",
+      "context": "mentioned: MiroVerse",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/06-ai",
+      "to_slug": "concepts/human-in-the-loop",
+      "link_type": "mentions",
+      "context": "mentioned: human-in-the-loop",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/06-ai",
+      "to_slug": "concepts/appropriate-reliance",
+      "link_type": "mentions",
+      "context": "mentioned: appropriate reliance",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "data/miroverse",
+      "to_slug": "concepts/human-in-the-loop",
+      "link_type": "lacks",
+      "context": "MiroVerse …is gated static QA and lacks… human-in-the-loop",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/07-human",
+      "to_slug": "concepts/bootstrap-compiler",
+      "link_type": "mentions",
+      "context": "mentioned: bootstrap compiler",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/07-human",
+      "to_slug": "orgs/miromind",
+      "link_type": "mentions",
+      "context": "mentioned: MiroMind",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/07-human",
+      "to_slug": "tools/wow-harness",
+      "link_type": "mentions",
+      "context": "mentioned: wow-harness",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/07-human",
+      "to_slug": "tools/gbrain",
+      "link_type": "mentions",
+      "context": "mentioned: gbrain",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/07-human",
+      "to_slug": "concepts/a2ui",
+      "link_type": "mentions",
+      "context": "mentioned: A2UI",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "orgs/miromind",
+      "to_slug": "tools/wow-harness",
+      "link_type": "rejects",
+      "context": "MiroMind …-like interference with knowledge, not a cosplay of R/T/P. Learn from the… wow-harness",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/08-ai",
+      "to_slug": "concepts/bootstrap-compiler",
+      "link_type": "mentions",
+      "context": "mentioned: bootstrap compiler",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/08-ai",
+      "to_slug": "api/miromind-api",
+      "link_type": "mentions",
+      "context": "mentioned: MiroMind API",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/08-ai",
+      "to_slug": "tools/gbrain",
+      "link_type": "mentions",
+      "context": "mentioned: gbrain",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/08-ai",
+      "to_slug": "tools/wow-harness",
+      "link_type": "mentions",
+      "context": "mentioned: wow-harness",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/08-ai",
+      "to_slug": "concepts/towow",
+      "link_type": "mentions",
+      "context": "mentioned: TOWOW",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/08-ai",
+      "to_slug": "concepts/dimension-loop",
+      "link_type": "mentions",
+      "context": "mentioned: 降维",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/08-ai",
+      "to_slug": "concepts/human-in-the-loop",
+      "link_type": "mentions",
+      "context": "mentioned: 上升端",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "concepts/bootstrap-compiler",
+      "to_slug": "api/miromind-api",
+      "link_type": "uses",
+      "context": "bootstrap compiler …uses the… MiroMind API",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "tools/gbrain",
+      "to_slug": "tools/wow-harness",
+      "link_type": "produces",
+      "context": "gbrain …produces the zero-LLM knowledge graph;… wow-harness",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/09-human",
+      "to_slug": "concepts/towow",
+      "link_type": "mentions",
+      "context": "mentioned: TOWOW",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/10-ai",
+      "to_slug": "concepts/towow",
+      "link_type": "mentions",
+      "context": "mentioned: 通向智流",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/10-ai",
+      "to_slug": "concepts/bootstrap-compiler",
+      "link_type": "mentions",
+      "context": "mentioned: bootstrap compiler",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/10-ai",
+      "to_slug": "data/miroverse",
+      "link_type": "mentions",
+      "context": "mentioned: MiroVerse",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/10-ai",
+      "to_slug": "api/miromind-api",
+      "link_type": "mentions",
+      "context": "mentioned: MiroMind API",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "turns/10-ai",
+      "to_slug": "tools/gbrain",
+      "link_type": "mentions",
+      "context": "mentioned: gbrain",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "concepts/bootstrap-compiler",
+      "to_slug": "data/miroverse",
+      "link_type": "produces",
+      "context": "bootstrap compiler …produces the audited 状态/快照 the… MiroVerse",
+      "link_source": "markdown"
+    },
+    {
+      "from_slug": "data/miroverse",
+      "to_slug": "api/miromind-api",
+      "link_type": "lacks",
+      "context": "MiroVerse …corpus lacks; it uses the… MiroMind API",
+      "link_source": "markdown"
+    }
+  ],
+  "facts": [
+    {
+      "row": 1,
+      "claim": "MiroMind ships a hosted deep-research API at api.miromind.ai",
+      "kind": "fact",
+      "confidence": 1.0,
+      "visibility": "world",
+      "notability": "high",
+      "valid_from": "2026-06-04",
+      "valid_until": null,
+      "source": "live call",
+      "context": "OpenAI-compatible SSE",
+      "active": true,
+      "claim_metric": null,
+      "claim_value": null,
+      "claim_unit": null,
+      "claim_period": null,
+      "entity_slug": "turns/04-ai"
+    },
+    {
+      "row": 2,
+      "claim": "The MiroMind API streams a typed reasoning_steps trace",
+      "kind": "fact",
+      "confidence": 1.0,
+      "visibility": "world",
+      "notability": "high",
+      "valid_from": "2026-06-04",
+      "valid_until": null,
+      "source": "live call",
+      "context": "thinking/web_search/fetch_url_content",
+      "active": true,
+      "claim_metric": null,
+      "claim_value": null,
+      "claim_unit": null,
+      "claim_period": null,
+      "entity_slug": "turns/04-ai"
+    },
+    {
+      "row": 3,
+      "claim": "MiroThinker context window",
+      "kind": "fact",
+      "confidence": 1.0,
+      "visibility": "world",
+      "notability": "medium",
+      "valid_from": "2026-06-04",
+      "valid_until": null,
+      "source": "/v1/models",
+      "context": "256K",
+      "active": true,
+      "claim_metric": "context_window",
+      "claim_value": 262144.0,
+      "claim_unit": null,
+      "claim_period": null,
+      "entity_slug": "turns/04-ai"
+    },
+    {
+      "row": 4,
+      "claim": "An NVDA deep-research query ran 9+ min and timed out",
+      "kind": "event",
+      "confidence": 0.9,
+      "visibility": "world",
+      "notability": "medium",
+      "valid_from": "2026-06-04",
+      "valid_until": null,
+      "source": "curl --max-time 560",
+      "context": "逻辑长征, very thorough",
+      "active": true,
+      "claim_metric": "call_minutes",
+      "claim_value": 9.3,
+      "claim_unit": null,
+      "claim_period": null,
+      "entity_slug": "turns/04-ai"
+    },
+    {
+      "row": 5,
+      "claim": "That query ran 77 web_search and 23 fetch steps",
+      "kind": "event",
+      "confidence": 1.0,
+      "visibility": "world",
+      "notability": "low",
+      "valid_from": "2026-06-04",
+      "valid_until": null,
+      "source": "captured trace",
+      "context": "grounded in SEC 10-K + Reuters",
+      "active": true,
+      "claim_metric": "search_steps",
+      "claim_value": 77.0,
+      "claim_unit": null,
+      "claim_period": null,
+      "entity_slug": "turns/04-ai"
+    },
+    {
+      "row": 1,
+      "claim": "MiroFlow ranked #1 on the FutureX future-prediction benchmark",
+      "kind": "fact",
+      "confidence": 0.95,
+      "visibility": "world",
+      "notability": "high",
+      "valid_from": "2025-09-10",
+      "valid_until": null,
+      "source": "arXiv 2508.11987",
+      "context": "golden cases are verifiable predictions",
+      "active": true,
+      "claim_metric": "futurex_rank",
+      "claim_value": 1.0,
+      "claim_unit": null,
+      "claim_period": null,
+      "entity_slug": "turns/06-ai"
+    },
+    {
+      "row": 2,
+      "claim": "MiroVerse is gated static QA and lacks human-in-the-loop trajectories",
+      "kind": "fact",
+      "confidence": 0.9,
+      "visibility": "world",
+      "notability": "high",
+      "valid_from": "2026-06-04",
+      "valid_until": null,
+      "source": "HF dataset card",
+      "context": "the data class we produce",
+      "active": true,
+      "claim_metric": null,
+      "claim_value": null,
+      "claim_unit": null,
+      "claim_period": null,
+      "entity_slug": "turns/06-ai"
+    },
+    {
+      "row": 3,
+      "claim": "The defensible HCI claim is appropriate reliance (RAIR/RSR), not raw trust",
+      "kind": "belief",
+      "confidence": 0.85,
+      "visibility": "world",
+      "notability": "high",
+      "valid_from": "2026-06-04",
+      "valid_until": null,
+      "source": "Lee & See 2004; Schemmer 2023",
+      "context": "override-when-wrong, rely-when-right",
+      "active": true,
+      "claim_metric": null,
+      "claim_value": null,
+      "claim_unit": null,
+      "claim_period": null,
+      "entity_slug": "turns/06-ai"
+    },
+    {
+      "row": 1,
+      "claim": "wow-harness compiles intent via a fail-closed 9-Gate state machine",
+      "kind": "fact",
+      "confidence": 0.9,
+      "visibility": "world",
+      "notability": "medium",
+      "valid_from": "2026-06-04",
+      "valid_until": null,
+      "source": "wow-harness lead SKILL",
+      "context": "intent compile (降维)",
+      "active": true,
+      "claim_metric": null,
+      "claim_value": null,
+      "claim_unit": null,
+      "claim_period": null,
+      "entity_slug": "turns/08-ai"
+    },
+    {
+      "row": 2,
+      "claim": "gbrain wires a knowledge graph with zero LLM calls per page write",
+      "kind": "fact",
+      "confidence": 0.95,
+      "visibility": "world",
+      "notability": "high",
+      "valid_from": "2026-06-04",
+      "valid_until": null,
+      "source": "gbrain link-extraction.ts",
+      "context": "knowledge compile (升维)",
+      "active": true,
+      "claim_metric": null,
+      "claim_value": null,
+      "claim_unit": null,
+      "claim_period": null,
+      "entity_slug": "turns/08-ai"
+    },
+    {
+      "row": 3,
+      "claim": "TOWOW frames the loop as 降维换行动 plus 升维做存储, human as 上升端",
+      "kind": "belief",
+      "confidence": 0.9,
+      "visibility": "world",
+      "notability": "high",
+      "valid_from": "2026-06-04",
+      "valid_until": null,
+      "source": "通向智流 distributed-harness article",
+      "context": "the compiler is the 升维存储 layer",
+      "active": true,
+      "claim_metric": null,
+      "claim_value": null,
+      "claim_unit": null,
+      "claim_period": null,
+      "entity_slug": "turns/08-ai"
+    }
+  ],
+  "steps": [
+    {
+      "step_id": "turns/02-ai#s",
+      "thought": "research MiroMind API + A2UI + Gemini Live",
+      "action": "research",
+      "observation": "two-loop maintained-surface design",
+      "sources": [],
+      "verdict": "needs_review",
+      "source_layer": "deterministic"
+    },
+    {
+      "step_id": "turns/04-ai#s",
+      "thought": "verify the MiroMind API live; capture an NVDA trace",
+      "action": "research",
+      "observation": "hosted deep-research confirmed, slow",
+      "sources": [],
+      "verdict": "needs_review",
+      "source_layer": "deterministic"
+    },
+    {
+      "step_id": "turns/06-ai#s",
+      "thought": "ground the golden example in FutureX + the trust track in HCI",
+      "action": "research",
+      "observation": "FutureX verifiable; appropriate reliance",
+      "sources": [],
+      "verdict": "needs_review",
+      "source_layer": "deterministic"
+    },
+    {
+      "step_id": "turns/08-ai#s",
+      "thought": "study wow-harness + gbrain + intent-ledger + A2UI; synthesize the compiler spec",
+      "action": "research",
+      "observation": "grounded, schemas extracted",
+      "sources": [],
+      "verdict": "needs_review",
+      "source_layer": "deterministic"
+    },
+    {
+      "step_id": "turns/10-ai#s",
+      "thought": "build extract/wow/trust/miro/compile and run on this transcript",
+      "action": "research",
+      "observation": "artifact emitted",
+      "sources": [],
+      "verdict": "needs_review",
+      "source_layer": "deterministic"
+    },
+    {
+      "step_id": 1,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "which lane fits a trauma-informed survivor agent"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 2,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"trauma-informed survivor\" agent lane"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 3,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"lane\" police role trauma-informed survivor agent"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 4,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"trauma-informed\" agent lane survivor"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 5,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"lane\" survivor care trauma-informed role"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 6,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"survivor\" lane agent"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 7,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "trauma-informed lane role"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 8,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"trauma-informed\" \"survivor\" CIA"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 9,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"trauma-informed\" agent role in crisis"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 10,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"trauma-informed\" survivor role"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 11,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "trauma-informed survivor lane agent"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 12,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"victim services\" lane trauma-informed"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 13,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "lane survivor role trauma-informed"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 14,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"survivor\" lane\" agent\" trauma-informed"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 15,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"Lane\" survivor agent trauma-informed"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 16,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"lane\" law enforcement trauma-informed"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 17,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"lane\" CIA trauma-informed survivor"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 18,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"lane\" survivor\""
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 19,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "which lane fits a trauma-informed survivor agent"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 20,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"trauma-informed\" \"agent\" lane survivor role"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 21,
+      "action": "fetch_url_content",
+      "thought": "",
+      "observation": "{\"error\":\"\",\"extracted_info\":\"Extracted Information\\n\\n1) Mention of 'lane'\\n- Citation containing the name Lane:\\n  - Lyon, E., Lane, S., \\u0026 Menard, A. (2008). Meeting survivors' needs: A multi-state study of domestic violence shelter ",
+      "url": "https://knowledgebank.criminaljustice.ny.gov/system/files/documents/2026/03/dvhrt_woodetal2020_onestudy.pdf",
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 22,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"Lane\" survivor advocate trauma-informed\""
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 23,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "which lane fits a trauma-informed survivor"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 24,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "trauma-informed survivor career lane"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 25,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"victim services\" lane"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 26,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "which lane fits trauma-informed survivor"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 27,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"lane\" role trauma-informed"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 28,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "police lane victim services"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 29,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"lane\" survivor role"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 30,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"career lane\" trauma-informed survivor"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 31,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"lane\" \"trauma-informed\" survivor agent career"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 32,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"survivor\" \"agent\" \"trauma-informed\" lane"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 33,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "\"lane\" \"fits\" trauma-informed survivor"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 34,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "which lane fits a trauma-informed survivor agent PDF"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 35,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "trauma-informed survivor agent lane Resident Evil"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 36,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "which lane fits a trauma-informed survivor agent video game"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 37,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "Dead by Daylight lane survivor"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 38,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "lane fits trauma-informed"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 39,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "which lane fits trauma-informed survivor"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    },
+    {
+      "step_id": 40,
+      "action": "web_search",
+      "thought": "",
+      "observation": "",
+      "search_keywords": [
+        "Which lane fits a trauma-informed survivor"
+      ],
+      "source_layer": "miromind",
+      "verdict": "pass"
+    }
+  ],
+  "decisions": [
+    {
+      "decision_id": "api_no_official",
+      "initial_judgment": null,
+      "ai_advice": null,
+      "final_judgment": null,
+      "ai_correct": false,
+      "switched": true,
+      "agreed": false,
+      "rationale_expanded": true,
+      "note": "AI claimed no official API"
+    },
+    {
+      "decision_id": "scene_nvda",
+      "initial_judgment": null,
+      "ai_advice": null,
+      "final_judgment": null,
+      "ai_correct": false,
+      "switched": true,
+      "agreed": false,
+      "rationale_expanded": true,
+      "note": "AI advised NVDA"
+    },
+    {
+      "decision_id": "framing_rtp",
+      "initial_judgment": null,
+      "ai_advice": null,
+      "final_judgment": null,
+      "ai_correct": null,
+      "switched": true,
+      "agreed": false,
+      "rationale_expanded": true,
+      "note": "AI advised an R/T/P framing"
+    },
+    {
+      "decision_id": "arch_gemini",
+      "initial_judgment": null,
+      "ai_advice": null,
+      "final_judgment": null,
+      "ai_correct": null,
+      "switched": true,
+      "agreed": false,
+      "rationale_expanded": true,
+      "note": "AI advised a Gemini two-loop"
+    },
+    {
+      "decision_id": "grounding_harnesses",
+      "initial_judgment": null,
+      "ai_advice": null,
+      "final_judgment": null,
+      "ai_correct": true,
+      "switched": false,
+      "agreed": true,
+      "rationale_expanded": true,
+      "note": "AI correctly located and read wow-harness, gbrain, and TOWOW"
+    },
+    {
+      "decision_id": "related_article",
+      "initial_judgment": null,
+      "ai_advice": null,
+      "final_judgment": null,
+      "ai_correct": false,
+      "switched": true,
+      "agreed": false,
+      "rationale_expanded": true,
+      "note": "AI guessed the wrong related article twice"
+    }
+  ],
+  "trust_summary": {
+    "n_decisions": 6,
+    "switch_fraction": 0.833,
+    "agreement_fraction": 0.167,
+    "expand_to_audit_fraction": 1.0,
+    "mean_woa": null,
+    "woa_note": "scalar WOA available for 0/6 decisions; rest are textual (binary switched/agreed)",
+    "over_reliance_events": 0,
+    "appropriate_reliance": {
+      "ground_truth_available": 4,
+      "RAIR_relied_on_correct": 1,
+      "RSR_overrode_incorrect": 3,
+      "deferred": 2,
+      "note": "RAIR/RSR/ECE deferred until verify-verdict or human confirmation supplies ground truth"
+    }
+  },
+  "trajectory_stats": {
+    "regressions": [],
+    "drift_proxy": 0.785
+  },
+  "freeze": {
+    "frozen": true,
+    "tag": "v1-final",
+    "residual_entropy": []
+  },
+  "gate_pack": {
+    "current_stage": "compile/v1",
+    "entry_satisfied": true,
+    "blockers": [],
+    "required_artifact": "trajectory-bootstrap.md",
+    "required_next_role": "human review (上升端)",
+    "escalation": "needs_user_clarification",
+    "message_for_user": "Open question(s) need your call: which lane fits a trauma-informed survivor agent | which recently-resolved FutureX-style instance to use as the golden example"
+  },
+  "miromind_enrichment": {
+    "question": "which lane fits a trauma-informed survivor agent",
+    "answer": "",
+    "sources": [
+      {
+        "url": "https://knowledgebank.criminaljustice.ny.gov/system/files/documents/2026/03/dvhrt_woodetal2020_onestudy.pdf",
+        "title": "[PDF] Voluntary, Survivor-Centered Advocacy in Domestic Violence ..."
+      },
+      {
+        "url": "https://traffickinginstitute.org/toward-a-more-just-system-trauma-informed-approaches-for-criminal-justice-professionals-part-two/",
+        "title": "Trauma-Informed Justice: Empowering Trafficking Victims"
+      },
+      {
+        "url": "https://www.odvn.org/wp-content/uploads/2021/01/ODVN_Trauma-Informed-Roadmap_final.pdf",
+        "title": "[PDF] The Trauma-Informed Roadmap for Ohio's Domestic Violence ..."
+      },
+      {
+        "url": "https://www.instagram.com/reel/DZFul9ZktvV/",
+        "title": "Trauma can make survivors feel like their voice and ... - Instagram"
+      },
+      {
+        "url": "https://theexodusroad.com/what-is-trauma-informed-care/",
+        "title": "What is trauma-informed care for human trafficking survivors?"
+      },
+      {
+        "url": "https://www.linkedin.com/posts/dr-mine-conkbayir_as-a-survivor-of-complex-trauma-i-am-concerned-activity-7296082771070930945-jRVn",
+        "title": "Dr Mine Conkbayir MBE's Post - LinkedIn"
+      },
+      {
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK207195/",
+        "title": "Trauma-Informed Care: A Sociocultural Perspective - NCBI"
+      },
+      {
+        "url": "https://trans-survivors.com/2024/08/20/what-does-it-mean-if-someone-is-trauma-informed/",
+        "title": "What does it mean if someone is “trauma-informed?” - Trans Survivors"
+      },
+      {
+        "url": "https://www.childhood-usa.org/wp-content/uploads/2025/10/Building_trauma-informed_and_survivor-centered_systems_2025.pdf",
+        "title": "[PDF] Building trauma-informed and survivor-centered systems"
+      },
+      {
+        "url": "https://ovc.ojp.gov/program/human-trafficking/practical-guide-survivor-informed-services.pdf",
+        "title": "[PDF] Practical Guide: Survivor-Informed Services"
+      },
+      {
+        "url": "https://tcfv.org/wp-content/uploads/recentered_toolkit_English.pdf",
+        "title": "[PDF] Everyday Trauma-Informed Advocacy A ReCentering Toolkit"
+      },
+      {
+        "url": "https://www.instagram.com/p/DTS4Yocl17H/",
+        "title": "Survivors' experiences don't fit neatly into one system ... - Instagram"
+      }
+    ],
+    "usage": null
+  }
+}

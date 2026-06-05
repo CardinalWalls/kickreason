@@ -1,0 +1,98 @@
+{
+ "match_id": 3857279,
+ "date": "2022-11-22",
+ "stage": "Group Stage",
+ "home_team": "France",
+ "away_team": "Australia",
+ "score": {
+  "home": 4,
+  "away": 1
+ },
+ "winner": "France",
+ "team_xg": {
+  "France": 3.17,
+  "Australia": 0.323
+ },
+ "shots": {
+  "France": 23,
+  "Australia": 4
+ },
+ "shots_on_target": {
+  "France": 6,
+  "Australia": 1
+ },
+ "possession_proxy_pass_share": {
+  "France": 0.616,
+  "Australia": 0.384
+ },
+ "goals": [
+  {
+   "minute": 8,
+   "second": 24,
+   "player": "Craig Goodwin",
+   "team": "Australia",
+   "xg": 0.191,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  },
+  {
+   "minute": 26,
+   "second": 2,
+   "player": "Adrien Rabiot",
+   "team": "France",
+   "xg": 0.169,
+   "type": "Open Play",
+   "body_part": "Head"
+  },
+  {
+   "minute": 31,
+   "second": 18,
+   "player": "Olivier Giroud",
+   "team": "France",
+   "xg": 0.779,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 67,
+   "second": 3,
+   "player": "Kylian Mbappé Lottin",
+   "team": "France",
+   "xg": 0.141,
+   "type": "Open Play",
+   "body_part": "Head"
+  },
+  {
+   "minute": 70,
+   "second": 50,
+   "player": "Olivier Giroud",
+   "team": "France",
+   "xg": 0.169,
+   "type": "Open Play",
+   "body_part": "Head"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 54,
+   "player": "Mitchell Thomas Duke",
+   "team": "Australia",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 79,
+   "player": "Jackson Irvine",
+   "team": "Australia",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 93,
+   "player": "Aaron Mooy",
+   "team": "Australia",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3963,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

@@ -1,0 +1,326 @@
+{
+ "top_scorers": [
+  [
+   "Kylian Mbappé Lottin",
+   "France",
+   8,
+   4.233
+  ],
+  [
+   "Lionel Andrés Messi Cuccittini",
+   "Argentina",
+   7,
+   6.032
+  ],
+  [
+   "Olivier Giroud",
+   "France",
+   4,
+   3.036
+  ],
+  [
+   "Julián Álvarez",
+   "Argentina",
+   4,
+   1.908
+  ],
+  [
+   "Enner Remberto Valencia Lastra",
+   "Ecuador",
+   3,
+   1.925
+  ],
+  [
+   "Gonçalo Matias Ramos",
+   "Portugal",
+   3,
+   1.671
+  ],
+  [
+   "Richarlison de Andrade",
+   "Brazil",
+   3,
+   1.618
+  ],
+  [
+   "Marcus Rashford",
+   "England",
+   3,
+   1.383
+  ],
+  [
+   "Álvaro Borja Morata Martín",
+   "Spain",
+   3,
+   1.109
+  ],
+  [
+   "Bukayo Saka",
+   "England",
+   3,
+   0.579
+  ],
+  [
+   "Cody Mathès Gakpo",
+   "Netherlands",
+   3,
+   0.562
+  ],
+  [
+   "Robert Lewandowski",
+   "Poland",
+   2,
+   3.126
+  ]
+ ],
+ "top_xg": [
+  [
+   "Lionel Andrés Messi Cuccittini",
+   "Argentina",
+   6.032,
+   7
+  ],
+  [
+   "Kylian Mbappé Lottin",
+   "France",
+   4.233,
+   8
+  ],
+  [
+   "Robert Lewandowski",
+   "Poland",
+   3.126,
+   2
+  ],
+  [
+   "Olivier Giroud",
+   "France",
+   3.036,
+   4
+  ],
+  [
+   "Breel-Donald Embolo",
+   "Switzerland",
+   2.391,
+   2
+  ],
+  [
+   "Harry Kane",
+   "England",
+   2.331,
+   2
+  ],
+  [
+   "Neymar da Silva Santos Junior",
+   "Brazil",
+   2.129,
+   2
+  ],
+  [
+   "Lautaro Javier Martínez",
+   "Argentina",
+   2.122,
+   0
+  ],
+  [
+   "Cristiano Ronaldo dos Santos Aveiro",
+   "Portugal",
+   1.939,
+   1
+  ],
+  [
+   "Enner Remberto Valencia Lastra",
+   "Ecuador",
+   1.925,
+   3
+  ],
+  [
+   "Julián Álvarez",
+   "Argentina",
+   1.908,
+   4
+  ],
+  [
+   "Ismaïla Sarr",
+   "Senegal",
+   1.849,
+   1
+  ]
+ ],
+ "most_assists": [
+  [
+   "Lionel Andrés Messi Cuccittini",
+   "Argentina",
+   3
+  ],
+  [
+   "Harry Kane",
+   "England",
+   3
+  ],
+  [
+   "Bruno Miguel Borges Fernandes",
+   "Portugal",
+   3
+  ],
+  [
+   "Ivan Perišić",
+   "Croatia",
+   3
+  ],
+  [
+   "Antoine Griezmann",
+   "France",
+   3
+  ],
+  [
+   "Kylian Mbappé Lottin",
+   "France",
+   2
+  ],
+  [
+   "Christian Pulisic",
+   "United States",
+   2
+  ],
+  [
+   "Vinícius José Paixão de Oliveira Júnior",
+   "Brazil",
+   2
+  ],
+  [
+   "João Félix Sequeira",
+   "Portugal",
+   2
+  ],
+  [
+   "Davy Klaassen",
+   "Netherlands",
+   2
+  ],
+  [
+   "Raphaël Adelino José Guerreiro",
+   "Portugal",
+   2
+  ],
+  [
+   "Denzel Dumfries",
+   "Netherlands",
+   2
+  ]
+ ],
+ "biggest_xg_overperformers": [
+  [
+   "Kylian Mbappé Lottin",
+   "France",
+   3.767,
+   8,
+   4.233
+  ],
+  [
+   "Cody Mathès Gakpo",
+   "Netherlands",
+   2.438,
+   3,
+   0.562
+  ],
+  [
+   "Bukayo Saka",
+   "England",
+   2.421,
+   3,
+   0.579
+  ],
+  [
+   "Julián Álvarez",
+   "Argentina",
+   2.092,
+   4,
+   1.908
+  ],
+  [
+   "Álvaro Borja Morata Martín",
+   "Spain",
+   1.891,
+   3,
+   1.109
+  ],
+  [
+   "Rafael Alexandre Conceição Leão",
+   "Portugal",
+   1.752,
+   2,
+   0.248
+  ],
+  [
+   "Marcus Rashford",
+   "England",
+   1.617,
+   3,
+   1.383
+  ],
+  [
+   "Vincent Paté Aboubakar",
+   "Cameroon",
+   1.471,
+   2,
+   0.529
+  ],
+  [
+   "Ritsu Doan",
+   "Japan",
+   1.423,
+   2,
+   0.577
+  ],
+  [
+   "Richarlison de Andrade",
+   "Brazil",
+   1.382,
+   3,
+   1.618
+  ]
+ ],
+ "best_xg_for_teams": [
+  [
+   "Argentina",
+   13.94,
+   15
+  ],
+  [
+   "France",
+   11.82,
+   16
+  ],
+  [
+   "Brazil",
+   10.5,
+   8
+  ],
+  [
+   "England",
+   8.74,
+   13
+  ],
+  [
+   "Germany",
+   8.23,
+   6
+  ],
+  [
+   "Portugal",
+   7.31,
+   12
+  ],
+  [
+   "Croatia",
+   6.9,
+   8
+  ],
+  [
+   "Switzerland",
+   6.09,
+   5
+  ]
+ ]
+}

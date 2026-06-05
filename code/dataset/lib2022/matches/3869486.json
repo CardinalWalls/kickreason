@@ -1,0 +1,68 @@
+{
+ "match_id": 3869486,
+ "date": "2022-12-10",
+ "stage": "Quarter-finals",
+ "home_team": "Morocco",
+ "away_team": "Portugal",
+ "score": {
+  "home": 1,
+  "away": 0
+ },
+ "winner": "Morocco",
+ "team_xg": {
+  "Morocco": 0.972,
+  "Portugal": 0.744
+ },
+ "shots": {
+  "Morocco": 9,
+  "Portugal": 12
+ },
+ "shots_on_target": {
+  "Morocco": 3,
+  "Portugal": 3
+ },
+ "possession_proxy_pass_share": {
+  "Morocco": 0.254,
+  "Portugal": 0.746
+ },
+ "goals": [
+  {
+   "minute": 41,
+   "second": 36,
+   "player": "Youssef En-Nesyri",
+   "team": "Morocco",
+   "xg": 0.2,
+   "type": "Open Play",
+   "body_part": "Head"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 69,
+   "player": "Achraf Dari",
+   "team": "Morocco",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 86,
+   "player": "Vitor Machado Ferreira",
+   "team": "Portugal",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 90,
+   "player": "Walid Cheddira",
+   "team": "Morocco",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 92,
+   "player": "Walid Cheddira",
+   "team": "Morocco",
+   "card": "Second Yellow"
+  }
+ ],
+ "n_events": 3381,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

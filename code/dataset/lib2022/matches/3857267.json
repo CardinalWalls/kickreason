@@ -1,0 +1,68 @@
+{
+ "match_id": 3857267,
+ "date": "2022-11-29",
+ "stage": "Group Stage",
+ "home_team": "Ecuador",
+ "away_team": "Senegal",
+ "score": {
+  "home": 1,
+  "away": 2
+ },
+ "winner": "Senegal",
+ "team_xg": {
+  "Ecuador": 1.002,
+  "Senegal": 1.707
+ },
+ "shots": {
+  "Ecuador": 9,
+  "Senegal": 13
+ },
+ "shots_on_target": {
+  "Ecuador": 4,
+  "Senegal": 3
+ },
+ "possession_proxy_pass_share": {
+  "Ecuador": 0.599,
+  "Senegal": 0.401
+ },
+ "goals": [
+  {
+   "minute": 43,
+   "second": 41,
+   "player": "Ismaïla Sarr",
+   "team": "Senegal",
+   "xg": 0.783,
+   "type": "Penalty",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 66,
+   "second": 58,
+   "player": "Moisés Isaac Caicedo Corozo",
+   "team": "Ecuador",
+   "xg": 0.589,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 69,
+   "second": 30,
+   "player": "Kalidou Koulibaly",
+   "team": "Senegal",
+   "xg": 0.234,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 65,
+   "player": "Idrissa Gana Gueye",
+   "team": "Senegal",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 2827,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

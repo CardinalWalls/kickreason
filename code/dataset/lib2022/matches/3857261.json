@@ -1,0 +1,74 @@
+{
+ "match_id": 3857261,
+ "date": "2022-11-29",
+ "stage": "Group Stage",
+ "home_team": "Wales",
+ "away_team": "England",
+ "score": {
+  "home": 0,
+  "away": 3
+ },
+ "winner": "England",
+ "team_xg": {
+  "Wales": 0.208,
+  "England": 2.915
+ },
+ "shots": {
+  "Wales": 7,
+  "England": 18
+ },
+ "shots_on_target": {
+  "Wales": 1,
+  "England": 7
+ },
+ "possession_proxy_pass_share": {
+  "Wales": 0.358,
+  "England": 0.642
+ },
+ "goals": [
+  {
+   "minute": 49,
+   "second": 17,
+   "player": "Marcus Rashford",
+   "team": "England",
+   "xg": 0.058,
+   "type": "Free Kick",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 50,
+   "second": 53,
+   "player": "Phil Foden",
+   "team": "England",
+   "xg": 0.44,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  },
+  {
+   "minute": 67,
+   "second": 40,
+   "player": "Marcus Rashford",
+   "team": "England",
+   "xg": 0.097,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 28,
+   "player": "Daniel James",
+   "team": "Wales",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 60,
+   "player": "Aaron Ramsey",
+   "team": "Wales",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3315,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

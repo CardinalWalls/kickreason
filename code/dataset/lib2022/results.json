@@ -1,0 +1,1191 @@
+[
+ {
+  "match_id": 3857286,
+  "date": "2022-11-20",
+  "stage": "Group Stage",
+  "home_team": "Qatar",
+  "away_team": "Ecuador",
+  "home_score": 0,
+  "away_score": 2,
+  "winner": "Ecuador",
+  "team_xg": {
+   "Qatar": 0.304,
+   "Ecuador": 1.154
+  },
+  "scorers": [
+   "15' Enner Remberto Valencia Lastra (Ecuador) xG=0.783",
+   "30' Enner Remberto Valencia Lastra (Ecuador) xG=0.089"
+  ]
+ },
+ {
+  "match_id": 3857285,
+  "date": "2022-11-21",
+  "stage": "Group Stage",
+  "home_team": "Senegal",
+  "away_team": "Netherlands",
+  "home_score": 0,
+  "away_score": 2,
+  "winner": "Netherlands",
+  "team_xg": {
+   "Senegal": 0.691,
+   "Netherlands": 1.124
+  },
+  "scorers": [
+   "83' Cody Mathès Gakpo (Netherlands) xG=0.286",
+   "98' Davy Klaassen (Netherlands) xG=0.348"
+  ]
+ },
+ {
+  "match_id": 3857271,
+  "date": "2022-11-21",
+  "stage": "Group Stage",
+  "home_team": "England",
+  "away_team": "Iran",
+  "home_score": 6,
+  "away_score": 2,
+  "winner": "England",
+  "team_xg": {
+   "England": 1.987,
+   "Iran": 1.456
+  },
+  "scorers": [
+   "34' Jude Bellingham (England) xG=0.083",
+   "42' Bukayo Saka (England) xG=0.061",
+   "45' Raheem Sterling (England) xG=0.189",
+   "61' Bukayo Saka (England) xG=0.08",
+   "64' Mehdi Taremi (Iran) xG=0.066",
+   "70' Marcus Rashford (England) xG=0.408",
+   "89' Jack Grealish (England) xG=0.626",
+   "102' Mehdi Taremi (Iran) xG=0.783"
+  ]
+ },
+ {
+  "match_id": 3857282,
+  "date": "2022-11-21",
+  "stage": "Group Stage",
+  "home_team": "United States",
+  "away_team": "Wales",
+  "home_score": 1,
+  "away_score": 1,
+  "winner": "Draw",
+  "team_xg": {
+   "United States": 0.602,
+   "Wales": 1.395
+  },
+  "scorers": [
+   "35' Timothy Weah (United States) xG=0.201",
+   "81' Gareth Frank Bale (Wales) xG=0.783"
+  ]
+ },
+ {
+  "match_id": 3857254,
+  "date": "2022-11-22",
+  "stage": "Group Stage",
+  "home_team": "Denmark",
+  "away_team": "Tunisia",
+  "home_score": 0,
+  "away_score": 0,
+  "winner": "Draw",
+  "team_xg": {
+   "Denmark": 1.567,
+   "Tunisia": 1.06
+  },
+  "scorers": []
+ },
+ {
+  "match_id": 3857300,
+  "date": "2022-11-22",
+  "stage": "Group Stage",
+  "home_team": "Argentina",
+  "away_team": "Saudi Arabia",
+  "home_score": 1,
+  "away_score": 2,
+  "winner": "Saudi Arabia",
+  "team_xg": {
+   "Argentina": 2.492,
+   "Saudi Arabia": 0.153
+  },
+  "scorers": [
+   "9' Lionel Andrés Messi Cuccittini (Argentina) xG=0.783",
+   "47' Saleh Khalid Al Shehri (Saudi Arabia) xG=0.081",
+   "52' Salem Mohammed Al Dawsari (Saudi Arabia) xG=0.033"
+  ]
+ },
+ {
+  "match_id": 3857265,
+  "date": "2022-11-22",
+  "stage": "Group Stage",
+  "home_team": "Mexico",
+  "away_team": "Poland",
+  "home_score": 0,
+  "away_score": 0,
+  "winner": "Draw",
+  "team_xg": {
+   "Mexico": 0.529,
+   "Poland": 1.138
+  },
+  "scorers": []
+ },
+ {
+  "match_id": 3857279,
+  "date": "2022-11-22",
+  "stage": "Group Stage",
+  "home_team": "France",
+  "away_team": "Australia",
+  "home_score": 4,
+  "away_score": 1,
+  "winner": "France",
+  "team_xg": {
+   "France": 3.17,
+   "Australia": 0.323
+  },
+  "scorers": [
+   "8' Craig Goodwin (Australia) xG=0.191",
+   "26' Adrien Rabiot (France) xG=0.169",
+   "31' Olivier Giroud (France) xG=0.779",
+   "67' Kylian Mbappé Lottin (France) xG=0.141",
+   "70' Olivier Giroud (France) xG=0.169"
+  ]
+ },
+ {
+  "match_id": 3857277,
+  "date": "2022-11-23",
+  "stage": "Group Stage",
+  "home_team": "Morocco",
+  "away_team": "Croatia",
+  "home_score": 0,
+  "away_score": 0,
+  "winner": "Draw",
+  "team_xg": {
+   "Morocco": 0.363,
+   "Croatia": 0.85
+  },
+  "scorers": []
+ },
+ {
+  "match_id": 3857284,
+  "date": "2022-11-23",
+  "stage": "Group Stage",
+  "home_team": "Germany",
+  "away_team": "Japan",
+  "home_score": 1,
+  "away_score": 2,
+  "winner": "Japan",
+  "team_xg": {
+   "Germany": 2.768,
+   "Japan": 1.249
+  },
+  "scorers": [
+   "32' İlkay Gündoğan (Germany) xG=0.783",
+   "74' Ritsu Doan (Japan) xG=0.478",
+   "82' Takuma Asano (Japan) xG=0.027"
+  ]
+ },
+ {
+  "match_id": 3857268,
+  "date": "2022-11-23",
+  "stage": "Group Stage",
+  "home_team": "Belgium",
+  "away_team": "Canada",
+  "home_score": 1,
+  "away_score": 0,
+  "winner": "Belgium",
+  "team_xg": {
+   "Belgium": 0.67,
+   "Canada": 2.546
+  },
+  "scorers": [
+   "43' Michy Batshuayi Tunga (Belgium) xG=0.25"
+  ]
+ },
+ {
+  "match_id": 3857291,
+  "date": "2022-11-23",
+  "stage": "Group Stage",
+  "home_team": "Spain",
+  "away_team": "Costa Rica",
+  "home_score": 7,
+  "away_score": 0,
+  "winner": "Spain",
+  "team_xg": {
+   "Spain": 2.762,
+   "Costa Rica": 0.0
+  },
+  "scorers": [
+   "10' Daniel Olmo Carvajal (Spain) xG=0.489",
+   "20' Marco Asensio Willemsen (Spain) xG=0.092",
+   "30' Ferrán Torres García (Spain) xG=0.783",
+   "53' Ferrán Torres García (Spain) xG=0.105",
+   "73' Pablo Martín Páez Gavira (Spain) xG=0.056",
+   "89' Carlos Soler Barragán (Spain) xG=0.333",
+   "91' Álvaro Borja Morata Martín (Spain) xG=0.164"
+  ]
+ },
+ {
+  "match_id": 3857287,
+  "date": "2022-11-24",
+  "stage": "Group Stage",
+  "home_team": "Uruguay",
+  "away_team": "South Korea",
+  "home_score": 0,
+  "away_score": 0,
+  "winner": "Draw",
+  "team_xg": {
+   "Uruguay": 0.417,
+   "South Korea": 0.493
+  },
+  "scorers": []
+ },
+ {
+  "match_id": 3857290,
+  "date": "2022-11-24",
+  "stage": "Group Stage",
+  "home_team": "Switzerland",
+  "away_team": "Cameroon",
+  "home_score": 1,
+  "away_score": 0,
+  "winner": "Switzerland",
+  "team_xg": {
+   "Switzerland": 1.427,
+   "Cameroon": 0.613
+  },
+  "scorers": [
+   "47' Breel-Donald Embolo (Switzerland) xG=0.552"
+  ]
+ },
+ {
+  "match_id": 3857298,
+  "date": "2022-11-24",
+  "stage": "Group Stage",
+  "home_team": "Portugal",
+  "away_team": "Ghana",
+  "home_score": 3,
+  "away_score": 2,
+  "winner": "Portugal",
+  "team_xg": {
+   "Portugal": 2.097,
+   "Ghana": 0.78
+  },
+  "scorers": [
+   "64' Cristiano Ronaldo dos Santos Aveiro (Portugal) xG=0.783",
+   "72' André Ayew Pelé (Ghana) xG=0.485",
+   "77' João Félix Sequeira (Portugal) xG=0.215",
+   "79' Rafael Alexandre Conceição Leão (Portugal) xG=0.155",
+   "88' Osman Bukari (Ghana) xG=0.155"
+  ]
+ },
+ {
+  "match_id": 3857258,
+  "date": "2022-11-24",
+  "stage": "Group Stage",
+  "home_team": "Brazil",
+  "away_team": "Serbia",
+  "home_score": 2,
+  "away_score": 0,
+  "winner": "Brazil",
+  "team_xg": {
+   "Brazil": 2.124,
+   "Serbia": 0.163
+  },
+  "scorers": [
+   "61' Richarlison de Andrade (Brazil) xG=0.568",
+   "72' Richarlison de Andrade (Brazil) xG=0.076"
+  ]
+ },
+ {
+  "match_id": 3857273,
+  "date": "2022-11-25",
+  "stage": "Group Stage",
+  "home_team": "Wales",
+  "away_team": "Iran",
+  "home_score": 0,
+  "away_score": 2,
+  "winner": "Iran",
+  "team_xg": {
+   "Wales": 0.616,
+   "Iran": 1.454
+  },
+  "scorers": [
+   "97' Roozbeh Cheshmi (Iran) xG=0.033",
+   "100' Ramin Rezaeian (Iran) xG=0.199"
+  ]
+ },
+ {
+  "match_id": 3857301,
+  "date": "2022-11-25",
+  "stage": "Group Stage",
+  "home_team": "Qatar",
+  "away_team": "Senegal",
+  "home_score": 1,
+  "away_score": 3,
+  "winner": "Senegal",
+  "team_xg": {
+   "Qatar": 0.96,
+   "Senegal": 0.903
+  },
+  "scorers": [
+   "40' Boulaye Dia (Senegal) xG=0.231",
+   "47' Famara Diedhiou (Senegal) xG=0.038",
+   "77' Mohammed Muntari (Qatar) xG=0.072",
+   "83' Cheikh Ahmadou Bamba Mbacke Dieng (Senegal) xG=0.116"
+  ]
+ },
+ {
+  "match_id": 3857274,
+  "date": "2022-11-25",
+  "stage": "Group Stage",
+  "home_team": "Netherlands",
+  "away_team": "Ecuador",
+  "home_score": 1,
+  "away_score": 1,
+  "winner": "Draw",
+  "team_xg": {
+   "Netherlands": 0.104,
+   "Ecuador": 1.651
+  },
+  "scorers": [
+   "5' Cody Mathès Gakpo (Netherlands) xG=0.059",
+   "48' Enner Remberto Valencia Lastra (Ecuador) xG=0.791"
+  ]
+ },
+ {
+  "match_id": 3857272,
+  "date": "2022-11-25",
+  "stage": "Group Stage",
+  "home_team": "England",
+  "away_team": "United States",
+  "home_score": 0,
+  "away_score": 0,
+  "winner": "Draw",
+  "team_xg": {
+   "England": 0.461,
+   "United States": 0.514
+  },
+  "scorers": []
+ },
+ {
+  "match_id": 3857288,
+  "date": "2022-11-26",
+  "stage": "Group Stage",
+  "home_team": "Tunisia",
+  "away_team": "Australia",
+  "home_score": 0,
+  "away_score": 1,
+  "winner": "Australia",
+  "team_xg": {
+   "Tunisia": 1.052,
+   "Australia": 0.359
+  },
+  "scorers": [
+   "22' Mitchell Thomas Duke (Australia) xG=0.045"
+  ]
+ },
+ {
+  "match_id": 3857297,
+  "date": "2022-11-26",
+  "stage": "Group Stage",
+  "home_team": "Poland",
+  "away_team": "Saudi Arabia",
+  "home_score": 2,
+  "away_score": 0,
+  "winner": "Poland",
+  "team_xg": {
+   "Poland": 1.734,
+   "Saudi Arabia": 1.972
+  },
+  "scorers": [
+   "38' Piotr Zieliński (Poland) xG=0.235",
+   "81' Robert Lewandowski (Poland) xG=0.478"
+  ]
+ },
+ {
+  "match_id": 3857289,
+  "date": "2022-11-26",
+  "stage": "Group Stage",
+  "home_team": "Argentina",
+  "away_team": "Mexico",
+  "home_score": 2,
+  "away_score": 0,
+  "winner": "Argentina",
+  "team_xg": {
+   "Argentina": 0.325,
+   "Mexico": 0.206
+  },
+  "scorers": [
+   "63' Lionel Andrés Messi Cuccittini (Argentina) xG=0.034",
+   "86' Enzo Fernandez (Argentina) xG=0.035"
+  ]
+ },
+ {
+  "match_id": 3857266,
+  "date": "2022-11-26",
+  "stage": "Group Stage",
+  "home_team": "France",
+  "away_team": "Denmark",
+  "home_score": 2,
+  "away_score": 1,
+  "winner": "France",
+  "team_xg": {
+   "France": 1.934,
+   "Denmark": 0.889
+  },
+  "scorers": [
+   "60' Kylian Mbappé Lottin (France) xG=0.085",
+   "67' Andreas Christensen (Denmark) xG=0.254",
+   "85' Kylian Mbappé Lottin (France) xG=0.384"
+  ]
+ },
+ {
+  "match_id": 3857295,
+  "date": "2022-11-27",
+  "stage": "Group Stage",
+  "home_team": "Japan",
+  "away_team": "Costa Rica",
+  "home_score": 0,
+  "away_score": 1,
+  "winner": "Costa Rica",
+  "team_xg": {
+   "Japan": 0.774,
+   "Costa Rica": 0.199
+  },
+  "scorers": [
+   "80' Keysher Fuller Spence (Costa Rica) xG=0.12"
+  ]
+ },
+ {
+  "match_id": 3857283,
+  "date": "2022-11-27",
+  "stage": "Group Stage",
+  "home_team": "Belgium",
+  "away_team": "Morocco",
+  "home_score": 0,
+  "away_score": 2,
+  "winner": "Morocco",
+  "team_xg": {
+   "Belgium": 0.643,
+   "Morocco": 0.991
+  },
+  "scorers": [
+   "72' Romain Saïss (Morocco) xG=0.565",
+   "91' Zakaria Aboukhlal (Morocco) xG=0.181"
+  ]
+ },
+ {
+  "match_id": 3857281,
+  "date": "2022-11-27",
+  "stage": "Group Stage",
+  "home_team": "Croatia",
+  "away_team": "Canada",
+  "home_score": 4,
+  "away_score": 1,
+  "winner": "Croatia",
+  "team_xg": {
+   "Croatia": 2.61,
+   "Canada": 0.287
+  },
+  "scorers": [
+   "1' Alphonso Davies (Canada) xG=0.081",
+   "35' Andrej Kramarić (Croatia) xG=0.146",
+   "43' Marko Livaja (Croatia) xG=0.139",
+   "69' Andrej Kramarić (Croatia) xG=0.109",
+   "93' Lovro Majer (Croatia) xG=0.687"
+  ]
+ },
+ {
+  "match_id": 3857263,
+  "date": "2022-11-27",
+  "stage": "Group Stage",
+  "home_team": "Spain",
+  "away_team": "Germany",
+  "home_score": 1,
+  "away_score": 1,
+  "winner": "Draw",
+  "team_xg": {
+   "Spain": 0.64,
+   "Germany": 1.147
+  },
+  "scorers": [
+   "61' Álvaro Borja Morata Martín (Spain) xG=0.319",
+   "82' Niclas Füllkrug (Germany) xG=0.164"
+  ]
+ },
+ {
+  "match_id": 3857259,
+  "date": "2022-11-28",
+  "stage": "Group Stage",
+  "home_team": "Cameroon",
+  "away_team": "Serbia",
+  "home_score": 3,
+  "away_score": 3,
+  "winner": "Draw",
+  "team_xg": {
+   "Cameroon": 2.07,
+   "Serbia": 1.738
+  },
+  "scorers": [
+   "28' Jean-Charles Castelletto (Cameroon) xG=0.895",
+   "45' Strahinja Pavlović (Serbia) xG=0.079",
+   "47' Sergej Milinković-Savić (Serbia) xG=0.059",
+   "52' Aleksandar Mitrović (Serbia) xG=0.897",
+   "62' Vincent Paté Aboubakar (Cameroon) xG=0.283",
+   "65' Jean-Eric Maxim Choupo-Moting (Cameroon) xG=0.469"
+  ]
+ },
+ {
+  "match_id": 3857299,
+  "date": "2022-11-28",
+  "stage": "Group Stage",
+  "home_team": "South Korea",
+  "away_team": "Ghana",
+  "home_score": 2,
+  "away_score": 3,
+  "winner": "Ghana",
+  "team_xg": {
+   "South Korea": 1.368,
+   "Ghana": 1.181
+  },
+  "scorers": [
+   "23' Mohamed Salisu (Ghana) xG=0.404",
+   "33' Mohammed Kudus (Ghana) xG=0.201",
+   "57' Gue-Sung Cho (South Korea) xG=0.235",
+   "60' Gue-Sung Cho (South Korea) xG=0.162",
+   "67' Mohammed Kudus (Ghana) xG=0.154"
+  ]
+ },
+ {
+  "match_id": 3857269,
+  "date": "2022-11-28",
+  "stage": "Group Stage",
+  "home_team": "Brazil",
+  "away_team": "Switzerland",
+  "home_score": 1,
+  "away_score": 0,
+  "winner": "Brazil",
+  "team_xg": {
+   "Brazil": 0.923,
+   "Switzerland": 0.289
+  },
+  "scorers": [
+   "82' Carlos Henrique Casimiro (Brazil) xG=0.069"
+  ]
+ },
+ {
+  "match_id": 3857270,
+  "date": "2022-11-28",
+  "stage": "Group Stage",
+  "home_team": "Portugal",
+  "away_team": "Uruguay",
+  "home_score": 2,
+  "away_score": 0,
+  "winner": "Portugal",
+  "team_xg": {
+   "Portugal": 1.214,
+   "Uruguay": 1.217
+  },
+  "scorers": [
+   "53' Bruno Miguel Borges Fernandes (Portugal) xG=0.008",
+   "92' Bruno Miguel Borges Fernandes (Portugal) xG=0.783"
+  ]
+ },
+ {
+  "match_id": 3857267,
+  "date": "2022-11-29",
+  "stage": "Group Stage",
+  "home_team": "Ecuador",
+  "away_team": "Senegal",
+  "home_score": 1,
+  "away_score": 2,
+  "winner": "Senegal",
+  "team_xg": {
+   "Ecuador": 1.002,
+   "Senegal": 1.707
+  },
+  "scorers": [
+   "43' Ismaïla Sarr (Senegal) xG=0.783",
+   "66' Moisés Isaac Caicedo Corozo (Ecuador) xG=0.589",
+   "69' Kalidou Koulibaly (Senegal) xG=0.234"
+  ]
+ },
+ {
+  "match_id": 3857294,
+  "date": "2022-11-29",
+  "stage": "Group Stage",
+  "home_team": "Netherlands",
+  "away_team": "Qatar",
+  "home_score": 2,
+  "away_score": 0,
+  "winner": "Netherlands",
+  "team_xg": {
+   "Netherlands": 1.714,
+   "Qatar": 0.144
+  },
+  "scorers": [
+   "25' Cody Mathès Gakpo (Netherlands) xG=0.14",
+   "48' Frenkie de Jong (Netherlands) xG=0.688"
+  ]
+ },
+ {
+  "match_id": 3857278,
+  "date": "2022-11-29",
+  "stage": "Group Stage",
+  "home_team": "Iran",
+  "away_team": "United States",
+  "home_score": 0,
+  "away_score": 1,
+  "winner": "United States",
+  "team_xg": {
+   "Iran": 0.921,
+   "United States": 1.17
+  },
+  "scorers": [
+   "37' Christian Pulisic (United States) xG=0.53"
+  ]
+ },
+ {
+  "match_id": 3857261,
+  "date": "2022-11-29",
+  "stage": "Group Stage",
+  "home_team": "Wales",
+  "away_team": "England",
+  "home_score": 0,
+  "away_score": 3,
+  "winner": "England",
+  "team_xg": {
+   "Wales": 0.208,
+   "England": 2.915
+  },
+  "scorers": [
+   "49' Marcus Rashford (England) xG=0.058",
+   "50' Phil Foden (England) xG=0.44",
+   "67' Marcus Rashford (England) xG=0.097"
+  ]
+ },
+ {
+  "match_id": 3857275,
+  "date": "2022-11-30",
+  "stage": "Group Stage",
+  "home_team": "Tunisia",
+  "away_team": "France",
+  "home_score": 1,
+  "away_score": 0,
+  "winner": "Tunisia",
+  "team_xg": {
+   "Tunisia": 0.298,
+   "France": 0.477
+  },
+  "scorers": [
+   "57' Wahbi Khazri (Tunisia) xG=0.156"
+  ]
+ },
+ {
+  "match_id": 3857260,
+  "date": "2022-11-30",
+  "stage": "Group Stage",
+  "home_team": "Saudi Arabia",
+  "away_team": "Mexico",
+  "home_score": 1,
+  "away_score": 2,
+  "winner": "Mexico",
+  "team_xg": {
+   "Saudi Arabia": 1.076,
+   "Mexico": 2.322
+  },
+  "scorers": [
+   "46' Henry Josué Martín Mex (Mexico) xG=0.288",
+   "51' Luis Gerardo Chávez Magallón (Mexico) xG=0.024",
+   "94' Salem Mohammed Al Dawsari (Saudi Arabia) xG=0.516"
+  ]
+ },
+ {
+  "match_id": 3857257,
+  "date": "2022-11-30",
+  "stage": "Group Stage",
+  "home_team": "Australia",
+  "away_team": "Denmark",
+  "home_score": 1,
+  "away_score": 0,
+  "winner": "Australia",
+  "team_xg": {
+   "Australia": 0.47,
+   "Denmark": 0.737
+  },
+  "scorers": [
+   "59' Mathew Leckie (Australia) xG=0.114"
+  ]
+ },
+ {
+  "match_id": 3857264,
+  "date": "2022-11-30",
+  "stage": "Group Stage",
+  "home_team": "Poland",
+  "away_team": "Argentina",
+  "home_score": 0,
+  "away_score": 2,
+  "winner": "Argentina",
+  "team_xg": {
+   "Poland": 0.198,
+   "Argentina": 3.077
+  },
+  "scorers": [
+   "45' Alexis Mac Allister (Argentina) xG=0.108",
+   "66' Julián Álvarez (Argentina) xG=0.101"
+  ]
+ },
+ {
+  "match_id": 3857276,
+  "date": "2022-12-01",
+  "stage": "Group Stage",
+  "home_team": "Canada",
+  "away_team": "Morocco",
+  "home_score": 1,
+  "away_score": 2,
+  "winner": "Morocco",
+  "team_xg": {
+   "Canada": 1.096,
+   "Morocco": 0.426
+  },
+  "scorers": [
+   "3' Hakim Ziyech (Morocco) xG=0.024",
+   "22' Youssef En-Nesyri (Morocco) xG=0.104",
+   "39' Nayef Aguerd (Canada) xG=None"
+  ]
+ },
+ {
+  "match_id": 3857296,
+  "date": "2022-12-01",
+  "stage": "Group Stage",
+  "home_team": "Croatia",
+  "away_team": "Belgium",
+  "home_score": 0,
+  "away_score": 0,
+  "winner": "Draw",
+  "team_xg": {
+   "Croatia": 0.695,
+   "Belgium": 2.382
+  },
+  "scorers": []
+ },
+ {
+  "match_id": 3857292,
+  "date": "2022-12-01",
+  "stage": "Group Stage",
+  "home_team": "Costa Rica",
+  "away_team": "Germany",
+  "home_score": 2,
+  "away_score": 4,
+  "winner": "Germany",
+  "team_xg": {
+   "Costa Rica": 1.035,
+   "Germany": 4.316
+  },
+  "scorers": [
+   "9' Serge Gnabry (Germany) xG=0.09",
+   "57' Yeltsin Ignacio Tejeda Valverde (Costa Rica) xG=0.48",
+   "69' Manuel Neuer (Costa Rica) xG=None",
+   "72' Kai Havertz (Germany) xG=0.475",
+   "84' Kai Havertz (Germany) xG=0.31",
+   "88' Niclas Füllkrug (Germany) xG=0.51"
+  ]
+ },
+ {
+  "match_id": 3857255,
+  "date": "2022-12-01",
+  "stage": "Group Stage",
+  "home_team": "Japan",
+  "away_team": "Spain",
+  "home_score": 2,
+  "away_score": 1,
+  "winner": "Japan",
+  "team_xg": {
+   "Japan": 1.158,
+   "Spain": 0.858
+  },
+  "scorers": [
+   "11' Álvaro Borja Morata Martín (Spain) xG=0.331",
+   "47' Ritsu Doan (Japan) xG=0.028",
+   "50' Ao Tanaka (Japan) xG=0.873"
+  ]
+ },
+ {
+  "match_id": 3857293,
+  "date": "2022-12-02",
+  "stage": "Group Stage",
+  "home_team": "Ghana",
+  "away_team": "Uruguay",
+  "home_score": 0,
+  "away_score": 2,
+  "winner": "Uruguay",
+  "team_xg": {
+   "Ghana": 1.393,
+   "Uruguay": 1.637
+  },
+  "scorers": [
+   "25' Giorgian Daniel De Arrascaeta Benedetti (Uruguay) xG=0.711",
+   "31' Giorgian Daniel De Arrascaeta Benedetti (Uruguay) xG=0.167"
+  ]
+ },
+ {
+  "match_id": 3857262,
+  "date": "2022-12-02",
+  "stage": "Group Stage",
+  "home_team": "South Korea",
+  "away_team": "Portugal",
+  "home_score": 2,
+  "away_score": 1,
+  "winner": "South Korea",
+  "team_xg": {
+   "South Korea": 1.399,
+   "Portugal": 0.974
+  },
+  "scorers": [
+   "4' Ricardo Jorge Luz Horta (Portugal) xG=0.292",
+   "26' Young-Gwon Kim (South Korea) xG=0.624",
+   "90' Hee-Chan Hwang (South Korea) xG=0.422"
+  ]
+ },
+ {
+  "match_id": 3857280,
+  "date": "2022-12-02",
+  "stage": "Group Stage",
+  "home_team": "Cameroon",
+  "away_team": "Brazil",
+  "home_score": 1,
+  "away_score": 0,
+  "winner": "Cameroon",
+  "team_xg": {
+   "Cameroon": 0.383,
+   "Brazil": 2.378
+  },
+  "scorers": [
+   "91' Vincent Paté Aboubakar (Cameroon) xG=0.055"
+  ]
+ },
+ {
+  "match_id": 3857256,
+  "date": "2022-12-02",
+  "stage": "Group Stage",
+  "home_team": "Serbia",
+  "away_team": "Switzerland",
+  "home_score": 2,
+  "away_score": 3,
+  "winner": "Switzerland",
+  "team_xg": {
+   "Serbia": 1.189,
+   "Switzerland": 3.104
+  },
+  "scorers": [
+   "19' Xherdan Shaqiri (Switzerland) xG=0.07",
+   "25' Aleksandar Mitrović (Serbia) xG=0.064",
+   "34' Dušan Vlahović (Serbia) xG=0.159",
+   "43' Breel-Donald Embolo (Switzerland) xG=0.727",
+   "47' Remo Freuler (Switzerland) xG=0.154"
+  ]
+ },
+ {
+  "match_id": 3869117,
+  "date": "2022-12-03",
+  "stage": "Round of 16",
+  "home_team": "Netherlands",
+  "away_team": "United States",
+  "home_score": 3,
+  "away_score": 1,
+  "winner": "Netherlands",
+  "team_xg": {
+   "Netherlands": 1.482,
+   "United States": 1.652
+  },
+  "scorers": [
+   "9' Memphis Depay (Netherlands) xG=0.162",
+   "45' Daley Blind (Netherlands) xG=0.25",
+   "75' Haji Wright (United States) xG=0.364",
+   "80' Denzel Dumfries (Netherlands) xG=0.236"
+  ]
+ },
+ {
+  "match_id": 3869151,
+  "date": "2022-12-03",
+  "stage": "Round of 16",
+  "home_team": "Argentina",
+  "away_team": "Australia",
+  "home_score": 2,
+  "away_score": 1,
+  "winner": "Argentina",
+  "team_xg": {
+   "Argentina": 1.482,
+   "Australia": 0.426
+  },
+  "scorers": [
+   "34' Lionel Andrés Messi Cuccittini (Argentina) xG=0.067",
+   "56' Julián Álvarez (Argentina) xG=0.281",
+   "76' Enzo Fernandez (Australia) xG=None"
+  ]
+ },
+ {
+  "match_id": 3869152,
+  "date": "2022-12-04",
+  "stage": "Round of 16",
+  "home_team": "France",
+  "away_team": "Poland",
+  "home_score": 3,
+  "away_score": 1,
+  "winner": "France",
+  "team_xg": {
+   "France": 1.126,
+   "Poland": 1.594
+  },
+  "scorers": [
+   "43' Olivier Giroud (France) xG=0.286",
+   "73' Kylian Mbappé Lottin (France) xG=0.087",
+   "90' Kylian Mbappé Lottin (France) xG=0.043",
+   "98' Robert Lewandowski (Poland) xG=0.783"
+  ]
+ },
+ {
+  "match_id": 3869118,
+  "date": "2022-12-04",
+  "stage": "Round of 16",
+  "home_team": "England",
+  "away_team": "Senegal",
+  "home_score": 3,
+  "away_score": 0,
+  "winner": "England",
+  "team_xg": {
+   "England": 1.02,
+   "Senegal": 0.973
+  },
+  "scorers": [
+   "38' Jordan Brian Henderson (England) xG=0.132",
+   "47' Harry Kane (England) xG=0.207",
+   "56' Bukayo Saka (England) xG=0.217"
+  ]
+ },
+ {
+  "match_id": 3869219,
+  "date": "2022-12-05",
+  "stage": "Round of 16",
+  "home_team": "Japan",
+  "away_team": "Croatia",
+  "home_score": 1,
+  "away_score": 1,
+  "winner": "Draw",
+  "team_xg": {
+   "Japan": 1.069,
+   "Croatia": 0.854
+  },
+  "scorers": [
+   "42' Daizen Maeda (Japan) xG=0.459",
+   "54' Ivan Perišić (Croatia) xG=0.027"
+  ]
+ },
+ {
+  "match_id": 3869253,
+  "date": "2022-12-05",
+  "stage": "Round of 16",
+  "home_team": "Brazil",
+  "away_team": "South Korea",
+  "home_score": 4,
+  "away_score": 1,
+  "winner": "Brazil",
+  "team_xg": {
+   "Brazil": 3.261,
+   "South Korea": 0.345
+  },
+  "scorers": [
+   "6' Vinícius José Paixão de Oliveira Júnior (Brazil) xG=0.131",
+   "12' Neymar da Silva Santos Junior (Brazil) xG=0.783",
+   "28' Richarlison de Andrade (Brazil) xG=0.538",
+   "35' Lucas Tolentino Coelho de Lima (Brazil) xG=0.086",
+   "75' Seung-Ho Paik (South Korea) xG=0.023"
+  ]
+ },
+ {
+  "match_id": 3869254,
+  "date": "2022-12-06",
+  "stage": "Round of 16",
+  "home_team": "Portugal",
+  "away_team": "Switzerland",
+  "home_score": 6,
+  "away_score": 1,
+  "winner": "Portugal",
+  "team_xg": {
+   "Portugal": 2.284,
+   "Switzerland": 1.272
+  },
+  "scorers": [
+   "16' Gonçalo Matias Ramos (Portugal) xG=0.101",
+   "32' Kléper Laveran Lima Ferreira (Portugal) xG=0.128",
+   "50' Gonçalo Matias Ramos (Portugal) xG=0.509",
+   "54' Raphaël Adelino José Guerreiro (Portugal) xG=0.358",
+   "57' Manuel Obafemi Akanji (Switzerland) xG=0.669",
+   "66' Gonçalo Matias Ramos (Portugal) xG=0.467",
+   "91' Rafael Alexandre Conceição Leão (Portugal) xG=0.01"
+  ]
+ },
+ {
+  "match_id": 3869220,
+  "date": "2022-12-06",
+  "stage": "Round of 16",
+  "home_team": "Morocco",
+  "away_team": "Spain",
+  "home_score": 0,
+  "away_score": 0,
+  "winner": "Draw",
+  "team_xg": {
+   "Morocco": 0.57,
+   "Spain": 0.495
+  },
+  "scorers": []
+ },
+ {
+  "match_id": 3869420,
+  "date": "2022-12-09",
+  "stage": "Quarter-finals",
+  "home_team": "Croatia",
+  "away_team": "Brazil",
+  "home_score": 1,
+  "away_score": 1,
+  "winner": "Draw",
+  "team_xg": {
+   "Croatia": 0.633,
+   "Brazil": 1.816
+  },
+  "scorers": [
+   "105' Neymar da Silva Santos Junior (Brazil) xG=0.467",
+   "116' Bruno Petković (Croatia) xG=0.1"
+  ]
+ },
+ {
+  "match_id": 3869321,
+  "date": "2022-12-09",
+  "stage": "Quarter-finals",
+  "home_team": "Netherlands",
+  "away_team": "Argentina",
+  "home_score": 2,
+  "away_score": 2,
+  "winner": "Draw",
+  "team_xg": {
+   "Netherlands": 0.57,
+   "Argentina": 1.939
+  },
+  "scorers": [
+   "34' Nahuel Molina Lucero (Argentina) xG=0.434",
+   "72' Lionel Andrés Messi Cuccittini (Argentina) xG=0.783",
+   "82' Wout Weghorst (Netherlands) xG=0.047",
+   "100' Wout Weghorst (Netherlands) xG=0.22"
+  ]
+ },
+ {
+  "match_id": 3869486,
+  "date": "2022-12-10",
+  "stage": "Quarter-finals",
+  "home_team": "Morocco",
+  "away_team": "Portugal",
+  "home_score": 1,
+  "away_score": 0,
+  "winner": "Morocco",
+  "team_xg": {
+   "Morocco": 0.972,
+   "Portugal": 0.744
+  },
+  "scorers": [
+   "41' Youssef En-Nesyri (Morocco) xG=0.2"
+  ]
+ },
+ {
+  "match_id": 3869354,
+  "date": "2022-12-10",
+  "stage": "Quarter-finals",
+  "home_team": "England",
+  "away_team": "France",
+  "home_score": 1,
+  "away_score": 2,
+  "winner": "France",
+  "team_xg": {
+   "England": 2.353,
+   "France": 0.839
+  },
+  "scorers": [
+   "16' Aurélien Djani Tchouaméni (France) xG=0.028",
+   "53' Harry Kane (England) xG=0.783",
+   "77' Olivier Giroud (France) xG=0.147"
+  ]
+ },
+ {
+  "match_id": 3869519,
+  "date": "2022-12-13",
+  "stage": "Semi-finals",
+  "home_team": "Argentina",
+  "away_team": "Croatia",
+  "home_score": 3,
+  "away_score": 0,
+  "winner": "Argentina",
+  "team_xg": {
+   "Argentina": 1.864,
+   "Croatia": 0.41
+  },
+  "scorers": [
+   "33' Lionel Andrés Messi Cuccittini (Argentina) xG=0.783",
+   "38' Julián Álvarez (Argentina) xG=0.362",
+   "68' Julián Álvarez (Argentina) xG=0.334"
+  ]
+ },
+ {
+  "match_id": 3869552,
+  "date": "2022-12-14",
+  "stage": "Semi-finals",
+  "home_team": "France",
+  "away_team": "Morocco",
+  "home_score": 2,
+  "away_score": 0,
+  "winner": "France",
+  "team_xg": {
+   "France": 2.002,
+   "Morocco": 1.23
+  },
+  "scorers": [
+   "4' Theo Bernard François Hernández (France) xG=0.098",
+   "78' Randal Kolo Muani (France) xG=0.852"
+  ]
+ },
+ {
+  "match_id": 3869684,
+  "date": "2022-12-17",
+  "stage": "3rd Place Final",
+  "home_team": "Croatia",
+  "away_team": "Morocco",
+  "home_score": 2,
+  "away_score": 1,
+  "winner": "Croatia",
+  "team_xg": {
+   "Croatia": 0.849,
+   "Morocco": 0.991
+  },
+  "scorers": [
+   "6' Joško Gvardiol (Croatia) xG=0.124",
+   "8' Achraf Dari (Morocco) xG=0.418",
+   "41' Mislav Oršić (Croatia) xG=0.013"
+  ]
+ },
+ {
+  "match_id": 3869685,
+  "date": "2022-12-18",
+  "stage": "Final",
+  "home_team": "Argentina",
+  "away_team": "France",
+  "home_score": 3,
+  "away_score": 3,
+  "winner": "Draw",
+  "team_xg": {
+   "Argentina": 2.758,
+   "France": 2.273
+  },
+  "scorers": [
+   "22' Lionel Andrés Messi Cuccittini (Argentina) xG=0.783",
+   "35' Ángel Fabián Di María Hernández (Argentina) xG=0.303",
+   "79' Kylian Mbappé Lottin (France) xG=0.783",
+   "80' Kylian Mbappé Lottin (France) xG=0.102",
+   "107' Lionel Andrés Messi Cuccittini (Argentina) xG=0.488",
+   "117' Kylian Mbappé Lottin (France) xG=0.783"
+  ]
+ }
+]

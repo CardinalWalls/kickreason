@@ -1,0 +1,80 @@
+{
+ "match_id": 3857266,
+ "date": "2022-11-26",
+ "stage": "Group Stage",
+ "home_team": "France",
+ "away_team": "Denmark",
+ "score": {
+  "home": 2,
+  "away": 1
+ },
+ "winner": "France",
+ "team_xg": {
+  "France": 1.934,
+  "Denmark": 0.889
+ },
+ "shots": {
+  "France": 21,
+  "Denmark": 10
+ },
+ "shots_on_target": {
+  "France": 6,
+  "Denmark": 2
+ },
+ "possession_proxy_pass_share": {
+  "France": 0.488,
+  "Denmark": 0.512
+ },
+ "goals": [
+  {
+   "minute": 60,
+   "second": 25,
+   "player": "Kylian Mbappé Lottin",
+   "team": "France",
+   "xg": 0.085,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 67,
+   "second": 15,
+   "player": "Andreas Christensen",
+   "team": "Denmark",
+   "xg": 0.254,
+   "type": "Open Play",
+   "body_part": "Head"
+  },
+  {
+   "minute": 85,
+   "second": 9,
+   "player": "Kylian Mbappé Lottin",
+   "team": "France",
+   "xg": 0.384,
+   "type": "Open Play",
+   "body_part": "Other"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 19,
+   "player": "Andreas Christensen",
+   "team": "Denmark",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 22,
+   "player": "Andreas Evald Cornelius",
+   "team": "Denmark",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 42,
+   "player": "Jules Koundé",
+   "team": "France",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3853,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

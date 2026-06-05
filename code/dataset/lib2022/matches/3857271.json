@@ -1,0 +1,119 @@
+{
+ "match_id": 3857271,
+ "date": "2022-11-21",
+ "stage": "Group Stage",
+ "home_team": "England",
+ "away_team": "Iran",
+ "score": {
+  "home": 6,
+  "away": 2
+ },
+ "winner": "England",
+ "team_xg": {
+  "England": 1.987,
+  "Iran": 1.456
+ },
+ "shots": {
+  "England": 13,
+  "Iran": 8
+ },
+ "shots_on_target": {
+  "England": 7,
+  "Iran": 2
+ },
+ "possession_proxy_pass_share": {
+  "England": 0.774,
+  "Iran": 0.226
+ },
+ "goals": [
+  {
+   "minute": 34,
+   "second": 9,
+   "player": "Jude Bellingham",
+   "team": "England",
+   "xg": 0.083,
+   "type": "Open Play",
+   "body_part": "Head"
+  },
+  {
+   "minute": 42,
+   "second": 46,
+   "player": "Bukayo Saka",
+   "team": "England",
+   "xg": 0.061,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  },
+  {
+   "minute": 45,
+   "second": 17,
+   "player": "Raheem Sterling",
+   "team": "England",
+   "xg": 0.189,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 61,
+   "second": 26,
+   "player": "Bukayo Saka",
+   "team": "England",
+   "xg": 0.08,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  },
+  {
+   "minute": 64,
+   "second": 33,
+   "player": "Mehdi Taremi",
+   "team": "Iran",
+   "xg": 0.066,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 70,
+   "second": 51,
+   "player": "Marcus Rashford",
+   "team": "England",
+   "xg": 0.408,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  },
+  {
+   "minute": 89,
+   "second": 1,
+   "player": "Jack Grealish",
+   "team": "England",
+   "xg": 0.626,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 102,
+   "second": 30,
+   "player": "Mehdi Taremi",
+   "team": "Iran",
+   "xg": 0.783,
+   "type": "Penalty",
+   "body_part": "Right Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 24,
+   "player": "Alireza Jahanbakhsh",
+   "team": "Iran",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 47,
+   "player": "Morteza Pouraliganji",
+   "team": "Iran",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3649,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

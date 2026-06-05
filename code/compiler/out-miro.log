@@ -1,0 +1,4 @@
+compiled 10 turns → 16 concepts, 49 edges, 11 facts, 45 steps, 6 decisions
+freeze: v1-final
+gate_pack.entry_satisfied=True escalation=needs_user_clarification
+artifacts → out-miro/ (gate_pack.json, trajectory-bootstrap.index.json, trajectory-bootstrap.md)

@@ -1,0 +1,124 @@
+{
+ "match_id": 3869420,
+ "date": "2022-12-09",
+ "stage": "Quarter-finals",
+ "home_team": "Croatia",
+ "away_team": "Brazil",
+ "score": {
+  "home": 1,
+  "away": 1
+ },
+ "winner": "Draw",
+ "team_xg": {
+  "Croatia": 0.633,
+  "Brazil": 1.816
+ },
+ "shots": {
+  "Croatia": 9,
+  "Brazil": 20
+ },
+ "shots_on_target": {
+  "Croatia": 1,
+  "Brazil": 11
+ },
+ "possession_proxy_pass_share": {
+  "Croatia": 0.497,
+  "Brazil": 0.503
+ },
+ "goals": [
+  {
+   "minute": 105,
+   "second": 35,
+   "player": "Neymar da Silva Santos Junior",
+   "team": "Brazil",
+   "xg": 0.467,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 116,
+   "second": 2,
+   "player": "Bruno Petković",
+   "team": "Croatia",
+   "xg": 0.1,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  }
+ ],
+ "shootout": [
+  {
+   "player": "Nikola Vlašić",
+   "team": "Croatia",
+   "outcome": "Goal"
+  },
+  {
+   "player": "Rodrygo Silva de Goes",
+   "team": "Brazil",
+   "outcome": "Saved"
+  },
+  {
+   "player": "Lovro Majer",
+   "team": "Croatia",
+   "outcome": "Goal"
+  },
+  {
+   "player": "Carlos Henrique Casimiro",
+   "team": "Brazil",
+   "outcome": "Goal"
+  },
+  {
+   "player": "Luka Modrić",
+   "team": "Croatia",
+   "outcome": "Goal"
+  },
+  {
+   "player": "Pedro Guilherme Abreu dos Santos",
+   "team": "Brazil",
+   "outcome": "Goal"
+  },
+  {
+   "player": "Mislav Oršić",
+   "team": "Croatia",
+   "outcome": "Goal"
+  },
+  {
+   "player": "Marcos Aoás Corrêa",
+   "team": "Brazil",
+   "outcome": "Post"
+  }
+ ],
+ "cards": [
+  {
+   "minute": 24,
+   "player": "Danilo Luiz da Silva",
+   "team": "Brazil",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 30,
+   "player": "Marcelo Brozović",
+   "team": "Croatia",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 67,
+   "player": "Carlos Henrique Casimiro",
+   "team": "Brazil",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 76,
+   "player": "Marcos Aoás Corrêa",
+   "team": "Brazil",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 116,
+   "player": "Bruno Petković",
+   "team": "Croatia",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 5145,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

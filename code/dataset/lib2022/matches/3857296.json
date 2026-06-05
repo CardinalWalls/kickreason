@@ -1,0 +1,40 @@
+{
+ "match_id": 3857296,
+ "date": "2022-12-01",
+ "stage": "Group Stage",
+ "home_team": "Croatia",
+ "away_team": "Belgium",
+ "score": {
+  "home": 0,
+  "away": 0
+ },
+ "winner": "Draw",
+ "team_xg": {
+  "Croatia": 0.695,
+  "Belgium": 2.382
+ },
+ "shots": {
+  "Croatia": 11,
+  "Belgium": 16
+ },
+ "shots_on_target": {
+  "Croatia": 4,
+  "Belgium": 3
+ },
+ "possession_proxy_pass_share": {
+  "Croatia": 0.492,
+  "Belgium": 0.508
+ },
+ "goals": [],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 65,
+   "player": "Leander Dendoncker",
+   "team": "Belgium",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 4116,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

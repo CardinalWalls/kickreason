@@ -1,0 +1,98 @@
+{
+ "match_id": 3857300,
+ "date": "2022-11-22",
+ "stage": "Group Stage",
+ "home_team": "Argentina",
+ "away_team": "Saudi Arabia",
+ "score": {
+  "home": 1,
+  "away": 2
+ },
+ "winner": "Saudi Arabia",
+ "team_xg": {
+  "Argentina": 2.492,
+  "Saudi Arabia": 0.153
+ },
+ "shots": {
+  "Argentina": 15,
+  "Saudi Arabia": 3
+ },
+ "shots_on_target": {
+  "Argentina": 6,
+  "Saudi Arabia": 2
+ },
+ "possession_proxy_pass_share": {
+  "Argentina": 0.693,
+  "Saudi Arabia": 0.307
+ },
+ "goals": [
+  {
+   "minute": 9,
+   "second": 15,
+   "player": "Lionel Andrés Messi Cuccittini",
+   "team": "Argentina",
+   "xg": 0.783,
+   "type": "Penalty",
+   "body_part": "Left Foot"
+  },
+  {
+   "minute": 47,
+   "second": 40,
+   "player": "Saleh Khalid Al Shehri",
+   "team": "Saudi Arabia",
+   "xg": 0.081,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  },
+  {
+   "minute": 52,
+   "second": 44,
+   "player": "Salem Mohammed Al Dawsari",
+   "team": "Saudi Arabia",
+   "xg": 0.033,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 66,
+   "player": "Abdulelah Saad Hameed Al-Malki",
+   "team": "Saudi Arabia",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 74,
+   "player": "Ali Albulayhi",
+   "team": "Saudi Arabia",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 78,
+   "player": "Salem Mohammed Al Dawsari",
+   "team": "Saudi Arabia",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 81,
+   "player": "Saud Abdullah Abdul Hamid",
+   "team": "Saudi Arabia",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 87,
+   "player": "Nawaf Shaker Al Abid",
+   "team": "Saudi Arabia",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 91,
+   "player": "Mohammed Khalil Al Owais",
+   "team": "Saudi Arabia",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3329,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

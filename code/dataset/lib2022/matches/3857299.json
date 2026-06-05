@@ -1,0 +1,104 @@
+{
+ "match_id": 3857299,
+ "date": "2022-11-28",
+ "stage": "Group Stage",
+ "home_team": "South Korea",
+ "away_team": "Ghana",
+ "score": {
+  "home": 2,
+  "away": 3
+ },
+ "winner": "Ghana",
+ "team_xg": {
+  "South Korea": 1.368,
+  "Ghana": 1.181
+ },
+ "shots": {
+  "South Korea": 21,
+  "Ghana": 7
+ },
+ "shots_on_target": {
+  "South Korea": 6,
+  "Ghana": 3
+ },
+ "possession_proxy_pass_share": {
+  "South Korea": 0.64,
+  "Ghana": 0.36
+ },
+ "goals": [
+  {
+   "minute": 23,
+   "second": 43,
+   "player": "Mohamed Salisu",
+   "team": "Ghana",
+   "xg": 0.404,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  },
+  {
+   "minute": 33,
+   "second": 49,
+   "player": "Mohammed Kudus",
+   "team": "Ghana",
+   "xg": 0.201,
+   "type": "Open Play",
+   "body_part": "Head"
+  },
+  {
+   "minute": 57,
+   "second": 19,
+   "player": "Gue-Sung Cho",
+   "team": "South Korea",
+   "xg": 0.235,
+   "type": "Open Play",
+   "body_part": "Head"
+  },
+  {
+   "minute": 60,
+   "second": 7,
+   "player": "Gue-Sung Cho",
+   "team": "South Korea",
+   "xg": 0.162,
+   "type": "Open Play",
+   "body_part": "Head"
+  },
+  {
+   "minute": 67,
+   "second": 52,
+   "player": "Mohammed Kudus",
+   "team": "Ghana",
+   "xg": 0.154,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 19,
+   "player": "Daniel Amartey",
+   "team": "Ghana",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 26,
+   "player": "Woo-Young Jung",
+   "team": "South Korea",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 72,
+   "player": "Tariq Lamptey",
+   "team": "Ghana",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 76,
+   "player": "Young-Gwon Kim",
+   "team": "South Korea",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3346,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

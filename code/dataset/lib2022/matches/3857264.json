@@ -1,0 +1,65 @@
+{
+ "match_id": 3857264,
+ "date": "2022-11-30",
+ "stage": "Group Stage",
+ "home_team": "Poland",
+ "away_team": "Argentina",
+ "score": {
+  "home": 0,
+  "away": 2
+ },
+ "winner": "Argentina",
+ "team_xg": {
+  "Poland": 0.198,
+  "Argentina": 3.077
+ },
+ "shots": {
+  "Poland": 4,
+  "Argentina": 24
+ },
+ "shots_on_target": {
+  "Poland": 0,
+  "Argentina": 13
+ },
+ "possession_proxy_pass_share": {
+  "Poland": 0.27,
+  "Argentina": 0.73
+ },
+ "goals": [
+  {
+   "minute": 45,
+   "second": 53,
+   "player": "Alexis Mac Allister",
+   "team": "Argentina",
+   "xg": 0.108,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 66,
+   "second": 57,
+   "player": "Julián Álvarez",
+   "team": "Argentina",
+   "xg": 0.101,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 48,
+   "player": "Marcos Javier Acuña",
+   "team": "Argentina",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 77,
+   "player": "Grzegorz Krychowiak",
+   "team": "Poland",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 4052,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

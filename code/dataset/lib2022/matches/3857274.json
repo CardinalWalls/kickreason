@@ -1,0 +1,59 @@
+{
+ "match_id": 3857274,
+ "date": "2022-11-25",
+ "stage": "Group Stage",
+ "home_team": "Netherlands",
+ "away_team": "Ecuador",
+ "score": {
+  "home": 1,
+  "away": 1
+ },
+ "winner": "Draw",
+ "team_xg": {
+  "Netherlands": 0.104,
+  "Ecuador": 1.651
+ },
+ "shots": {
+  "Netherlands": 2,
+  "Ecuador": 15
+ },
+ "shots_on_target": {
+  "Netherlands": 1,
+  "Ecuador": 4
+ },
+ "possession_proxy_pass_share": {
+  "Netherlands": 0.544,
+  "Ecuador": 0.456
+ },
+ "goals": [
+  {
+   "minute": 5,
+   "second": 3,
+   "player": "Cody Mathès Gakpo",
+   "team": "Netherlands",
+   "xg": 0.059,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  },
+  {
+   "minute": 48,
+   "second": 44,
+   "player": "Enner Remberto Valencia Lastra",
+   "team": "Ecuador",
+   "xg": 0.791,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 56,
+   "player": "Jhegson Sebastián Méndez Carabalí",
+   "team": "Ecuador",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3563,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

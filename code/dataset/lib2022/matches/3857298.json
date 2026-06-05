@@ -1,0 +1,116 @@
+{
+ "match_id": 3857298,
+ "date": "2022-11-24",
+ "stage": "Group Stage",
+ "home_team": "Portugal",
+ "away_team": "Ghana",
+ "score": {
+  "home": 3,
+  "away": 2
+ },
+ "winner": "Portugal",
+ "team_xg": {
+  "Portugal": 2.097,
+  "Ghana": 0.78
+ },
+ "shots": {
+  "Portugal": 11,
+  "Ghana": 9
+ },
+ "shots_on_target": {
+  "Portugal": 5,
+  "Ghana": 3
+ },
+ "possession_proxy_pass_share": {
+  "Portugal": 0.616,
+  "Ghana": 0.384
+ },
+ "goals": [
+  {
+   "minute": 64,
+   "second": 20,
+   "player": "Cristiano Ronaldo dos Santos Aveiro",
+   "team": "Portugal",
+   "xg": 0.783,
+   "type": "Penalty",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 72,
+   "second": 11,
+   "player": "André Ayew Pelé",
+   "team": "Ghana",
+   "xg": 0.485,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 77,
+   "second": 6,
+   "player": "João Félix Sequeira",
+   "team": "Portugal",
+   "xg": 0.215,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 79,
+   "second": 21,
+   "player": "Rafael Alexandre Conceição Leão",
+   "team": "Portugal",
+   "xg": 0.155,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 88,
+   "second": 28,
+   "player": "Osman Bukari",
+   "team": "Ghana",
+   "xg": 0.155,
+   "type": "Open Play",
+   "body_part": "Head"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 44,
+   "player": "Mohammed Kudus",
+   "team": "Ghana",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 48,
+   "player": "André Ayew Pelé",
+   "team": "Ghana",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 56,
+   "player": "Alidu Seidu",
+   "team": "Ghana",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 89,
+   "player": "Danilo Luís Hélio Pereira",
+   "team": "Portugal",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 90,
+   "player": "Iñaki Williams Arthuer",
+   "team": "Ghana",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 94,
+   "player": "Bruno Miguel Borges Fernandes",
+   "team": "Portugal",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3738,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

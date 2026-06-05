@@ -1,0 +1,104 @@
+{
+ "match_id": 3857260,
+ "date": "2022-11-30",
+ "stage": "Group Stage",
+ "home_team": "Saudi Arabia",
+ "away_team": "Mexico",
+ "score": {
+  "home": 1,
+  "away": 2
+ },
+ "winner": "Mexico",
+ "team_xg": {
+  "Saudi Arabia": 1.076,
+  "Mexico": 2.322
+ },
+ "shots": {
+  "Saudi Arabia": 10,
+  "Mexico": 26
+ },
+ "shots_on_target": {
+  "Saudi Arabia": 2,
+  "Mexico": 10
+ },
+ "possession_proxy_pass_share": {
+  "Saudi Arabia": 0.398,
+  "Mexico": 0.602
+ },
+ "goals": [
+  {
+   "minute": 46,
+   "second": 52,
+   "player": "Henry Josué Martín Mex",
+   "team": "Mexico",
+   "xg": 0.288,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  },
+  {
+   "minute": 51,
+   "second": 56,
+   "player": "Luis Gerardo Chávez Magallón",
+   "team": "Mexico",
+   "xg": 0.024,
+   "type": "Free Kick",
+   "body_part": "Left Foot"
+  },
+  {
+   "minute": 94,
+   "second": 40,
+   "player": "Salem Mohammed Al Dawsari",
+   "team": "Saudi Arabia",
+   "xg": 0.516,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 14,
+   "player": "Edson Omar Álvarez Velázquez",
+   "team": "Mexico",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 27,
+   "player": "Saleh Khalid Al Shehri",
+   "team": "Saudi Arabia",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 33,
+   "player": "Ali Al Hassan",
+   "team": "Saudi Arabia",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 51,
+   "player": "Hassan Mohammed Al-Tambakti",
+   "team": "Saudi Arabia",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 80,
+   "player": "Abdullah Mohammed Madu",
+   "team": "Saudi Arabia",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 90,
+   "player": "Abdulelah Al Amri",
+   "team": "Saudi Arabia",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 96,
+   "player": "Hattan Babhir",
+   "team": "Saudi Arabia",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 2912,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

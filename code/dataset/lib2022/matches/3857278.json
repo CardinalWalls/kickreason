@@ -1,0 +1,68 @@
+{
+ "match_id": 3857278,
+ "date": "2022-11-29",
+ "stage": "Group Stage",
+ "home_team": "Iran",
+ "away_team": "United States",
+ "score": {
+  "home": 0,
+  "away": 1
+ },
+ "winner": "United States",
+ "team_xg": {
+  "Iran": 0.921,
+  "United States": 1.17
+ },
+ "shots": {
+  "Iran": 4,
+  "United States": 12
+ },
+ "shots_on_target": {
+  "Iran": 1,
+  "United States": 5
+ },
+ "possession_proxy_pass_share": {
+  "Iran": 0.499,
+  "United States": 0.501
+ },
+ "goals": [
+  {
+   "minute": 37,
+   "second": 49,
+   "player": "Christian Pulisic",
+   "team": "United States",
+   "xg": 0.53,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 42,
+   "player": "Tyler Adams",
+   "team": "United States",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 76,
+   "player": "Seyed Majid Hosseini",
+   "team": "Iran",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 82,
+   "player": "Mohammad Hossein Kanani Zadegan",
+   "team": "Iran",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 95,
+   "player": "Abolfazl Jalali",
+   "team": "Iran",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3596,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

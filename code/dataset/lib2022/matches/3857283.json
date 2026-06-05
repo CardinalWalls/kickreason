@@ -1,0 +1,65 @@
+{
+ "match_id": 3857283,
+ "date": "2022-11-27",
+ "stage": "Group Stage",
+ "home_team": "Belgium",
+ "away_team": "Morocco",
+ "score": {
+  "home": 0,
+  "away": 2
+ },
+ "winner": "Morocco",
+ "team_xg": {
+  "Belgium": 0.643,
+  "Morocco": 0.991
+ },
+ "shots": {
+  "Belgium": 10,
+  "Morocco": 10
+ },
+ "shots_on_target": {
+  "Belgium": 4,
+  "Morocco": 4
+ },
+ "possession_proxy_pass_share": {
+  "Belgium": 0.67,
+  "Morocco": 0.33
+ },
+ "goals": [
+  {
+   "minute": 72,
+   "second": 37,
+   "player": "Romain Saïss",
+   "team": "Morocco",
+   "xg": 0.565,
+   "type": "Open Play",
+   "body_part": "Other"
+  },
+  {
+   "minute": 91,
+   "second": 51,
+   "player": "Zakaria Aboukhlal",
+   "team": "Morocco",
+   "xg": 0.181,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 27,
+   "player": "Amadou Onana",
+   "team": "Belgium",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 94,
+   "player": "Abdelhamid Sabiri",
+   "team": "Morocco",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3620,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

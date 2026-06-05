@@ -1,0 +1,113 @@
+{
+ "match_id": 3857259,
+ "date": "2022-11-28",
+ "stage": "Group Stage",
+ "home_team": "Cameroon",
+ "away_team": "Serbia",
+ "score": {
+  "home": 3,
+  "away": 3
+ },
+ "winner": "Draw",
+ "team_xg": {
+  "Cameroon": 2.07,
+  "Serbia": 1.738
+ },
+ "shots": {
+  "Cameroon": 13,
+  "Serbia": 15
+ },
+ "shots_on_target": {
+  "Cameroon": 8,
+  "Serbia": 5
+ },
+ "possession_proxy_pass_share": {
+  "Cameroon": 0.424,
+  "Serbia": 0.576
+ },
+ "goals": [
+  {
+   "minute": 28,
+   "second": 7,
+   "player": "Jean-Charles Castelletto",
+   "team": "Cameroon",
+   "xg": 0.895,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 45,
+   "second": 22,
+   "player": "Strahinja Pavlović",
+   "team": "Serbia",
+   "xg": 0.079,
+   "type": "Open Play",
+   "body_part": "Head"
+  },
+  {
+   "minute": 47,
+   "second": 52,
+   "player": "Sergej Milinković-Savić",
+   "team": "Serbia",
+   "xg": 0.059,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  },
+  {
+   "minute": 52,
+   "second": 26,
+   "player": "Aleksandar Mitrović",
+   "team": "Serbia",
+   "xg": 0.897,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 62,
+   "second": 52,
+   "player": "Vincent Paté Aboubakar",
+   "team": "Cameroon",
+   "xg": 0.283,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 65,
+   "second": 25,
+   "player": "Jean-Eric Maxim Choupo-Moting",
+   "team": "Cameroon",
+   "xg": 0.469,
+   "type": "Open Play",
+   "body_part": "Left Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 23,
+   "player": "Nicolas Alexis Julio N'Koulou Ndoubena",
+   "team": "Cameroon",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 29,
+   "player": "Christian Mougang Bassogog",
+   "team": "Cameroon",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 48,
+   "player": "Luka Jović",
+   "team": "Serbia",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 92,
+   "player": "Nikola Milenković",
+   "team": "Serbia",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3270,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

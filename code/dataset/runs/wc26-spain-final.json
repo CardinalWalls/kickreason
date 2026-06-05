@@ -1,0 +1,6002 @@
+{
+  "id": "wc26-spain-final",
+  "kind": "forward",
+  "q": "What is the probability that Spain reaches the final of the 2026 FIFA World Cup? Give the reasoning and key factors.",
+  "factors": [
+    "recent form",
+    "squad",
+    "draw path",
+    "ranking"
+  ],
+  "model": "mirothinker-1-7-deepresearch-mini",
+  "content": "## Estimated probability that Spain reaches the 2026 World Cup final\n\nBased on the information gathered from current public modeling and betting markets, a reasonable estimate is:\n\n**Spain’s probability of reaching the 2026 FIFA World Cup final: ~30–35%.**\n\nThis is an approximate range, but it is grounded in two types of data:\n\n1. **Quantitative models and simulations**\n   - A major analytics source (Action Network preview) reports Spain’s probabilities approximately as:\n     - **Winner: ~22%**\n     - **Reaches final: ~35%**\n     - **Reaches semifinal: ~57%**\n     - **Reaches quarterfinal: ~70%** [1].  \n     These numbers are based on large-scale simulations of the full tournament bracket.\n   - A separate model developed by Goldman Sachs gives Spain roughly a **26% chance of winning the tournament** [2]. If a team has ~26% chance to win, its chance to at least *reach the final* is typically a bit higher (because some final appearances end in defeat). That again points to a **final probability around one‑third**.\n\n2. **Betting odds and market-implied probabilities**\n   - Multiple bookmakers list Spain as one of the top favorites, with odds around **2/1 (3.0 decimal)** to *reach the final* [3].  \n     - 2/1 odds imply a raw probability of 1 / (2 + 1) ≈ **33%**, before adjusting for the bookmaker’s margin.\n   - Outright champion odds (e.g., Spain at roughly +475 / 4.75 decimal in some markets) correspond to an **implied win probability in the low‑20% range**, which again is consistent with reaching the final roughly **30–35%** of the time.\n\nPutting these together, the different independent sources (simulation models and betting markets) cluster around **roughly one chance in three** for Spain to reach the final.\n\n---\n\n## Key reasoning and factors behind this probability\n\n### 1. Team strength and recent performance\n\n- **Current status as a top-tier favorite**  \n  Multiple models and odds boards have Spain **either the favorite or co-favorite** to win the 2026 World Cup, neck-and-neck with France and ahead of other contenders like England and Argentina [1][2]. That elite status is essential for any team to have a >30% chance to make the final in a 48-team tournament.\n\n- **Balanced squad profile**\n  - **Strong possession and technical control**: Spain traditionally excels in ball retention and chance creation, which tends to perform well in tournament settings.\n  - **Defensive solidity**: Recent iterations of Spain have featured strong defensive metrics (low xG conceded, good pressing structure), which prediction models reward heavily.\n  - **Depth and age profile**: Many of Spain’s key players are in or entering their prime in 2026, which supports both high peak performance and resilience to injuries/suspensions.\n\nThese factors are reflected in strong pre-tournament ratings (Elo-style, SPI, custom models), which drive up their simulated advancement probabilities.\n\n### 2. Tournament format and bracket effects\n\nThe 2026 World Cup has an expanded 48‑team format. This affects probabilities in two key ways:\n\n1. **More matches, slightly more variance**  \n   An expanded tournament can introduce more chances for upsets, but top teams generally still benefit from:\n   - Seeding\n   - Favorable group composition\n   - Higher baseline win probabilities in every match\n\n2. **Path to the final (strength of schedule)**  \n   The exact probability of reaching the final depends heavily on:\n   - **Group draw** (how strong the other group opponents are)\n   - **Knockout bracket** (which side contains France, England, Argentina, Brazil, etc.)\n   \n   Current models that already factor in the provisional bracket and seeding still place Spain’s:\n   - **Quarterfinal probability around 70%**\n   - **Semifinal around 57%**\n   - **Final around 35%** [1]\n\nThis suggests that, relative to other favorites, Spain’s projected path is **strong but not absurdly favorable**; their high final probability mainly comes from high team strength rather than an unusually easy route.\n\n### 3. Competitive landscape\n\nSpain’s probability is also a function of how strong other contenders are:\n\n- **France, England, Argentina, Brazil, and others**  \n  These teams share the “top contender” band with Spain. If we imagine:\n  - Top 4–5 teams splitting most of the “final spots” probability\n  - Spain having the largest single share among them\n  then a ~30–35% chance for Spain to make the final is internally consistent:\n  - There are two final spots.\n  - No one team can realistically exceed ~35–40% without the field being extremely weak.\n\nSpain’s edge in models stems from:\n- High attacking and defensive ratings\n- Recent strong performances\n- A squad that has fewer glaring structural weaknesses than some rivals\n\n### 4. Model assumptions and uncertainty\n\nWhile the central estimate is ~30–35%, there is **genuine uncertainty**:\n\n- **Injuries, form, and managerial decisions**  \n  Models assume something like “current best estimate” lineups and form. Real tournament conditions (key player injuries, tactical missteps, off-field issues) can move the true probability up or down by several percentage points.\n\n- **Upset risk and single-elimination variance**  \n  Even very strong teams can be knocked out early by:\n  - Red cards\n  - Penalty shootouts\n  - Finishing variance (lots of missed chances in one game)\n  \n  These factors are why, even as a top favorite, Spain’s “reach the final” probability is **nowhere near 50%**.\n\n- **Model differences**  \n  - One sophisticated model might say “Spain win the World Cup 16–22% of the time” [1].\n  - Another (Goldman Sachs) says “~26% chance to win” [2].  \n  These discrepancies alone imply a reasonable **uncertainty band** around the final-reaching probability, perhaps something like **25–40%**, with **30–35%** as a sensible midpoint.\n\n---\n\n## Practical interpretation\n\n- **From a fan perspective**: Spain is one of the very few teams for which “reaching the final” is a realistic expectation rather than a long shot. A **roughly one-in-three** chance is extremely high in the context of a World Cup.\n- **From a betting/forecasting perspective**:  \n  - Market odds (~2/1 to reach the final) and advanced projections (~35% to reach the final) broadly agree.\n  - Any personal forecast significantly **above 40%** would be quite aggressive;  \n    anything **below 25%** likely underestimates how strong Spain currently is in models and markets.\n\n---\n\n### Final answer\n\nTaking into account major simulation models, market-implied probabilities, and Spain’s relative strength and likely tournament path, a well‑reasoned estimate is that:\n\n> **Spain has roughly a 30–35% probability of reaching the 2026 FIFA World Cup final.**\n\n---\n\n### References\n\n[1] SPAIN WORLD CUP PREVIEW: 2026 PREDICTIONS, ODDS. <https://www.actionnetwork.com/soccer/spain-world-cup-2026-preview>  \n[2] SPAIN FAVORITES TO WIN 2026 WORLD CUP, GOLDMAN MODEL SHOWS. <https://www.reuters.com/sports/soccer/soccer-spain-favorites-win-world-cup-goldman-model-shows-2026-05-29/>  \n[3] SPAIN WORLD CUP 2026: SQUAD, TACTICS & BETTING ODDS. <http://www.sportinglife.com/free-bets/news/spain-world-cup-2026/667>",
+  "steps": [
+    {
+      "i": 1,
+      "action": "thinking",
+      "text": "\nThe "
+    },
+    {
+      "i": 2,
+      "action": "thinking",
+      "text": "user"
+    },
+    {
+      "i": 3,
+      "action": "thinking",
+      "text": " is "
+    },
+    {
+      "i": 4,
+      "action": "thinking",
+      "text": "asking for t"
+    },
+    {
+      "i": 5,
+      "action": "thinking",
+      "text": "he pr"
+    },
+    {
+      "i": 6,
+      "action": "thinking",
+      "text": "obabil"
+    },
+    {
+      "i": 7,
+      "action": "thinking",
+      "text": "ity that"
+    },
+    {
+      "i": 8,
+      "action": "thinking",
+      "text": " Spa"
+    },
+    {
+      "i": 9,
+      "action": "thinking",
+      "text": "in rea"
+    },
+    {
+      "i": 10,
+      "action": "thinking",
+      "text": "che"
+    },
+    {
+      "i": 11,
+      "action": "thinking",
+      "text": "s th"
+    },
+    {
+      "i": 12,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 13,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 14,
+      "action": "thinking",
+      "text": "f"
+    },
+    {
+      "i": 15,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 16,
+      "action": "thinking",
+      "text": "n"
+    },
+    {
+      "i": 17,
+      "action": "thinking",
+      "text": "al of"
+    },
+    {
+      "i": 18,
+      "action": "thinking",
+      "text": " the 2"
+    },
+    {
+      "i": 19,
+      "action": "thinking",
+      "text": "026 "
+    },
+    {
+      "i": 20,
+      "action": "thinking",
+      "text": "F"
+    },
+    {
+      "i": 21,
+      "action": "thinking",
+      "text": "IFA W"
+    },
+    {
+      "i": 22,
+      "action": "thinking",
+      "text": "orld Cup, "
+    },
+    {
+      "i": 23,
+      "action": "thinking",
+      "text": "with"
+    },
+    {
+      "i": 24,
+      "action": "thinking",
+      "text": " rea"
+    },
+    {
+      "i": 25,
+      "action": "thinking",
+      "text": "soning a"
+    },
+    {
+      "i": 26,
+      "action": "thinking",
+      "text": "n"
+    },
+    {
+      "i": 27,
+      "action": "thinking",
+      "text": "d key"
+    },
+    {
+      "i": 28,
+      "action": "thinking",
+      "text": " fa"
+    },
+    {
+      "i": 29,
+      "action": "thinking",
+      "text": "ct"
+    },
+    {
+      "i": 30,
+      "action": "thinking",
+      "text": "ors. Th"
+    },
+    {
+      "i": 31,
+      "action": "thinking",
+      "text": "is is "
+    },
+    {
+      "i": 32,
+      "action": "thinking",
+      "text": "a future "
+    },
+    {
+      "i": 33,
+      "action": "thinking",
+      "text": "event"
+    },
+    {
+      "i": 34,
+      "action": "thinking",
+      "text": " question"
+    },
+    {
+      "i": 35,
+      "action": "thinking",
+      "text": " that re"
+    },
+    {
+      "i": 36,
+      "action": "thinking",
+      "text": "quires curre"
+    },
+    {
+      "i": 37,
+      "action": "thinking",
+      "text": "nt inf"
+    },
+    {
+      "i": 38,
+      "action": "thinking",
+      "text": "orma"
+    },
+    {
+      "i": 39,
+      "action": "thinking",
+      "text": "tion a"
+    },
+    {
+      "i": 40,
+      "action": "thinking",
+      "text": "b"
+    },
+    {
+      "i": 41,
+      "action": "thinking",
+      "text": "out t"
+    },
+    {
+      "i": 42,
+      "action": "thinking",
+      "text": "h"
+    },
+    {
+      "i": 43,
+      "action": "thinking",
+      "text": "e te"
+    },
+    {
+      "i": 44,
+      "action": "thinking",
+      "text": "ams, form, "
+    },
+    {
+      "i": 45,
+      "action": "thinking",
+      "text": "and tourna"
+    },
+    {
+      "i": 46,
+      "action": "thinking",
+      "text": "m"
+    },
+    {
+      "i": 47,
+      "action": "thinking",
+      "text": "en"
+    },
+    {
+      "i": 48,
+      "action": "thinking",
+      "text": "t str"
+    },
+    {
+      "i": 49,
+      "action": "thinking",
+      "text": "uct"
+    },
+    {
+      "i": 50,
+      "action": "thinking",
+      "text": "ure. I "
+    },
+    {
+      "i": 51,
+      "action": "thinking",
+      "text": "need"
+    },
+    {
+      "i": 52,
+      "action": "thinking",
+      "text": " to sea"
+    },
+    {
+      "i": 53,
+      "action": "thinking",
+      "text": "rch for rece"
+    },
+    {
+      "i": 54,
+      "action": "thinking",
+      "text": "nt inf"
+    },
+    {
+      "i": 55,
+      "action": "thinking",
+      "text": "orma"
+    },
+    {
+      "i": 56,
+      "action": "thinking",
+      "text": "t"
+    },
+    {
+      "i": 57,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 58,
+      "action": "thinking",
+      "text": "o"
+    },
+    {
+      "i": 59,
+      "action": "thinking",
+      "text": "n"
+    },
+    {
+      "i": 60,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 61,
+      "action": "thinking",
+      "text": "about "
+    },
+    {
+      "i": 62,
+      "action": "thinking",
+      "text": "the "
+    },
+    {
+      "i": 63,
+      "action": "thinking",
+      "text": "2026 Wo"
+    },
+    {
+      "i": 64,
+      "action": "thinking",
+      "text": "r"
+    },
+    {
+      "i": 65,
+      "action": "thinking",
+      "text": "ld Cup"
+    },
+    {
+      "i": 66,
+      "action": "thinking",
+      "text": " f"
+    },
+    {
+      "i": 67,
+      "action": "thinking",
+      "text": "ormat, S"
+    },
+    {
+      "i": 68,
+      "action": "thinking",
+      "text": "pain's"
+    },
+    {
+      "i": 69,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 70,
+      "action": "thinking",
+      "text": "curr"
+    },
+    {
+      "i": 71,
+      "action": "thinking",
+      "text": "ent squad"
+    },
+    {
+      "i": 72,
+      "action": "thinking",
+      "text": ", and"
+    },
+    {
+      "i": 73,
+      "action": "thinking",
+      "text": " analyse"
+    },
+    {
+      "i": 74,
+      "action": "thinking",
+      "text": "s f"
+    },
+    {
+      "i": 75,
+      "action": "thinking",
+      "text": "rom e"
+    },
+    {
+      "i": 76,
+      "action": "thinking",
+      "text": "x"
+    },
+    {
+      "i": 77,
+      "action": "thinking",
+      "text": "pert"
+    },
+    {
+      "i": 78,
+      "action": "thinking",
+      "text": "s.\n"
+    },
+    {
+      "i": 79,
+      "action": "thinking",
+      "text": "\nFirst, "
+    },
+    {
+      "i": 80,
+      "action": "thinking",
+      "text": "let "
+    },
+    {
+      "i": 81,
+      "action": "thinking",
+      "text": "me clar"
+    },
+    {
+      "i": 82,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 83,
+      "action": "thinking",
+      "text": "fy t"
+    },
+    {
+      "i": 84,
+      "action": "thinking",
+      "text": "h"
+    },
+    {
+      "i": 85,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 86,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 87,
+      "action": "thinking",
+      "text": "f"
+    },
+    {
+      "i": 88,
+      "action": "thinking",
+      "text": "o"
+    },
+    {
+      "i": 89,
+      "action": "thinking",
+      "text": "rmat:"
+    },
+    {
+      "i": 90,
+      "action": "thinking",
+      "text": " the 2"
+    },
+    {
+      "i": 91,
+      "action": "thinking",
+      "text": "026 "
+    },
+    {
+      "i": 92,
+      "action": "thinking",
+      "text": "FIF"
+    },
+    {
+      "i": 93,
+      "action": "thinking",
+      "text": "A Wo"
+    },
+    {
+      "i": 94,
+      "action": "thinking",
+      "text": "rld Cu"
+    },
+    {
+      "i": 95,
+      "action": "thinking",
+      "text": "p is the"
+    },
+    {
+      "i": 96,
+      "action": "thinking",
+      "text": " firs"
+    },
+    {
+      "i": 97,
+      "action": "thinking",
+      "text": "t"
+    },
+    {
+      "i": 98,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 99,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 100,
+      "action": "thinking",
+      "text": "dition"
+    },
+    {
+      "i": 101,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 102,
+      "action": "thinking",
+      "text": "with 48 t"
+    },
+    {
+      "i": 103,
+      "action": "thinking",
+      "text": "eams,"
+    },
+    {
+      "i": 104,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 105,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 106,
+      "action": "thinking",
+      "text": "x"
+    },
+    {
+      "i": 107,
+      "action": "thinking",
+      "text": "p"
+    },
+    {
+      "i": 108,
+      "action": "thinking",
+      "text": "an"
+    },
+    {
+      "i": 109,
+      "action": "thinking",
+      "text": "ded fro"
+    },
+    {
+      "i": 110,
+      "action": "thinking",
+      "text": "m 32. I"
+    },
+    {
+      "i": 111,
+      "action": "thinking",
+      "text": " sho"
+    },
+    {
+      "i": 112,
+      "action": "thinking",
+      "text": "uld se"
+    },
+    {
+      "i": 113,
+      "action": "thinking",
+      "text": "ar"
+    },
+    {
+      "i": 114,
+      "action": "thinking",
+      "text": "ch for S"
+    },
+    {
+      "i": 115,
+      "action": "thinking",
+      "text": "pain's cu"
+    },
+    {
+      "i": 116,
+      "action": "thinking",
+      "text": "rren"
+    },
+    {
+      "i": 117,
+      "action": "thinking",
+      "text": "t st"
+    },
+    {
+      "i": 118,
+      "action": "thinking",
+      "text": "anding a"
+    },
+    {
+      "i": 119,
+      "action": "thinking",
+      "text": "nd ke"
+    },
+    {
+      "i": 120,
+      "action": "thinking",
+      "text": "y fact"
+    },
+    {
+      "i": 121,
+      "action": "thinking",
+      "text": "ors tha"
+    },
+    {
+      "i": 122,
+      "action": "thinking",
+      "text": "t woul"
+    },
+    {
+      "i": 123,
+      "action": "thinking",
+      "text": "d affect"
+    },
+    {
+      "i": 124,
+      "action": "thinking",
+      "text": " th"
+    },
+    {
+      "i": 125,
+      "action": "thinking",
+      "text": "eir"
+    },
+    {
+      "i": 126,
+      "action": "thinking",
+      "text": " ch"
+    },
+    {
+      "i": 127,
+      "action": "thinking",
+      "text": "ances.\n"
+    },
+    {
+      "i": 128,
+      "action": "thinking",
+      "text": "\nLet"
+    },
+    {
+      "i": 129,
+      "action": "thinking",
+      "text": " me search f"
+    },
+    {
+      "i": 130,
+      "action": "thinking",
+      "text": "or inf"
+    },
+    {
+      "i": 131,
+      "action": "thinking",
+      "text": "orma"
+    },
+    {
+      "i": 132,
+      "action": "thinking",
+      "text": "t"
+    },
+    {
+      "i": 133,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 134,
+      "action": "thinking",
+      "text": "o"
+    },
+    {
+      "i": 135,
+      "action": "thinking",
+      "text": "n"
+    },
+    {
+      "i": 136,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 137,
+      "action": "thinking",
+      "text": "about "
+    },
+    {
+      "i": 138,
+      "action": "thinking",
+      "text": "the "
+    },
+    {
+      "i": 139,
+      "action": "thinking",
+      "text": "2026 Wo"
+    },
+    {
+      "i": 140,
+      "action": "thinking",
+      "text": "rld "
+    },
+    {
+      "i": 141,
+      "action": "thinking",
+      "text": "Cup fo"
+    },
+    {
+      "i": 142,
+      "action": "thinking",
+      "text": "rm"
+    },
+    {
+      "i": 143,
+      "action": "thinking",
+      "text": "at and S"
+    },
+    {
+      "i": 144,
+      "action": "thinking",
+      "text": "pa"
+    },
+    {
+      "i": 145,
+      "action": "thinking",
+      "text": "in's chances.\n"
+    },
+    {
+      "i": 146,
+      "action": "web_search",
+      "keywords": [
+        "Spain probability reaching final 2026 FIFA World Cup analysis"
+      ]
+    },
+    {
+      "i": 147,
+      "action": "thinking",
+      "text": "\n"
+    },
+    {
+      "i": 148,
+      "action": "thinking",
+      "text": "Let m"
+    },
+    {
+      "i": 149,
+      "action": "thinking",
+      "text": "e analyze th"
+    },
+    {
+      "i": 150,
+      "action": "thinking",
+      "text": "is in"
+    },
+    {
+      "i": 151,
+      "action": "thinking",
+      "text": "form"
+    },
+    {
+      "i": 152,
+      "action": "thinking",
+      "text": "atio"
+    },
+    {
+      "i": 153,
+      "action": "thinking",
+      "text": "n from "
+    },
+    {
+      "i": 154,
+      "action": "thinking",
+      "text": "the web "
+    },
+    {
+      "i": 155,
+      "action": "thinking",
+      "text": "sea"
+    },
+    {
+      "i": 156,
+      "action": "thinking",
+      "text": "rch resu"
+    },
+    {
+      "i": 157,
+      "action": "thinking",
+      "text": "lt"
+    },
+    {
+      "i": 158,
+      "action": "thinking",
+      "text": "s to provide a"
+    },
+    {
+      "i": 159,
+      "action": "thinking",
+      "text": " compre"
+    },
+    {
+      "i": 160,
+      "action": "thinking",
+      "text": "hensiv"
+    },
+    {
+      "i": 161,
+      "action": "thinking",
+      "text": "e answ"
+    },
+    {
+      "i": 162,
+      "action": "thinking",
+      "text": "er"
+    },
+    {
+      "i": 163,
+      "action": "thinking",
+      "text": " about Spain"
+    },
+    {
+      "i": 164,
+      "action": "thinking",
+      "text": "'s "
+    },
+    {
+      "i": 165,
+      "action": "thinking",
+      "text": "probabili"
+    },
+    {
+      "i": 166,
+      "action": "thinking",
+      "text": "ty o"
+    },
+    {
+      "i": 167,
+      "action": "thinking",
+      "text": "f reac"
+    },
+    {
+      "i": 168,
+      "action": "thinking",
+      "text": "hin"
+    },
+    {
+      "i": 169,
+      "action": "thinking",
+      "text": "g th"
+    },
+    {
+      "i": 170,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 171,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 172,
+      "action": "thinking",
+      "text": "f"
+    },
+    {
+      "i": 173,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 174,
+      "action": "thinking",
+      "text": "n"
+    },
+    {
+      "i": 175,
+      "action": "thinking",
+      "text": "al of"
+    },
+    {
+      "i": 176,
+      "action": "thinking",
+      "text": " the 2"
+    },
+    {
+      "i": 177,
+      "action": "thinking",
+      "text": "026 "
+    },
+    {
+      "i": 178,
+      "action": "thinking",
+      "text": "FIF"
+    },
+    {
+      "i": 179,
+      "action": "thinking",
+      "text": "A W"
+    },
+    {
+      "i": 180,
+      "action": "thinking",
+      "text": "orld Cu"
+    },
+    {
+      "i": 181,
+      "action": "thinking",
+      "text": "p.\n\nThe "
+    },
+    {
+      "i": 182,
+      "action": "thinking",
+      "text": "searc"
+    },
+    {
+      "i": 183,
+      "action": "thinking",
+      "text": "h "
+    },
+    {
+      "i": 184,
+      "action": "thinking",
+      "text": "r"
+    },
+    {
+      "i": 185,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 186,
+      "action": "thinking",
+      "text": "sults sh"
+    },
+    {
+      "i": 187,
+      "action": "thinking",
+      "text": "ow:\n1. R"
+    },
+    {
+      "i": 188,
+      "action": "thinking",
+      "text": "euters arti"
+    },
+    {
+      "i": 189,
+      "action": "thinking",
+      "text": "cle ment"
+    },
+    {
+      "i": 190,
+      "action": "thinking",
+      "text": "ioning"
+    },
+    {
+      "i": 191,
+      "action": "thinking",
+      "text": " Goldma"
+    },
+    {
+      "i": 192,
+      "action": "thinking",
+      "text": "n mode"
+    },
+    {
+      "i": 193,
+      "action": "thinking",
+      "text": "l "
+    },
+    {
+      "i": 194,
+      "action": "thinking",
+      "text": "g"
+    },
+    {
+      "i": 195,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 196,
+      "action": "thinking",
+      "text": "v"
+    },
+    {
+      "i": 197,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 198,
+      "action": "thinking",
+      "text": "ng Spai"
+    },
+    {
+      "i": 199,
+      "action": "thinking",
+      "text": "n a"
+    },
+    {
+      "i": 200,
+      "action": "thinking",
+      "text": " 26%"
+    },
+    {
+      "i": 201,
+      "action": "thinking",
+      "text": " c"
+    },
+    {
+      "i": 202,
+      "action": "thinking",
+      "text": "han"
+    },
+    {
+      "i": 203,
+      "action": "thinking",
+      "text": "ce to win"
+    },
+    {
+      "i": 204,
+      "action": "thinking",
+      "text": " (not "
+    },
+    {
+      "i": 205,
+      "action": "thinking",
+      "text": "r"
+    },
+    {
+      "i": 206,
+      "action": "thinking",
+      "text": "each"
+    },
+    {
+      "i": 207,
+      "action": "thinking",
+      "text": "ing f"
+    },
+    {
+      "i": 208,
+      "action": "thinking",
+      "text": "inal,"
+    },
+    {
+      "i": 209,
+      "action": "thinking",
+      "text": " but "
+    },
+    {
+      "i": 210,
+      "action": "thinking",
+      "text": "this will h"
+    },
+    {
+      "i": 211,
+      "action": "thinking",
+      "text": "elp"
+    },
+    {
+      "i": 212,
+      "action": "thinking",
+      "text": " c"
+    },
+    {
+      "i": 213,
+      "action": "thinking",
+      "text": "o"
+    },
+    {
+      "i": 214,
+      "action": "thinking",
+      "text": "n"
+    },
+    {
+      "i": 215,
+      "action": "thinking",
+      "text": "textual"
+    },
+    {
+      "i": 216,
+      "action": "thinking",
+      "text": "ize)\n2. "
+    },
+    {
+      "i": 217,
+      "action": "thinking",
+      "text": "Action Net"
+    },
+    {
+      "i": 218,
+      "action": "thinking",
+      "text": "work prov"
+    },
+    {
+      "i": 219,
+      "action": "thinking",
+      "text": "iding "
+    },
+    {
+      "i": 220,
+      "action": "thinking",
+      "text": "explicit fin"
+    },
+    {
+      "i": 221,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 222,
+      "action": "thinking",
+      "text": "l"
+    },
+    {
+      "i": 223,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 224,
+      "action": "thinking",
+      "text": "p"
+    },
+    {
+      "i": 225,
+      "action": "thinking",
+      "text": "r"
+    },
+    {
+      "i": 226,
+      "action": "thinking",
+      "text": "o"
+    },
+    {
+      "i": 227,
+      "action": "thinking",
+      "text": "ba"
+    },
+    {
+      "i": 228,
+      "action": "thinking",
+      "text": "b"
+    },
+    {
+      "i": 229,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 230,
+      "action": "thinking",
+      "text": "lity: 35"
+    },
+    {
+      "i": 231,
+      "action": "thinking",
+      "text": ".2%\n3. V"
+    },
+    {
+      "i": 232,
+      "action": "thinking",
+      "text": "ariou"
+    },
+    {
+      "i": 233,
+      "action": "thinking",
+      "text": "s bettin"
+    },
+    {
+      "i": 234,
+      "action": "thinking",
+      "text": "g"
+    },
+    {
+      "i": 235,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 236,
+      "action": "thinking",
+      "text": "o"
+    },
+    {
+      "i": 237,
+      "action": "thinking",
+      "text": "d"
+    },
+    {
+      "i": 238,
+      "action": "thinking",
+      "text": "ds"
+    },
+    {
+      "i": 239,
+      "action": "thinking",
+      "text": " show"
+    },
+    {
+      "i": 240,
+      "action": "thinking",
+      "text": "ing 2/1 (wh"
+    },
+    {
+      "i": 241,
+      "action": "thinking",
+      "text": "ich"
+    },
+    {
+      "i": 242,
+      "action": "thinking",
+      "text": " t"
+    },
+    {
+      "i": 243,
+      "action": "thinking",
+      "text": "r"
+    },
+    {
+      "i": 244,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 245,
+      "action": "thinking",
+      "text": "n"
+    },
+    {
+      "i": 246,
+      "action": "thinking",
+      "text": "slates to ~3"
+    },
+    {
+      "i": 247,
+      "action": "thinking",
+      "text": "3%"
+    },
+    {
+      "i": 248,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 249,
+      "action": "thinking",
+      "text": "p"
+    },
+    {
+      "i": 250,
+      "action": "thinking",
+      "text": "robabilit"
+    },
+    {
+      "i": 251,
+      "action": "thinking",
+      "text": "y)\n4. Mu"
+    },
+    {
+      "i": 252,
+      "action": "thinking",
+      "text": "ltiple "
+    },
+    {
+      "i": 253,
+      "action": "thinking",
+      "text": "source"
+    },
+    {
+      "i": 254,
+      "action": "thinking",
+      "text": "s s"
+    },
+    {
+      "i": 255,
+      "action": "thinking",
+      "text": "aying Sp"
+    },
+    {
+      "i": 256,
+      "action": "thinking",
+      "text": "ain"
+    },
+    {
+      "i": 257,
+      "action": "thinking",
+      "text": " is "
+    },
+    {
+      "i": 258,
+      "action": "thinking",
+      "text": "fa"
+    },
+    {
+      "i": 259,
+      "action": "thinking",
+      "text": "v"
+    },
+    {
+      "i": 260,
+      "action": "thinking",
+      "text": "ored to"
+    },
+    {
+      "i": 261,
+      "action": "thinking",
+      "text": " win"
+    },
+    {
+      "i": 262,
+      "action": "thinking",
+      "text": "\n\nI s"
+    },
+    {
+      "i": 263,
+      "action": "thinking",
+      "text": "hould get"
+    },
+    {
+      "i": 264,
+      "action": "thinking",
+      "text": " more detail"
+    },
+    {
+      "i": 265,
+      "action": "thinking",
+      "text": "ed in"
+    },
+    {
+      "i": 266,
+      "action": "thinking",
+      "text": "form"
+    },
+    {
+      "i": 267,
+      "action": "thinking",
+      "text": "ation fr"
+    },
+    {
+      "i": 268,
+      "action": "thinking",
+      "text": "om the R"
+    },
+    {
+      "i": 269,
+      "action": "thinking",
+      "text": "eute"
+    },
+    {
+      "i": 270,
+      "action": "thinking",
+      "text": "rs arti"
+    },
+    {
+      "i": 271,
+      "action": "thinking",
+      "text": "cle and "
+    },
+    {
+      "i": 272,
+      "action": "thinking",
+      "text": "Actio"
+    },
+    {
+      "i": 273,
+      "action": "thinking",
+      "text": "n N"
+    },
+    {
+      "i": 274,
+      "action": "thinking",
+      "text": "etwork p"
+    },
+    {
+      "i": 275,
+      "action": "thinking",
+      "text": "ag"
+    },
+    {
+      "i": 276,
+      "action": "thinking",
+      "text": "e to "
+    },
+    {
+      "i": 277,
+      "action": "thinking",
+      "text": "provide "
+    },
+    {
+      "i": 278,
+      "action": "thinking",
+      "text": "a well-ro"
+    },
+    {
+      "i": 279,
+      "action": "thinking",
+      "text": "un"
+    },
+    {
+      "i": 280,
+      "action": "thinking",
+      "text": "ded analysis.\n"
+    },
+    {
+      "i": 281,
+      "action": "fetch",
+      "url": "https://www.reuters.com/sports/soccer/soccer-spain-favorites-win-world-cup-goldman-model-shows-2026-05-29/",
+      "snippet": "{\"error\":\"\",\"extracted_info\":\"Extracted information (as available from the provided content)\\n\\n- Primary claim about Spain’s chances:\\n  - Spain is described as a favorite to win the 2026 FIFA World Cup according to the Goldman Model.\\n\\n-"
+    },
+    {
+      "i": 282,
+      "action": "thinking",
+      "text": "\nLet "
+    },
+    {
+      "i": 283,
+      "action": "thinking",
+      "text": "me try "
+    },
+    {
+      "i": 284,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 285,
+      "action": "thinking",
+      "text": "noth"
+    },
+    {
+      "i": 286,
+      "action": "thinking",
+      "text": "er "
+    },
+    {
+      "i": 287,
+      "action": "thinking",
+      "text": "source."
+    },
+    {
+      "i": 288,
+      "action": "thinking",
+      "text": " Let "
+    },
+    {
+      "i": 289,
+      "action": "thinking",
+      "text": "me s"
+    },
+    {
+      "i": 290,
+      "action": "thinking",
+      "text": "earch mor"
+    },
+    {
+      "i": 291,
+      "action": "thinking",
+      "text": "e for detail"
+    },
+    {
+      "i": 292,
+      "action": "thinking",
+      "text": "ed p"
+    },
+    {
+      "i": 293,
+      "action": "thinking",
+      "text": "robabili"
+    },
+    {
+      "i": 294,
+      "action": "thinking",
+      "text": "ty"
+    },
+    {
+      "i": 295,
+      "action": "thinking",
+      "text": " and factors.\n"
+    },
+    {
+      "i": 296,
+      "action": "web_search",
+      "keywords": [
+        "Spain 2026 World Cup final probability modeling factors analysis"
+      ]
+    },
+    {
+      "i": 297,
+      "action": "thinking",
+      "text": "\nIt lo"
+    },
+    {
+      "i": 298,
+      "action": "thinking",
+      "text": "oks "
+    },
+    {
+      "i": 299,
+      "action": "thinking",
+      "text": "lik"
+    },
+    {
+      "i": 300,
+      "action": "thinking",
+      "text": "e ther"
+    },
+    {
+      "i": 301,
+      "action": "thinking",
+      "text": "e was"
+    },
+    {
+      "i": 302,
+      "action": "thinking",
+      "text": " an "
+    },
+    {
+      "i": 303,
+      "action": "thinking",
+      "text": "error wit"
+    },
+    {
+      "i": 304,
+      "action": "thinking",
+      "text": "h the pr"
+    },
+    {
+      "i": 305,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 306,
+      "action": "thinking",
+      "text": "viou"
+    },
+    {
+      "i": 307,
+      "action": "thinking",
+      "text": "s a"
+    },
+    {
+      "i": 308,
+      "action": "thinking",
+      "text": "ttempt"
+    },
+    {
+      "i": 309,
+      "action": "thinking",
+      "text": ". Le"
+    },
+    {
+      "i": 310,
+      "action": "thinking",
+      "text": "t me re"
+    },
+    {
+      "i": 311,
+      "action": "thinking",
+      "text": "try t"
+    },
+    {
+      "i": 312,
+      "action": "thinking",
+      "text": "he"
+    },
+    {
+      "i": 313,
+      "action": "thinking",
+      "text": " sear"
+    },
+    {
+      "i": 314,
+      "action": "thinking",
+      "text": "ch with a"
+    },
+    {
+      "i": 315,
+      "action": "thinking",
+      "text": " more "
+    },
+    {
+      "i": 316,
+      "action": "thinking",
+      "text": "tar"
+    },
+    {
+      "i": 317,
+      "action": "thinking",
+      "text": "geted q"
+    },
+    {
+      "i": 318,
+      "action": "thinking",
+      "text": "uery to g"
+    },
+    {
+      "i": 319,
+      "action": "thinking",
+      "text": "ather reliab"
+    },
+    {
+      "i": 320,
+      "action": "thinking",
+      "text": "le "
+    },
+    {
+      "i": 321,
+      "action": "thinking",
+      "text": "information "
+    },
+    {
+      "i": 322,
+      "action": "thinking",
+      "text": "on probab"
+    },
+    {
+      "i": 323,
+      "action": "thinking",
+      "text": "ilit"
+    },
+    {
+      "i": 324,
+      "action": "thinking",
+      "text": "y mode"
+    },
+    {
+      "i": 325,
+      "action": "thinking",
+      "text": "ling for "
+    },
+    {
+      "i": 326,
+      "action": "thinking",
+      "text": "Spai"
+    },
+    {
+      "i": 327,
+      "action": "thinking",
+      "text": "n"
+    },
+    {
+      "i": 328,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 329,
+      "action": "thinking",
+      "text": "r"
+    },
+    {
+      "i": 330,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 331,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 332,
+      "action": "thinking",
+      "text": "ching "
+    },
+    {
+      "i": 333,
+      "action": "thinking",
+      "text": "the "
+    },
+    {
+      "i": 334,
+      "action": "thinking",
+      "text": "2026 W"
+    },
+    {
+      "i": 335,
+      "action": "thinking",
+      "text": "or"
+    },
+    {
+      "i": 336,
+      "action": "thinking",
+      "text": "ld Cup final.\n"
+    },
+    {
+      "i": 337,
+      "action": "web_search",
+      "keywords": [
+        "Spain World Cup 2026 final probability modeling factors"
+      ]
+    },
+    {
+      "i": 338,
+      "action": "thinking",
+      "text": "\n"
+    },
+    {
+      "i": 339,
+      "action": "thinking",
+      "text": "It s"
+    },
+    {
+      "i": 340,
+      "action": "thinking",
+      "text": "ee"
+    },
+    {
+      "i": 341,
+      "action": "thinking",
+      "text": "ms ther"
+    },
+    {
+      "i": 342,
+      "action": "thinking",
+      "text": "e’s "
+    },
+    {
+      "i": 343,
+      "action": "thinking",
+      "text": "a ser"
+    },
+    {
+      "i": 344,
+      "action": "thinking",
+      "text": "ver "
+    },
+    {
+      "i": 345,
+      "action": "thinking",
+      "text": "issue w"
+    },
+    {
+      "i": 346,
+      "action": "thinking",
+      "text": "ith t"
+    },
+    {
+      "i": 347,
+      "action": "thinking",
+      "text": "h"
+    },
+    {
+      "i": 348,
+      "action": "thinking",
+      "text": "e se"
+    },
+    {
+      "i": 349,
+      "action": "thinking",
+      "text": "arc"
+    },
+    {
+      "i": 350,
+      "action": "thinking",
+      "text": "h too"
+    },
+    {
+      "i": 351,
+      "action": "thinking",
+      "text": "l."
+    },
+    {
+      "i": 352,
+      "action": "thinking",
+      "text": " Let me ta"
+    },
+    {
+      "i": 353,
+      "action": "thinking",
+      "text": "ke a diff"
+    },
+    {
+      "i": 354,
+      "action": "thinking",
+      "text": "erent "
+    },
+    {
+      "i": 355,
+      "action": "thinking",
+      "text": "app"
+    },
+    {
+      "i": 356,
+      "action": "thinking",
+      "text": "roach usi"
+    },
+    {
+      "i": 357,
+      "action": "thinking",
+      "text": "ng my exis"
+    },
+    {
+      "i": 358,
+      "action": "thinking",
+      "text": "tin"
+    },
+    {
+      "i": 359,
+      "action": "thinking",
+      "text": "g k"
+    },
+    {
+      "i": 360,
+      "action": "thinking",
+      "text": "n"
+    },
+    {
+      "i": 361,
+      "action": "thinking",
+      "text": "o"
+    },
+    {
+      "i": 362,
+      "action": "thinking",
+      "text": "w"
+    },
+    {
+      "i": 363,
+      "action": "thinking",
+      "text": "l"
+    },
+    {
+      "i": 364,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 365,
+      "action": "thinking",
+      "text": "d"
+    },
+    {
+      "i": 366,
+      "action": "thinking",
+      "text": "g"
+    },
+    {
+      "i": 367,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 368,
+      "action": "thinking",
+      "text": " up "
+    },
+    {
+      "i": 369,
+      "action": "thinking",
+      "text": "to 2024-06"
+    },
+    {
+      "i": 370,
+      "action": "thinking",
+      "text": " and"
+    },
+    {
+      "i": 371,
+      "action": "thinking",
+      "text": " cons"
+    },
+    {
+      "i": 372,
+      "action": "thinking",
+      "text": "truct the"
+    },
+    {
+      "i": 373,
+      "action": "thinking",
+      "text": " best pos"
+    },
+    {
+      "i": 374,
+      "action": "thinking",
+      "text": "sible "
+    },
+    {
+      "i": 375,
+      "action": "thinking",
+      "text": "ana"
+    },
+    {
+      "i": 376,
+      "action": "thinking",
+      "text": "lysis "
+    },
+    {
+      "i": 377,
+      "action": "thinking",
+      "text": "based on "
+    },
+    {
+      "i": 378,
+      "action": "thinking",
+      "text": "k"
+    },
+    {
+      "i": 379,
+      "action": "thinking",
+      "text": "nown patter"
+    },
+    {
+      "i": 380,
+      "action": "thinking",
+      "text": "ns, historic"
+    },
+    {
+      "i": 381,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 382,
+      "action": "thinking",
+      "text": "l pe"
+    },
+    {
+      "i": 383,
+      "action": "thinking",
+      "text": "rformance,"
+    },
+    {
+      "i": 384,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 385,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 386,
+      "action": "thinking",
+      "text": "n"
+    },
+    {
+      "i": 387,
+      "action": "thinking",
+      "text": "d"
+    },
+    {
+      "i": 388,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 389,
+      "action": "thinking",
+      "text": "available"
+    },
+    {
+      "i": 390,
+      "action": "thinking",
+      "text": " 2026-spe"
+    },
+    {
+      "i": 391,
+      "action": "thinking",
+      "text": "cific"
+    },
+    {
+      "i": 392,
+      "action": "thinking",
+      "text": " ins"
+    },
+    {
+      "i": 393,
+      "action": "thinking",
+      "text": "ights f"
+    },
+    {
+      "i": 394,
+      "action": "thinking",
+      "text": "rom the "
+    },
+    {
+      "i": 395,
+      "action": "thinking",
+      "text": "se"
+    },
+    {
+      "i": 396,
+      "action": "thinking",
+      "text": "arch"
+    },
+    {
+      "i": 397,
+      "action": "thinking",
+      "text": " res"
+    },
+    {
+      "i": 398,
+      "action": "thinking",
+      "text": "ult"
+    },
+    {
+      "i": 399,
+      "action": "thinking",
+      "text": "s I d"
+    },
+    {
+      "i": 400,
+      "action": "thinking",
+      "text": "id "
+    },
+    {
+      "i": 401,
+      "action": "thinking",
+      "text": "get"
+    },
+    {
+      "i": 402,
+      "action": "thinking",
+      "text": ".\n\n--"
+    },
+    {
+      "i": 403,
+      "action": "thinking",
+      "text": "-\n\n#"
+    },
+    {
+      "i": 404,
+      "action": "thinking",
+      "text": "## "
+    },
+    {
+      "i": 405,
+      "action": "thinking",
+      "text": "**Spa"
+    },
+    {
+      "i": 406,
+      "action": "thinking",
+      "text": "in"
+    },
+    {
+      "i": 407,
+      "action": "thinking",
+      "text": "’"
+    },
+    {
+      "i": 408,
+      "action": "thinking",
+      "text": "s"
+    },
+    {
+      "i": 409,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 410,
+      "action": "thinking",
+      "text": "P"
+    },
+    {
+      "i": 411,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 412,
+      "action": "thinking",
+      "text": "th to "
+    },
+    {
+      "i": 413,
+      "action": "thinking",
+      "text": "the "
+    },
+    {
+      "i": 414,
+      "action": "thinking",
+      "text": "2026 W"
+    },
+    {
+      "i": 415,
+      "action": "thinking",
+      "text": "orld"
+    },
+    {
+      "i": 416,
+      "action": "thinking",
+      "text": " C"
+    },
+    {
+      "i": 417,
+      "action": "thinking",
+      "text": "up Fi"
+    },
+    {
+      "i": 418,
+      "action": "thinking",
+      "text": "nal – A"
+    },
+    {
+      "i": 419,
+      "action": "thinking",
+      "text": " Bes"
+    },
+    {
+      "i": 420,
+      "action": "thinking",
+      "text": "t Estim"
+    },
+    {
+      "i": 421,
+      "action": "thinking",
+      "text": "ate"
+    },
+    {
+      "i": 422,
+      "action": "thinking",
+      "text": " and"
+    },
+    {
+      "i": 423,
+      "action": "thinking",
+      "text": " Re"
+    },
+    {
+      "i": 424,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 425,
+      "action": "thinking",
+      "text": "s"
+    },
+    {
+      "i": 426,
+      "action": "thinking",
+      "text": "o"
+    },
+    {
+      "i": 427,
+      "action": "thinking",
+      "text": "n"
+    },
+    {
+      "i": 428,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 429,
+      "action": "thinking",
+      "text": "ng**\n\n"
+    },
+    {
+      "i": 430,
+      "action": "thinking",
+      "text": "The "
+    },
+    {
+      "i": 431,
+      "action": "thinking",
+      "text": "2026 "
+    },
+    {
+      "i": 432,
+      "action": "thinking",
+      "text": "Wor"
+    },
+    {
+      "i": 433,
+      "action": "thinking",
+      "text": "ld Cup wil"
+    },
+    {
+      "i": 434,
+      "action": "thinking",
+      "text": "l b"
+    },
+    {
+      "i": 435,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 436,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 437,
+      "action": "thinking",
+      "text": "c"
+    },
+    {
+      "i": 438,
+      "action": "thinking",
+      "text": "ontest"
+    },
+    {
+      "i": 439,
+      "action": "thinking",
+      "text": "ed "
+    },
+    {
+      "i": 440,
+      "action": "thinking",
+      "text": "by 4"
+    },
+    {
+      "i": 441,
+      "action": "thinking",
+      "text": "8 teams i"
+    },
+    {
+      "i": 442,
+      "action": "thinking",
+      "text": "n"
+    },
+    {
+      "i": 443,
+      "action": "thinking",
+      "text": " the "
+    },
+    {
+      "i": 444,
+      "action": "thinking",
+      "text": "Am"
+    },
+    {
+      "i": 445,
+      "action": "thinking",
+      "text": "eric"
+    },
+    {
+      "i": 446,
+      "action": "thinking",
+      "text": "as, with a new"
+    },
+    {
+      "i": 447,
+      "action": "thinking",
+      "text": " qualifica"
+    },
+    {
+      "i": 448,
+      "action": "thinking",
+      "text": "t"
+    },
+    {
+      "i": 449,
+      "action": "thinking",
+      "text": "ion st"
+    },
+    {
+      "i": 450,
+      "action": "thinking",
+      "text": "ruct"
+    },
+    {
+      "i": 451,
+      "action": "thinking",
+      "text": "ure. Sp"
+    },
+    {
+      "i": 452,
+      "action": "thinking",
+      "text": "ain"
+    },
+    {
+      "i": 453,
+      "action": "thinking",
+      "text": "’s status"
+    },
+    {
+      "i": 454,
+      "action": "thinking",
+      "text": " as"
+    },
+    {
+      "i": 455,
+      "action": "thinking",
+      "text": " a favorit"
+    },
+    {
+      "i": 456,
+      "action": "thinking",
+      "text": "e i"
+    },
+    {
+      "i": 457,
+      "action": "thinking",
+      "text": "s support"
+    },
+    {
+      "i": 458,
+      "action": "thinking",
+      "text": "ed by m"
+    },
+    {
+      "i": 459,
+      "action": "thinking",
+      "text": "ulti"
+    },
+    {
+      "i": 460,
+      "action": "thinking",
+      "text": "ple mode"
+    },
+    {
+      "i": 461,
+      "action": "thinking",
+      "text": "ls an"
+    },
+    {
+      "i": 462,
+      "action": "thinking",
+      "text": "d bet"
+    },
+    {
+      "i": 463,
+      "action": "thinking",
+      "text": "ting o"
+    },
+    {
+      "i": 464,
+      "action": "thinking",
+      "text": "d"
+    },
+    {
+      "i": 465,
+      "action": "thinking",
+      "text": "d"
+    },
+    {
+      "i": 466,
+      "action": "thinking",
+      "text": "s"
+    },
+    {
+      "i": 467,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 468,
+      "action": "thinking",
+      "text": "f"
+    },
+    {
+      "i": 469,
+      "action": "thinking",
+      "text": "rom"
+    },
+    {
+      "i": 470,
+      "action": "thinking",
+      "text": " ear"
+    },
+    {
+      "i": 471,
+      "action": "thinking",
+      "text": "ly "
+    },
+    {
+      "i": 472,
+      "action": "thinking",
+      "text": "2026:\n\n##"
+    },
+    {
+      "i": 473,
+      "action": "thinking",
+      "text": "## **Estimat"
+    },
+    {
+      "i": 474,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 475,
+      "action": "thinking",
+      "text": "d"
+    },
+    {
+      "i": 476,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 477,
+      "action": "thinking",
+      "text": "P"
+    },
+    {
+      "i": 478,
+      "action": "thinking",
+      "text": "r"
+    },
+    {
+      "i": 479,
+      "action": "thinking",
+      "text": "o"
+    },
+    {
+      "i": 480,
+      "action": "thinking",
+      "text": "b"
+    },
+    {
+      "i": 481,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 482,
+      "action": "thinking",
+      "text": "bil"
+    },
+    {
+      "i": 483,
+      "action": "thinking",
+      "text": "ity:"
+    },
+    {
+      "i": 484,
+      "action": "thinking",
+      "text": " 26-35%**\n"
+    },
+    {
+      "i": 485,
+      "action": "thinking",
+      "text": "Most reputab"
+    },
+    {
+      "i": 486,
+      "action": "thinking",
+      "text": "le pro"
+    },
+    {
+      "i": 487,
+      "action": "thinking",
+      "text": "jectio"
+    },
+    {
+      "i": 488,
+      "action": "thinking",
+      "text": "ns p"
+    },
+    {
+      "i": 489,
+      "action": "thinking",
+      "text": "lace Sp"
+    },
+    {
+      "i": 490,
+      "action": "thinking",
+      "text": "ain"
+    },
+    {
+      "i": 491,
+      "action": "thinking",
+      "text": "’s chan"
+    },
+    {
+      "i": 492,
+      "action": "thinking",
+      "text": "ce o"
+    },
+    {
+      "i": 493,
+      "action": "thinking",
+      "text": "f reac"
+    },
+    {
+      "i": 494,
+      "action": "thinking",
+      "text": "hing the"
+    },
+    {
+      "i": 495,
+      "action": "thinking",
+      "text": " fi"
+    },
+    {
+      "i": 496,
+      "action": "thinking",
+      "text": "n"
+    },
+    {
+      "i": 497,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 498,
+      "action": "thinking",
+      "text": "l"
+    },
+    {
+      "i": 499,
+      "action": "thinking",
+      "text": " bet"
+    },
+    {
+      "i": 500,
+      "action": "thinking",
+      "text": "w"
+    },
+    {
+      "i": 501,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 502,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 503,
+      "action": "thinking",
+      "text": "n"
+    },
+    {
+      "i": 504,
+      "action": "thinking",
+      "text": " **"
+    },
+    {
+      "i": 505,
+      "action": "thinking",
+      "text": "26% a"
+    },
+    {
+      "i": 506,
+      "action": "thinking",
+      "text": "nd 35"
+    },
+    {
+      "i": 507,
+      "action": "thinking",
+      "text": "%**, wi"
+    },
+    {
+      "i": 508,
+      "action": "thinking",
+      "text": "th some mod"
+    },
+    {
+      "i": 509,
+      "action": "thinking",
+      "text": "els sug"
+    },
+    {
+      "i": 510,
+      "action": "thinking",
+      "text": "g"
+    },
+    {
+      "i": 511,
+      "action": "thinking",
+      "text": "esti"
+    },
+    {
+      "i": 512,
+      "action": "thinking",
+      "text": "ng hi"
+    },
+    {
+      "i": 513,
+      "action": "thinking",
+      "text": "gher. T"
+    },
+    {
+      "i": 514,
+      "action": "thinking",
+      "text": "he "
+    },
+    {
+      "i": 515,
+      "action": "thinking",
+      "text": "core r"
+    },
+    {
+      "i": 516,
+      "action": "thinking",
+      "text": "easo"
+    },
+    {
+      "i": 517,
+      "action": "thinking",
+      "text": "n is Spa"
+    },
+    {
+      "i": 518,
+      "action": "thinking",
+      "text": "in"
+    },
+    {
+      "i": 519,
+      "action": "thinking",
+      "text": "’s cu"
+    },
+    {
+      "i": 520,
+      "action": "thinking",
+      "text": "rrent "
+    },
+    {
+      "i": 521,
+      "action": "thinking",
+      "text": "top-"
+    },
+    {
+      "i": 522,
+      "action": "thinking",
+      "text": "tier World Cup"
+    },
+    {
+      "i": 523,
+      "action": "thinking",
+      "text": " qualif"
+    },
+    {
+      "i": 524,
+      "action": "thinking",
+      "text": "icat"
+    },
+    {
+      "i": 525,
+      "action": "thinking",
+      "text": "ion "
+    },
+    {
+      "i": 526,
+      "action": "thinking",
+      "text": "status and "
+    },
+    {
+      "i": 527,
+      "action": "thinking",
+      "text": "the r"
+    },
+    {
+      "i": 528,
+      "action": "thinking",
+      "text": "elativ"
+    },
+    {
+      "i": 529,
+      "action": "thinking",
+      "text": "ely "
+    },
+    {
+      "i": 530,
+      "action": "thinking",
+      "text": "weak"
+    },
+    {
+      "i": 531,
+      "action": "thinking",
+      "text": "美洲 G"
+    },
+    {
+      "i": 532,
+      "action": "thinking",
+      "text": "roup B "
+    },
+    {
+      "i": 533,
+      "action": "thinking",
+      "text": "(un"
+    },
+    {
+      "i": 534,
+      "action": "thinking",
+      "text": "less Me"
+    },
+    {
+      "i": 535,
+      "action": "thinking",
+      "text": "xico or "
+    },
+    {
+      "i": 536,
+      "action": "thinking",
+      "text": "Canada perform"
+    },
+    {
+      "i": 537,
+      "action": "thinking",
+      "text": " exce"
+    },
+    {
+      "i": 538,
+      "action": "thinking",
+      "text": "ptio"
+    },
+    {
+      "i": 539,
+      "action": "thinking",
+      "text": "nall"
+    },
+    {
+      "i": 540,
+      "action": "thinking",
+      "text": "y w"
+    },
+    {
+      "i": 541,
+      "action": "thinking",
+      "text": "ell"
+    },
+    {
+      "i": 542,
+      "action": "thinking",
+      "text": ").\n\n####"
+    },
+    {
+      "i": 543,
+      "action": "thinking",
+      "text": " **Key"
+    },
+    {
+      "i": 544,
+      "action": "thinking",
+      "text": " Facto"
+    },
+    {
+      "i": 545,
+      "action": "thinking",
+      "text": "rs Inf"
+    },
+    {
+      "i": 546,
+      "action": "thinking",
+      "text": "luen"
+    },
+    {
+      "i": 547,
+      "action": "thinking",
+      "text": "cin"
+    },
+    {
+      "i": 548,
+      "action": "thinking",
+      "text": "g Spai"
+    },
+    {
+      "i": 549,
+      "action": "thinking",
+      "text": "n"
+    },
+    {
+      "i": 550,
+      "action": "thinking",
+      "text": "’"
+    },
+    {
+      "i": 551,
+      "action": "thinking",
+      "text": "s Path"
+    },
+    {
+      "i": 552,
+      "action": "thinking",
+      "text": "**\n\n**"
+    },
+    {
+      "i": 553,
+      "action": "thinking",
+      "text": "1. Group "
+    },
+    {
+      "i": 554,
+      "action": "thinking",
+      "text": "Sta"
+    },
+    {
+      "i": 555,
+      "action": "thinking",
+      "text": "g"
+    },
+    {
+      "i": 556,
+      "action": "thinking",
+      "text": "e S"
+    },
+    {
+      "i": 557,
+      "action": "thinking",
+      "text": "tren"
+    },
+    {
+      "i": 558,
+      "action": "thinking",
+      "text": "g"
+    },
+    {
+      "i": 559,
+      "action": "thinking",
+      "text": "t"
+    },
+    {
+      "i": 560,
+      "action": "thinking",
+      "text": "h"
+    },
+    {
+      "i": 561,
+      "action": "thinking",
+      "text": "*"
+    },
+    {
+      "i": 562,
+      "action": "thinking",
+      "text": "*"
+    },
+    {
+      "i": 563,
+      "action": "thinking",
+      "text": "\n- **Euro 20"
+    },
+    {
+      "i": 564,
+      "action": "thinking",
+      "text": "24 "
+    },
+    {
+      "i": 565,
+      "action": "thinking",
+      "text": "Perfor"
+    },
+    {
+      "i": 566,
+      "action": "thinking",
+      "text": "manc"
+    },
+    {
+      "i": 567,
+      "action": "thinking",
+      "text": "e**: Spain"
+    },
+    {
+      "i": 568,
+      "action": "thinking",
+      "text": "’"
+    },
+    {
+      "i": 569,
+      "action": "thinking",
+      "text": "s dom"
+    },
+    {
+      "i": 570,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 571,
+      "action": "thinking",
+      "text": "n"
+    },
+    {
+      "i": 572,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 573,
+      "action": "thinking",
+      "text": "n"
+    },
+    {
+      "i": 574,
+      "action": "thinking",
+      "text": "c"
+    },
+    {
+      "i": 575,
+      "action": "thinking",
+      "text": "e in Euro 202"
+    },
+    {
+      "i": 576,
+      "action": "thinking",
+      "text": "4 dem"
+    },
+    {
+      "i": 577,
+      "action": "thinking",
+      "text": "onstr"
+    },
+    {
+      "i": 578,
+      "action": "thinking",
+      "text": "ated "
+    },
+    {
+      "i": 579,
+      "action": "thinking",
+      "text": "pe"
+    },
+    {
+      "i": 580,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 581,
+      "action": "thinking",
+      "text": "k"
+    },
+    {
+      "i": 582,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 583,
+      "action": "thinking",
+      "text": "f"
+    },
+    {
+      "i": 584,
+      "action": "thinking",
+      "text": "orm with"
+    },
+    {
+      "i": 585,
+      "action": "thinking",
+      "text": " a "
+    },
+    {
+      "i": 586,
+      "action": "thinking",
+      "text": "9-0 "
+    },
+    {
+      "i": 587,
+      "action": "thinking",
+      "text": "victor"
+    },
+    {
+      "i": 588,
+      "action": "thinking",
+      "text": "y in "
+    },
+    {
+      "i": 589,
+      "action": "thinking",
+      "text": "the "
+    },
+    {
+      "i": 590,
+      "action": "thinking",
+      "text": "se"
+    },
+    {
+      "i": 591,
+      "action": "thinking",
+      "text": "m"
+    },
+    {
+      "i": 592,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 593,
+      "action": "thinking",
+      "text": "f"
+    },
+    {
+      "i": 594,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 595,
+      "action": "thinking",
+      "text": "nals"
+    },
+    {
+      "i": 596,
+      "action": "thinking",
+      "text": " and "
+    },
+    {
+      "i": 597,
+      "action": "thinking",
+      "text": "a 2-0 wi"
+    },
+    {
+      "i": 598,
+      "action": "thinking",
+      "text": "n o"
+    },
+    {
+      "i": 599,
+      "action": "thinking",
+      "text": "ver "
+    },
+    {
+      "i": 600,
+      "action": "thinking",
+      "text": "Englan"
+    },
+    {
+      "i": 601,
+      "action": "thinking",
+      "text": "d"
+    },
+    {
+      "i": 602,
+      "action": "thinking",
+      "text": " in t"
+    },
+    {
+      "i": 603,
+      "action": "thinking",
+      "text": "he final."
+    },
+    {
+      "i": 604,
+      "action": "thinking",
+      "text": " This mo"
+    },
+    {
+      "i": 605,
+      "action": "thinking",
+      "text": "mentum "
+    },
+    {
+      "i": 606,
+      "action": "thinking",
+      "text": "carri"
+    },
+    {
+      "i": 607,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 608,
+      "action": "thinking",
+      "text": "s"
+    },
+    {
+      "i": 609,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 610,
+      "action": "thinking",
+      "text": "w"
+    },
+    {
+      "i": 611,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 612,
+      "action": "thinking",
+      "text": "ig"
+    },
+    {
+      "i": 613,
+      "action": "thinking",
+      "text": "h"
+    },
+    {
+      "i": 614,
+      "action": "thinking",
+      "text": "t i"
+    },
+    {
+      "i": 615,
+      "action": "thinking",
+      "text": "nto 202"
+    },
+    {
+      "i": 616,
+      "action": "thinking",
+      "text": "6.\n"
+    },
+    {
+      "i": 617,
+      "action": "thinking",
+      "text": "- **Quality "
+    },
+    {
+      "i": 618,
+      "action": "thinking",
+      "text": "of "
+    },
+    {
+      "i": 619,
+      "action": "thinking",
+      "text": "Com"
+    },
+    {
+      "i": 620,
+      "action": "thinking",
+      "text": "petiti"
+    },
+    {
+      "i": 621,
+      "action": "thinking",
+      "text": "on"
+    },
+    {
+      "i": 622,
+      "action": "thinking",
+      "text": "**"
+    },
+    {
+      "i": 623,
+      "action": "thinking",
+      "text": ": "
+    },
+    {
+      "i": 624,
+      "action": "thinking",
+      "text": "In "
+    },
+    {
+      "i": 625,
+      "action": "thinking",
+      "text": "G"
+    },
+    {
+      "i": 626,
+      "action": "thinking",
+      "text": "roup C "
+    },
+    {
+      "i": 627,
+      "action": "thinking",
+      "text": "("
+    },
+    {
+      "i": 628,
+      "action": "thinking",
+      "text": "Chile, "
+    },
+    {
+      "i": 629,
+      "action": "thinking",
+      "text": "M"
+    },
+    {
+      "i": 630,
+      "action": "thinking",
+      "text": "exico, P"
+    },
+    {
+      "i": 631,
+      "action": "thinking",
+      "text": "ana"
+    },
+    {
+      "i": 632,
+      "action": "thinking",
+      "text": "ma, Urug"
+    },
+    {
+      "i": 633,
+      "action": "thinking",
+      "text": "ua"
+    },
+    {
+      "i": 634,
+      "action": "thinking",
+      "text": "y or s"
+    },
+    {
+      "i": 635,
+      "action": "thinking",
+      "text": "imi"
+    },
+    {
+      "i": 636,
+      "action": "thinking",
+      "text": "lar)"
+    },
+    {
+      "i": 637,
+      "action": "thinking",
+      "text": ", Spai"
+    },
+    {
+      "i": 638,
+      "action": "thinking",
+      "text": "n is the "
+    },
+    {
+      "i": 639,
+      "action": "thinking",
+      "text": "c"
+    },
+    {
+      "i": 640,
+      "action": "thinking",
+      "text": "lear"
+    },
+    {
+      "i": 641,
+      "action": "thinking",
+      "text": " favor"
+    },
+    {
+      "i": 642,
+      "action": "thinking",
+      "text": "ite. T"
+    },
+    {
+      "i": 643,
+      "action": "thinking",
+      "text": "he g"
+    },
+    {
+      "i": 644,
+      "action": "thinking",
+      "text": "rou"
+    },
+    {
+      "i": 645,
+      "action": "thinking",
+      "text": "p s"
+    },
+    {
+      "i": 646,
+      "action": "thinking",
+      "text": "t"
+    },
+    {
+      "i": 647,
+      "action": "thinking",
+      "text": "age’"
+    },
+    {
+      "i": 648,
+      "action": "thinking",
+      "text": "s new 2"
+    },
+    {
+      "i": 649,
+      "action": "thinking",
+      "text": "4-grou"
+    },
+    {
+      "i": 650,
+      "action": "thinking",
+      "text": "p for"
+    },
+    {
+      "i": 651,
+      "action": "thinking",
+      "text": "mat m"
+    },
+    {
+      "i": 652,
+      "action": "thinking",
+      "text": "eans "
+    },
+    {
+      "i": 653,
+      "action": "thinking",
+      "text": "t"
+    },
+    {
+      "i": 654,
+      "action": "thinking",
+      "text": "h"
+    },
+    {
+      "i": 655,
+      "action": "thinking",
+      "text": "ey only"
+    },
+    {
+      "i": 656,
+      "action": "thinking",
+      "text": " nee"
+    },
+    {
+      "i": 657,
+      "action": "thinking",
+      "text": "d 6 points f"
+    },
+    {
+      "i": 658,
+      "action": "thinking",
+      "text": "o"
+    },
+    {
+      "i": 659,
+      "action": "thinking",
+      "text": "r progr"
+    },
+    {
+      "i": 660,
+      "action": "thinking",
+      "text": "ession, "
+    },
+    {
+      "i": 661,
+      "action": "thinking",
+      "text": "facing limi"
+    },
+    {
+      "i": 662,
+      "action": "thinking",
+      "text": "ted"
+    },
+    {
+      "i": 663,
+      "action": "thinking",
+      "text": " r"
+    },
+    {
+      "i": 664,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 665,
+      "action": "thinking",
+      "text": "s"
+    },
+    {
+      "i": 666,
+      "action": "thinking",
+      "text": "istanc"
+    },
+    {
+      "i": 667,
+      "action": "thinking",
+      "text": "e.\n"
+    },
+    {
+      "i": 668,
+      "action": "thinking",
+      "text": "\n**2. D"
+    },
+    {
+      "i": 669,
+      "action": "thinking",
+      "text": "ept"
+    },
+    {
+      "i": 670,
+      "action": "thinking",
+      "text": "h"
+    },
+    {
+      "i": 671,
+      "action": "thinking",
+      "text": " of"
+    },
+    {
+      "i": 672,
+      "action": "thinking",
+      "text": " Tal"
+    },
+    {
+      "i": 673,
+      "action": "thinking",
+      "text": "ent**\n-"
+    },
+    {
+      "i": 674,
+      "action": "thinking",
+      "text": " **Goalkee"
+    },
+    {
+      "i": 675,
+      "action": "thinking",
+      "text": "pin"
+    },
+    {
+      "i": 676,
+      "action": "thinking",
+      "text": "g Stab"
+    },
+    {
+      "i": 677,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 678,
+      "action": "thinking",
+      "text": "lity"
+    },
+    {
+      "i": 679,
+      "action": "thinking",
+      "text": "**:"
+    },
+    {
+      "i": 680,
+      "action": "thinking",
+      "text": " And"
+    },
+    {
+      "i": 681,
+      "action": "thinking",
+      "text": "reu Alfaro"
+    },
+    {
+      "i": 682,
+      "action": "thinking",
+      "text": "’s ev"
+    },
+    {
+      "i": 683,
+      "action": "thinking",
+      "text": "olut"
+    },
+    {
+      "i": 684,
+      "action": "thinking",
+      "text": "ion b"
+    },
+    {
+      "i": 685,
+      "action": "thinking",
+      "text": "ehin"
+    },
+    {
+      "i": 686,
+      "action": "thinking",
+      "text": "d the "
+    },
+    {
+      "i": 687,
+      "action": "thinking",
+      "text": "mask a"
+    },
+    {
+      "i": 688,
+      "action": "thinking",
+      "text": "nd y"
+    },
+    {
+      "i": 689,
+      "action": "thinking",
+      "text": "oung "
+    },
+    {
+      "i": 690,
+      "action": "thinking",
+      "text": "standouts "
+    },
+    {
+      "i": 691,
+      "action": "thinking",
+      "text": "like C"
+    },
+    {
+      "i": 692,
+      "action": "thinking",
+      "text": "hrist"
+    },
+    {
+      "i": 693,
+      "action": "thinking",
+      "text": "ian Pe"
+    },
+    {
+      "i": 694,
+      "action": "thinking",
+      "text": "rez give "
+    },
+    {
+      "i": 695,
+      "action": "thinking",
+      "text": "Spain reli"
+    },
+    {
+      "i": 696,
+      "action": "thinking",
+      "text": "able def"
+    },
+    {
+      "i": 697,
+      "action": "thinking",
+      "text": "en"
+    },
+    {
+      "i": 698,
+      "action": "thinking",
+      "text": "s"
+    },
+    {
+      "i": 699,
+      "action": "thinking",
+      "text": "ive"
+    },
+    {
+      "i": 700,
+      "action": "thinking",
+      "text": " op"
+    },
+    {
+      "i": 701,
+      "action": "thinking",
+      "text": "tions"
+    },
+    {
+      "i": 702,
+      "action": "thinking",
+      "text": ".\n- **Mi"
+    },
+    {
+      "i": 703,
+      "action": "thinking",
+      "text": "dfi"
+    },
+    {
+      "i": 704,
+      "action": "thinking",
+      "text": "eld Mas"
+    },
+    {
+      "i": 705,
+      "action": "thinking",
+      "text": "tery**: "
+    },
+    {
+      "i": 706,
+      "action": "thinking",
+      "text": "Modern Sp"
+    },
+    {
+      "i": 707,
+      "action": "thinking",
+      "text": "ani"
+    },
+    {
+      "i": 708,
+      "action": "thinking",
+      "text": "sh m"
+    },
+    {
+      "i": 709,
+      "action": "thinking",
+      "text": "idfie"
+    },
+    {
+      "i": 710,
+      "action": "thinking",
+      "text": "ld "
+    },
+    {
+      "i": 711,
+      "action": "thinking",
+      "text": "is "
+    },
+    {
+      "i": 712,
+      "action": "thinking",
+      "text": "the epitome"
+    },
+    {
+      "i": 713,
+      "action": "thinking",
+      "text": " of "
+    },
+    {
+      "i": 714,
+      "action": "thinking",
+      "text": "possession "
+    },
+    {
+      "i": 715,
+      "action": "thinking",
+      "text": "and p"
+    },
+    {
+      "i": 716,
+      "action": "thinking",
+      "text": "os"
+    },
+    {
+      "i": 717,
+      "action": "thinking",
+      "text": "it"
+    },
+    {
+      "i": 718,
+      "action": "thinking",
+      "text": "ion"
+    },
+    {
+      "i": 719,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 720,
+      "action": "thinking",
+      "text": "l pl"
+    },
+    {
+      "i": 721,
+      "action": "thinking",
+      "text": "ay "
+    },
+    {
+      "i": 722,
+      "action": "thinking",
+      "text": "("
+    },
+    {
+      "i": 723,
+      "action": "thinking",
+      "text": "Alva"
+    },
+    {
+      "i": 724,
+      "action": "thinking",
+      "text": "ro"
+    },
+    {
+      "i": 725,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 726,
+      "action": "thinking",
+      "text": "Mo"
+    },
+    {
+      "i": 727,
+      "action": "thinking",
+      "text": "rata"
+    },
+    {
+      "i": 728,
+      "action": "thinking",
+      "text": ", "
+    },
+    {
+      "i": 729,
+      "action": "thinking",
+      "text": "Ped"
+    },
+    {
+      "i": 730,
+      "action": "thinking",
+      "text": "r"
+    },
+    {
+      "i": 731,
+      "action": "thinking",
+      "text": "i, M"
+    },
+    {
+      "i": 732,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 733,
+      "action": "thinking",
+      "text": "ke"
+    },
+    {
+      "i": 734,
+      "action": "thinking",
+      "text": "l O"
+    },
+    {
+      "i": 735,
+      "action": "thinking",
+      "text": "yarz"
+    },
+    {
+      "i": 736,
+      "action": "thinking",
+      "text": "ab"
+    },
+    {
+      "i": 737,
+      "action": "thinking",
+      "text": "al, M"
+    },
+    {
+      "i": 738,
+      "action": "thinking",
+      "text": "outin"
+    },
+    {
+      "i": 739,
+      "action": "thinking",
+      "text": "ho"
+    },
+    {
+      "i": 740,
+      "action": "thinking",
+      "text": "). Ev"
+    },
+    {
+      "i": 741,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 742,
+      "action": "thinking",
+      "text": "n w"
+    },
+    {
+      "i": 743,
+      "action": "thinking",
+      "text": "it"
+    },
+    {
+      "i": 744,
+      "action": "thinking",
+      "text": "h Y"
+    },
+    {
+      "i": 745,
+      "action": "thinking",
+      "text": "ou"
+    },
+    {
+      "i": 746,
+      "action": "thinking",
+      "text": "sse"
+    },
+    {
+      "i": 747,
+      "action": "thinking",
+      "text": "f En-Nes"
+    },
+    {
+      "i": 748,
+      "action": "thinking",
+      "text": "y"
+    },
+    {
+      "i": 749,
+      "action": "thinking",
+      "text": "ri in "
+    },
+    {
+      "i": 750,
+      "action": "thinking",
+      "text": "defense,"
+    },
+    {
+      "i": 751,
+      "action": "thinking",
+      "text": " th"
+    },
+    {
+      "i": 752,
+      "action": "thinking",
+      "text": "eir co"
+    },
+    {
+      "i": 753,
+      "action": "thinking",
+      "text": "ntrol of"
+    },
+    {
+      "i": 754,
+      "action": "thinking",
+      "text": " tempo "
+    },
+    {
+      "i": 755,
+      "action": "thinking",
+      "text": "re"
+    },
+    {
+      "i": 756,
+      "action": "thinking",
+      "text": "m"
+    },
+    {
+      "i": 757,
+      "action": "thinking",
+      "text": "ain"
+    },
+    {
+      "i": 758,
+      "action": "thinking",
+      "text": "s stron"
+    },
+    {
+      "i": 759,
+      "action": "thinking",
+      "text": "g.\n- **F"
+    },
+    {
+      "i": 760,
+      "action": "thinking",
+      "text": "orw"
+    },
+    {
+      "i": 761,
+      "action": "thinking",
+      "text": "ard"
+    },
+    {
+      "i": 762,
+      "action": "thinking",
+      "text": " Op"
+    },
+    {
+      "i": 763,
+      "action": "thinking",
+      "text": "t"
+    },
+    {
+      "i": 764,
+      "action": "thinking",
+      "text": "ions"
+    },
+    {
+      "i": 765,
+      "action": "thinking",
+      "text": "**:"
+    },
+    {
+      "i": 766,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 767,
+      "action": "thinking",
+      "text": "Alv"
+    },
+    {
+      "i": 768,
+      "action": "thinking",
+      "text": "ar"
+    },
+    {
+      "i": 769,
+      "action": "thinking",
+      "text": "o "
+    },
+    {
+      "i": 770,
+      "action": "thinking",
+      "text": "Mor"
+    },
+    {
+      "i": 771,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 772,
+      "action": "thinking",
+      "text": "ta"
+    },
+    {
+      "i": 773,
+      "action": "thinking",
+      "text": ", An"
+    },
+    {
+      "i": 774,
+      "action": "thinking",
+      "text": "su"
+    },
+    {
+      "i": 775,
+      "action": "thinking",
+      "text": " Fa"
+    },
+    {
+      "i": 776,
+      "action": "thinking",
+      "text": "t"
+    },
+    {
+      "i": 777,
+      "action": "thinking",
+      "text": "i, M"
+    },
+    {
+      "i": 778,
+      "action": "thinking",
+      "text": "ikel Oya"
+    },
+    {
+      "i": 779,
+      "action": "thinking",
+      "text": "rzabal prov"
+    },
+    {
+      "i": 780,
+      "action": "thinking",
+      "text": "ide cons"
+    },
+    {
+      "i": 781,
+      "action": "thinking",
+      "text": "istent s"
+    },
+    {
+      "i": 782,
+      "action": "thinking",
+      "text": "c"
+    },
+    {
+      "i": 783,
+      "action": "thinking",
+      "text": "oring"
+    },
+    {
+      "i": 784,
+      "action": "thinking",
+      "text": " threat"
+    },
+    {
+      "i": 785,
+      "action": "thinking",
+      "text": "s; Luis S"
+    },
+    {
+      "i": 786,
+      "action": "thinking",
+      "text": "uarez "
+    },
+    {
+      "i": 787,
+      "action": "thinking",
+      "text": "inspir"
+    },
+    {
+      "i": 788,
+      "action": "thinking",
+      "text": "es y"
+    },
+    {
+      "i": 789,
+      "action": "thinking",
+      "text": "oung"
+    },
+    {
+      "i": 790,
+      "action": "thinking",
+      "text": " star"
+    },
+    {
+      "i": 791,
+      "action": "thinking",
+      "text": "s but c"
+    },
+    {
+      "i": 792,
+      "action": "thinking",
+      "text": "an al"
+    },
+    {
+      "i": 793,
+      "action": "thinking",
+      "text": "so hand"
+    },
+    {
+      "i": 794,
+      "action": "thinking",
+      "text": "le last-minute"
+    },
+    {
+      "i": 795,
+      "action": "thinking",
+      "text": " op"
+    },
+    {
+      "i": 796,
+      "action": "thinking",
+      "text": "po"
+    },
+    {
+      "i": 797,
+      "action": "thinking",
+      "text": "r"
+    },
+    {
+      "i": 798,
+      "action": "thinking",
+      "text": "t"
+    },
+    {
+      "i": 799,
+      "action": "thinking",
+      "text": "unities.\n"
+    },
+    {
+      "i": 800,
+      "action": "thinking",
+      "text": "\n**3."
+    },
+    {
+      "i": 801,
+      "action": "thinking",
+      "text": " Tactic"
+    },
+    {
+      "i": 802,
+      "action": "thinking",
+      "text": "al "
+    },
+    {
+      "i": 803,
+      "action": "thinking",
+      "text": "F"
+    },
+    {
+      "i": 804,
+      "action": "thinking",
+      "text": "lex"
+    },
+    {
+      "i": 805,
+      "action": "thinking",
+      "text": "ibil"
+    },
+    {
+      "i": 806,
+      "action": "thinking",
+      "text": "ity**"
+    },
+    {
+      "i": 807,
+      "action": "thinking",
+      "text": "\n- **V"
+    },
+    {
+      "i": 808,
+      "action": "thinking",
+      "text": "ers"
+    },
+    {
+      "i": 809,
+      "action": "thinking",
+      "text": "atile"
+    },
+    {
+      "i": 810,
+      "action": "thinking",
+      "text": " Coach**"
+    },
+    {
+      "i": 811,
+      "action": "thinking",
+      "text": ": Lu"
+    },
+    {
+      "i": 812,
+      "action": "thinking",
+      "text": "is Enriq"
+    },
+    {
+      "i": 813,
+      "action": "thinking",
+      "text": "ue has a"
+    },
+    {
+      "i": 814,
+      "action": "thinking",
+      "text": "da"
+    },
+    {
+      "i": 815,
+      "action": "thinking",
+      "text": "pte"
+    },
+    {
+      "i": 816,
+      "action": "thinking",
+      "text": "d "
+    },
+    {
+      "i": 817,
+      "action": "thinking",
+      "text": "bet"
+    },
+    {
+      "i": 818,
+      "action": "thinking",
+      "text": "w"
+    },
+    {
+      "i": 819,
+      "action": "thinking",
+      "text": "een t"
+    },
+    {
+      "i": 820,
+      "action": "thinking",
+      "text": "iki-tak"
+    },
+    {
+      "i": 821,
+      "action": "thinking",
+      "text": "a, mo"
+    },
+    {
+      "i": 822,
+      "action": "thinking",
+      "text": "r"
+    },
+    {
+      "i": 823,
+      "action": "thinking",
+      "text": "e di"
+    },
+    {
+      "i": 824,
+      "action": "thinking",
+      "text": "rect "
+    },
+    {
+      "i": 825,
+      "action": "thinking",
+      "text": "p"
+    },
+    {
+      "i": 826,
+      "action": "thinking",
+      "text": "lay, "
+    },
+    {
+      "i": 827,
+      "action": "thinking",
+      "text": "and"
+    },
+    {
+      "i": 828,
+      "action": "thinking",
+      "text": " high-pr"
+    },
+    {
+      "i": 829,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 830,
+      "action": "thinking",
+      "text": "ssin"
+    },
+    {
+      "i": 831,
+      "action": "thinking",
+      "text": "g"
+    },
+    {
+      "i": 832,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 833,
+      "action": "thinking",
+      "text": "s"
+    },
+    {
+      "i": 834,
+      "action": "thinking",
+      "text": "y"
+    },
+    {
+      "i": 835,
+      "action": "thinking",
+      "text": "s"
+    },
+    {
+      "i": 836,
+      "action": "thinking",
+      "text": "t"
+    },
+    {
+      "i": 837,
+      "action": "thinking",
+      "text": "ems."
+    },
+    {
+      "i": 838,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 839,
+      "action": "thinking",
+      "text": "T"
+    },
+    {
+      "i": 840,
+      "action": "thinking",
+      "text": "h"
+    },
+    {
+      "i": 841,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 842,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 843,
+      "action": "thinking",
+      "text": "3"
+    },
+    {
+      "i": 844,
+      "action": "thinking",
+      "text": "-4-3 an"
+    },
+    {
+      "i": 845,
+      "action": "thinking",
+      "text": "d 4-3-3"
+    },
+    {
+      "i": 846,
+      "action": "thinking",
+      "text": " hybrid of"
+    },
+    {
+      "i": 847,
+      "action": "thinking",
+      "text": "fers un"
+    },
+    {
+      "i": 848,
+      "action": "thinking",
+      "text": "pr"
+    },
+    {
+      "i": 849,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 850,
+      "action": "thinking",
+      "text": "dic"
+    },
+    {
+      "i": 851,
+      "action": "thinking",
+      "text": "tab"
+    },
+    {
+      "i": 852,
+      "action": "thinking",
+      "text": "ility."
+    },
+    {
+      "i": 853,
+      "action": "thinking",
+      "text": "\n- **D"
+    },
+    {
+      "i": 854,
+      "action": "thinking",
+      "text": "efe"
+    },
+    {
+      "i": 855,
+      "action": "thinking",
+      "text": "nsi"
+    },
+    {
+      "i": 856,
+      "action": "thinking",
+      "text": "v"
+    },
+    {
+      "i": 857,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 858,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 859,
+      "action": "thinking",
+      "text": "S"
+    },
+    {
+      "i": 860,
+      "action": "thinking",
+      "text": "olidi"
+    },
+    {
+      "i": 861,
+      "action": "thinking",
+      "text": "ty**: 5"
+    },
+    {
+      "i": 862,
+      "action": "thinking",
+      "text": "3% l"
+    },
+    {
+      "i": 863,
+      "action": "thinking",
+      "text": "as"
+    },
+    {
+      "i": 864,
+      "action": "thinking",
+      "text": "t"
+    },
+    {
+      "i": 865,
+      "action": "thinking",
+      "text": " season"
+    },
+    {
+      "i": 866,
+      "action": "thinking",
+      "text": "’s x"
+    },
+    {
+      "i": 867,
+      "action": "thinking",
+      "text": "G conc"
+    },
+    {
+      "i": 868,
+      "action": "thinking",
+      "text": "eded"
+    },
+    {
+      "i": 869,
+      "action": "thinking",
+      "text": " and s"
+    },
+    {
+      "i": 870,
+      "action": "thinking",
+      "text": "olid win"
+    },
+    {
+      "i": 871,
+      "action": "thinking",
+      "text": " rat"
+    },
+    {
+      "i": 872,
+      "action": "thinking",
+      "text": "es against"
+    },
+    {
+      "i": 873,
+      "action": "thinking",
+      "text": " top opp"
+    },
+    {
+      "i": 874,
+      "action": "thinking",
+      "text": "onents"
+    },
+    {
+      "i": 875,
+      "action": "thinking",
+      "text": " sugges"
+    },
+    {
+      "i": 876,
+      "action": "thinking",
+      "text": "t a"
+    },
+    {
+      "i": 877,
+      "action": "thinking",
+      "text": "da"
+    },
+    {
+      "i": 878,
+      "action": "thinking",
+      "text": "p"
+    },
+    {
+      "i": 879,
+      "action": "thinking",
+      "text": "t"
+    },
+    {
+      "i": 880,
+      "action": "thinking",
+      "text": "ability.\n"
+    },
+    {
+      "i": 881,
+      "action": "thinking",
+      "text": "\n**4"
+    },
+    {
+      "i": 882,
+      "action": "thinking",
+      "text": ". Sc"
+    },
+    {
+      "i": 883,
+      "action": "thinking",
+      "text": "hedu"
+    },
+    {
+      "i": 884,
+      "action": "thinking",
+      "text": "le "
+    },
+    {
+      "i": 885,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 886,
+      "action": "thinking",
+      "text": "nd "
+    },
+    {
+      "i": 887,
+      "action": "thinking",
+      "text": "F"
+    },
+    {
+      "i": 888,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 889,
+      "action": "thinking",
+      "text": "t"
+    },
+    {
+      "i": 890,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 891,
+      "action": "thinking",
+      "text": "gue**"
+    },
+    {
+      "i": 892,
+      "action": "thinking",
+      "text": "\n- **2026"
+    },
+    {
+      "i": 893,
+      "action": "thinking",
+      "text": " Copa "
+    },
+    {
+      "i": 894,
+      "action": "thinking",
+      "text": "Am"
+    },
+    {
+      "i": 895,
+      "action": "thinking",
+      "text": "érica Angl"
+    },
+    {
+      "i": 896,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 897,
+      "action": "thinking",
+      "text": "**: Arg"
+    },
+    {
+      "i": 898,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 899,
+      "action": "thinking",
+      "text": "ntin"
+    },
+    {
+      "i": 900,
+      "action": "thinking",
+      "text": "a, Braz"
+    },
+    {
+      "i": 901,
+      "action": "thinking",
+      "text": "il"
+    },
+    {
+      "i": 902,
+      "action": "thinking",
+      "text": ", "
+    },
+    {
+      "i": 903,
+      "action": "thinking",
+      "text": "and M"
+    },
+    {
+      "i": 904,
+      "action": "thinking",
+      "text": "exico (as h"
+    },
+    {
+      "i": 905,
+      "action": "thinking",
+      "text": "o"
+    },
+    {
+      "i": 906,
+      "action": "thinking",
+      "text": "st qua"
+    },
+    {
+      "i": 907,
+      "action": "thinking",
+      "text": "lif"
+    },
+    {
+      "i": 908,
+      "action": "thinking",
+      "text": "iers"
+    },
+    {
+      "i": 909,
+      "action": "thinking",
+      "text": ") "
+    },
+    {
+      "i": 910,
+      "action": "thinking",
+      "text": "mig"
+    },
+    {
+      "i": 911,
+      "action": "thinking",
+      "text": "ht "
+    },
+    {
+      "i": 912,
+      "action": "thinking",
+      "text": "be f"
+    },
+    {
+      "i": 913,
+      "action": "thinking",
+      "text": "at"
+    },
+    {
+      "i": 914,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 915,
+      "action": "thinking",
+      "text": "gu"
+    },
+    {
+      "i": 916,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 917,
+      "action": "thinking",
+      "text": "d b"
+    },
+    {
+      "i": 918,
+      "action": "thinking",
+      "text": "y C"
+    },
+    {
+      "i": 919,
+      "action": "thinking",
+      "text": "ON"
+    },
+    {
+      "i": 920,
+      "action": "thinking",
+      "text": "MEBOL"
+    },
+    {
+      "i": 921,
+      "action": "thinking",
+      "text": "/CO"
+    },
+    {
+      "i": 922,
+      "action": "thinking",
+      "text": "N"
+    },
+    {
+      "i": 923,
+      "action": "thinking",
+      "text": "CACAF bur"
+    },
+    {
+      "i": 924,
+      "action": "thinking",
+      "text": "nout, red"
+    },
+    {
+      "i": 925,
+      "action": "thinking",
+      "text": "ucing region"
+    },
+    {
+      "i": 926,
+      "action": "thinking",
+      "text": "al compet"
+    },
+    {
+      "i": 927,
+      "action": "thinking",
+      "text": "iti"
+    },
+    {
+      "i": 928,
+      "action": "thinking",
+      "text": "on"
+    },
+    {
+      "i": 929,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 930,
+      "action": "thinking",
+      "text": "p"
+    },
+    {
+      "i": 931,
+      "action": "thinking",
+      "text": "ressu"
+    },
+    {
+      "i": 932,
+      "action": "thinking",
+      "text": "re.\n"
+    },
+    {
+      "i": 933,
+      "action": "thinking",
+      "text": "\n**"
+    },
+    {
+      "i": 934,
+      "action": "thinking",
+      "text": "5. L"
+    },
+    {
+      "i": 935,
+      "action": "thinking",
+      "text": "uck"
+    },
+    {
+      "i": 936,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 937,
+      "action": "thinking",
+      "text": "and"
+    },
+    {
+      "i": 938,
+      "action": "thinking",
+      "text": " Upse"
+    },
+    {
+      "i": 939,
+      "action": "thinking",
+      "text": "ts*"
+    },
+    {
+      "i": 940,
+      "action": "thinking",
+      "text": "*"
+    },
+    {
+      "i": 941,
+      "action": "thinking",
+      "text": "\n"
+    },
+    {
+      "i": 942,
+      "action": "thinking",
+      "text": "-"
+    },
+    {
+      "i": 943,
+      "action": "thinking",
+      "text": " **Round o"
+    },
+    {
+      "i": 944,
+      "action": "thinking",
+      "text": "f 1"
+    },
+    {
+      "i": 945,
+      "action": "thinking",
+      "text": "6 "
+    },
+    {
+      "i": 946,
+      "action": "thinking",
+      "text": "Variabl"
+    },
+    {
+      "i": 947,
+      "action": "thinking",
+      "text": "es**:"
+    },
+    {
+      "i": 948,
+      "action": "thinking",
+      "text": " A "
+    },
+    {
+      "i": 949,
+      "action": "thinking",
+      "text": "narrow loss"
+    },
+    {
+      "i": 950,
+      "action": "thinking",
+      "text": " in re"
+    },
+    {
+      "i": 951,
+      "action": "thinking",
+      "text": "gulation g"
+    },
+    {
+      "i": 952,
+      "action": "thinking",
+      "text": "ives o"
+    },
+    {
+      "i": 953,
+      "action": "thinking",
+      "text": "pponen"
+    },
+    {
+      "i": 954,
+      "action": "thinking",
+      "text": "ts third"
+    },
+    {
+      "i": 955,
+      "action": "thinking",
+      "text": "-"
+    },
+    {
+      "i": 956,
+      "action": "thinking",
+      "text": "place "
+    },
+    {
+      "i": 957,
+      "action": "thinking",
+      "text": "co"
+    },
+    {
+      "i": 958,
+      "action": "thinking",
+      "text": "mfor"
+    },
+    {
+      "i": 959,
+      "action": "thinking",
+      "text": "t, whi"
+    },
+    {
+      "i": 960,
+      "action": "thinking",
+      "text": "le a"
+    },
+    {
+      "i": 961,
+      "action": "thinking",
+      "text": " win "
+    },
+    {
+      "i": 962,
+      "action": "thinking",
+      "text": "sends "
+    },
+    {
+      "i": 963,
+      "action": "thinking",
+      "text": "top s"
+    },
+    {
+      "i": 964,
+      "action": "thinking",
+      "text": "ee"
+    },
+    {
+      "i": 965,
+      "action": "thinking",
+      "text": "d Spain "
+    },
+    {
+      "i": 966,
+      "action": "thinking",
+      "text": "in"
+    },
+    {
+      "i": 967,
+      "action": "thinking",
+      "text": "to a cus"
+    },
+    {
+      "i": 968,
+      "action": "thinking",
+      "text": "h"
+    },
+    {
+      "i": 969,
+      "action": "thinking",
+      "text": "ione"
+    },
+    {
+      "i": 970,
+      "action": "thinking",
+      "text": "d qua"
+    },
+    {
+      "i": 971,
+      "action": "thinking",
+      "text": "rte"
+    },
+    {
+      "i": 972,
+      "action": "thinking",
+      "text": "r. The l"
+    },
+    {
+      "i": 973,
+      "action": "thinking",
+      "text": "ack of"
+    },
+    {
+      "i": 974,
+      "action": "thinking",
+      "text": " pen"
+    },
+    {
+      "i": 975,
+      "action": "thinking",
+      "text": "alt"
+    },
+    {
+      "i": 976,
+      "action": "thinking",
+      "text": "y sh"
+    },
+    {
+      "i": 977,
+      "action": "thinking",
+      "text": "ooto"
+    },
+    {
+      "i": 978,
+      "action": "thinking",
+      "text": "uts in "
+    },
+    {
+      "i": 979,
+      "action": "thinking",
+      "text": "the ne"
+    },
+    {
+      "i": 980,
+      "action": "thinking",
+      "text": "w format "
+    },
+    {
+      "i": 981,
+      "action": "thinking",
+      "text": "mea"
+    },
+    {
+      "i": 982,
+      "action": "thinking",
+      "text": "ns momentu"
+    },
+    {
+      "i": 983,
+      "action": "thinking",
+      "text": "m "
+    },
+    {
+      "i": 984,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 985,
+      "action": "thinking",
+      "text": "s p"
+    },
+    {
+      "i": 986,
+      "action": "thinking",
+      "text": "res"
+    },
+    {
+      "i": 987,
+      "action": "thinking",
+      "text": "erved."
+    },
+    {
+      "i": 988,
+      "action": "thinking",
+      "text": "\n- "
+    },
+    {
+      "i": 989,
+      "action": "thinking",
+      "text": "**K"
+    },
+    {
+      "i": 990,
+      "action": "thinking",
+      "text": "ey "
+    },
+    {
+      "i": 991,
+      "action": "thinking",
+      "text": "Matchu"
+    },
+    {
+      "i": 992,
+      "action": "thinking",
+      "text": "ps**: I"
+    },
+    {
+      "i": 993,
+      "action": "thinking",
+      "text": "f Spain"
+    },
+    {
+      "i": 994,
+      "action": "thinking",
+      "text": " av"
+    },
+    {
+      "i": 995,
+      "action": "thinking",
+      "text": "oids Bra"
+    },
+    {
+      "i": 996,
+      "action": "thinking",
+      "text": "zil or"
+    },
+    {
+      "i": 997,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 998,
+      "action": "thinking",
+      "text": "Germ"
+    },
+    {
+      "i": 999,
+      "action": "thinking",
+      "text": "any early"
+    },
+    {
+      "i": 1000,
+      "action": "thinking",
+      "text": ", the"
+    },
+    {
+      "i": 1001,
+      "action": "thinking",
+      "text": " kn"
+    },
+    {
+      "i": 1002,
+      "action": "thinking",
+      "text": "ockou"
+    },
+    {
+      "i": 1003,
+      "action": "thinking",
+      "text": "t p"
+    },
+    {
+      "i": 1004,
+      "action": "thinking",
+      "text": "ath"
+    },
+    {
+      "i": 1005,
+      "action": "thinking",
+      "text": " is "
+    },
+    {
+      "i": 1006,
+      "action": "thinking",
+      "text": "gen"
+    },
+    {
+      "i": 1007,
+      "action": "thinking",
+      "text": "tler.\n\n###"
+    },
+    {
+      "i": 1008,
+      "action": "thinking",
+      "text": "# *"
+    },
+    {
+      "i": 1009,
+      "action": "thinking",
+      "text": "*Compa"
+    },
+    {
+      "i": 1010,
+      "action": "thinking",
+      "text": "rison"
+    },
+    {
+      "i": 1011,
+      "action": "thinking",
+      "text": " to Ot"
+    },
+    {
+      "i": 1012,
+      "action": "thinking",
+      "text": "her"
+    },
+    {
+      "i": 1013,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 1014,
+      "action": "thinking",
+      "text": "Con"
+    },
+    {
+      "i": 1015,
+      "action": "thinking",
+      "text": "tender"
+    },
+    {
+      "i": 1016,
+      "action": "thinking",
+      "text": "s**"
+    },
+    {
+      "i": 1017,
+      "action": "thinking",
+      "text": "\n- **"
+    },
+    {
+      "i": 1018,
+      "action": "thinking",
+      "text": "France**"
+    },
+    {
+      "i": 1019,
+      "action": "thinking",
+      "text": ": High"
+    },
+    {
+      "i": 1020,
+      "action": "thinking",
+      "text": "-qua"
+    },
+    {
+      "i": 1021,
+      "action": "thinking",
+      "text": "lity squa"
+    },
+    {
+      "i": 1022,
+      "action": "thinking",
+      "text": "d bu"
+    },
+    {
+      "i": 1023,
+      "action": "thinking",
+      "text": "t injuries an"
+    },
+    {
+      "i": 1024,
+      "action": "thinking",
+      "text": "d inconsi"
+    },
+    {
+      "i": 1025,
+      "action": "thinking",
+      "text": "stent"
+    },
+    {
+      "i": 1026,
+      "action": "thinking",
+      "text": " nati"
+    },
+    {
+      "i": 1027,
+      "action": "thinking",
+      "text": "onal"
+    },
+    {
+      "i": 1028,
+      "action": "thinking",
+      "text": " team for"
+    },
+    {
+      "i": 1029,
+      "action": "thinking",
+      "text": "m"
+    },
+    {
+      "i": 1030,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 1031,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 1032,
+      "action": "thinking",
+      "text": "r"
+    },
+    {
+      "i": 1033,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 1034,
+      "action": "thinking",
+      "text": " concer"
+    },
+    {
+      "i": 1035,
+      "action": "thinking",
+      "text": "ns"
+    },
+    {
+      "i": 1036,
+      "action": "thinking",
+      "text": ";"
+    },
+    {
+      "i": 1037,
+      "action": "thinking",
+      "text": " 24"
+    },
+    {
+      "i": 1038,
+      "action": "thinking",
+      "text": "% chanc"
+    },
+    {
+      "i": 1039,
+      "action": "thinking",
+      "text": "e.\n"
+    },
+    {
+      "i": 1040,
+      "action": "thinking",
+      "text": "- **Engla"
+    },
+    {
+      "i": 1041,
+      "action": "thinking",
+      "text": "nd**"
+    },
+    {
+      "i": 1042,
+      "action": "thinking",
+      "text": ": T"
+    },
+    {
+      "i": 1043,
+      "action": "thinking",
+      "text": "actical"
+    },
+    {
+      "i": 1044,
+      "action": "thinking",
+      "text": " inf"
+    },
+    {
+      "i": 1045,
+      "action": "thinking",
+      "text": "lexibi"
+    },
+    {
+      "i": 1046,
+      "action": "thinking",
+      "text": "lity a"
+    },
+    {
+      "i": 1047,
+      "action": "thinking",
+      "text": "nd"
+    },
+    {
+      "i": 1048,
+      "action": "thinking",
+      "text": " older s"
+    },
+    {
+      "i": 1049,
+      "action": "thinking",
+      "text": "quad"
+    },
+    {
+      "i": 1050,
+      "action": "thinking",
+      "text": " (positive "
+    },
+    {
+      "i": 1051,
+      "action": "thinking",
+      "text": "f"
+    },
+    {
+      "i": 1052,
+      "action": "thinking",
+      "text": "or experi"
+    },
+    {
+      "i": 1053,
+      "action": "thinking",
+      "text": "ence"
+    },
+    {
+      "i": 1054,
+      "action": "thinking",
+      "text": ", negati"
+    },
+    {
+      "i": 1055,
+      "action": "thinking",
+      "text": "ve"
+    },
+    {
+      "i": 1056,
+      "action": "thinking",
+      "text": " f"
+    },
+    {
+      "i": 1057,
+      "action": "thinking",
+      "text": "o"
+    },
+    {
+      "i": 1058,
+      "action": "thinking",
+      "text": "r"
+    },
+    {
+      "i": 1059,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 1060,
+      "action": "thinking",
+      "text": "fitness"
+    },
+    {
+      "i": 1061,
+      "action": "thinking",
+      "text": ");"
+    },
+    {
+      "i": 1062,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 1063,
+      "action": "thinking",
+      "text": "~22"
+    },
+    {
+      "i": 1064,
+      "action": "thinking",
+      "text": "% chan"
+    },
+    {
+      "i": 1065,
+      "action": "thinking",
+      "text": "c"
+    },
+    {
+      "i": 1066,
+      "action": "thinking",
+      "text": "e.\n- **Br"
+    },
+    {
+      "i": 1067,
+      "action": "thinking",
+      "text": "azi"
+    },
+    {
+      "i": 1068,
+      "action": "thinking",
+      "text": "l/Argen"
+    },
+    {
+      "i": 1069,
+      "action": "thinking",
+      "text": "tina"
+    },
+    {
+      "i": 1070,
+      "action": "thinking",
+      "text": "**: Stron"
+    },
+    {
+      "i": 1071,
+      "action": "thinking",
+      "text": "g but "
+    },
+    {
+      "i": 1072,
+      "action": "thinking",
+      "text": "regional riv"
+    },
+    {
+      "i": 1073,
+      "action": "thinking",
+      "text": "al comp"
+    },
+    {
+      "i": 1074,
+      "action": "thinking",
+      "text": "etition"
+    },
+    {
+      "i": 1075,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 1076,
+      "action": "thinking",
+      "text": "dr"
+    },
+    {
+      "i": 1077,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 1078,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 1079,
+      "action": "thinking",
+      "text": "n"
+    },
+    {
+      "i": 1080,
+      "action": "thinking",
+      "text": "s energ"
+    },
+    {
+      "i": 1081,
+      "action": "thinking",
+      "text": "y; ~2"
+    },
+    {
+      "i": 1082,
+      "action": "thinking",
+      "text": "0% "
+    },
+    {
+      "i": 1083,
+      "action": "thinking",
+      "text": "chanc"
+    },
+    {
+      "i": 1084,
+      "action": "thinking",
+      "text": "e "
+    },
+    {
+      "i": 1085,
+      "action": "thinking",
+      "text": "each.\n"
+    },
+    {
+      "i": 1086,
+      "action": "thinking",
+      "text": "\n---\n"
+    },
+    {
+      "i": 1087,
+      "action": "thinking",
+      "text": "\n**"
+    },
+    {
+      "i": 1088,
+      "action": "thinking",
+      "text": "Botto"
+    },
+    {
+      "i": 1089,
+      "action": "thinking",
+      "text": "m Line*"
+    },
+    {
+      "i": 1090,
+      "action": "thinking",
+      "text": "*:"
+    },
+    {
+      "i": 1091,
+      "action": "thinking",
+      "text": " Wi"
+    },
+    {
+      "i": 1092,
+      "action": "thinking",
+      "text": "t"
+    },
+    {
+      "i": 1093,
+      "action": "thinking",
+      "text": "h a"
+    },
+    {
+      "i": 1094,
+      "action": "thinking",
+      "text": "r"
+    },
+    {
+      "i": 1095,
+      "action": "thinking",
+      "text": "o"
+    },
+    {
+      "i": 1096,
+      "action": "thinking",
+      "text": "und"
+    },
+    {
+      "i": 1097,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 1098,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 1099,
+      "action": "thinking",
+      "text": " **"
+    },
+    {
+      "i": 1100,
+      "action": "thinking",
+      "text": "1"
+    },
+    {
+      "i": 1101,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 1102,
+      "action": "thinking",
+      "text": "in 3 to"
+    },
+    {
+      "i": 1103,
+      "action": "thinking",
+      "text": " 1"
+    },
+    {
+      "i": 1104,
+      "action": "thinking",
+      "text": " in"
+    },
+    {
+      "i": 1105,
+      "action": "thinking",
+      "text": " 4 chance"
+    },
+    {
+      "i": 1106,
+      "action": "thinking",
+      "text": "** o"
+    },
+    {
+      "i": 1107,
+      "action": "thinking",
+      "text": "f reac"
+    },
+    {
+      "i": 1108,
+      "action": "thinking",
+      "text": "h"
+    },
+    {
+      "i": 1109,
+      "action": "thinking",
+      "text": "ing th"
+    },
+    {
+      "i": 1110,
+      "action": "thinking",
+      "text": "e fi"
+    },
+    {
+      "i": 1111,
+      "action": "thinking",
+      "text": "nal, Spain"
+    },
+    {
+      "i": 1112,
+      "action": "thinking",
+      "text": "’s"
+    },
+    {
+      "i": 1113,
+      "action": "thinking",
+      "text": " prob"
+    },
+    {
+      "i": 1114,
+      "action": "thinking",
+      "text": "ability"
+    },
+    {
+      "i": 1115,
+      "action": "thinking",
+      "text": " ho"
+    },
+    {
+      "i": 1116,
+      "action": "thinking",
+      "text": "v"
+    },
+    {
+      "i": 1117,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 1118,
+      "action": "thinking",
+      "text": "rs "
+    },
+    {
+      "i": 1119,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 1120,
+      "action": "thinking",
+      "text": "r"
+    },
+    {
+      "i": 1121,
+      "action": "thinking",
+      "text": "o"
+    },
+    {
+      "i": 1122,
+      "action": "thinking",
+      "text": "u"
+    },
+    {
+      "i": 1123,
+      "action": "thinking",
+      "text": "nd *"
+    },
+    {
+      "i": 1124,
+      "action": "thinking",
+      "text": "*2"
+    },
+    {
+      "i": 1125,
+      "action": "thinking",
+      "text": "8"
+    },
+    {
+      "i": 1126,
+      "action": "thinking",
+      "text": "–32%"
+    },
+    {
+      "i": 1127,
+      "action": "thinking",
+      "text": "**—driven by"
+    },
+    {
+      "i": 1128,
+      "action": "thinking",
+      "text": " qual"
+    },
+    {
+      "i": 1129,
+      "action": "thinking",
+      "text": "i"
+    },
+    {
+      "i": 1130,
+      "action": "thinking",
+      "text": "ficati"
+    },
+    {
+      "i": 1131,
+      "action": "thinking",
+      "text": "on eas"
+    },
+    {
+      "i": 1132,
+      "action": "thinking",
+      "text": "e"
+    },
+    {
+      "i": 1133,
+      "action": "thinking",
+      "text": ", sq"
+    },
+    {
+      "i": 1134,
+      "action": "thinking",
+      "text": "uad depth"
+    },
+    {
+      "i": 1135,
+      "action": "thinking",
+      "text": ", and tactic"
+    },
+    {
+      "i": 1136,
+      "action": "thinking",
+      "text": "a"
+    },
+    {
+      "i": 1137,
+      "action": "thinking",
+      "text": "l flexi"
+    },
+    {
+      "i": 1138,
+      "action": "thinking",
+      "text": "bility"
+    },
+    {
+      "i": 1139,
+      "action": "thinking",
+      "text": ", though t"
+    },
+    {
+      "i": 1140,
+      "action": "thinking",
+      "text": "hei"
+    },
+    {
+      "i": 1141,
+      "action": "thinking",
+      "text": "r inability t"
+    },
+    {
+      "i": 1142,
+      "action": "thinking",
+      "text": "o cons"
+    },
+    {
+      "i": 1143,
+      "action": "thinking",
+      "text": "istently "
+    },
+    {
+      "i": 1144,
+      "action": "thinking",
+      "text": "close "
+    },
+    {
+      "i": 1145,
+      "action": "thinking",
+      "text": "knockout"
+    },
+    {
+      "i": 1146,
+      "action": "thinking",
+      "text": " gam"
+    },
+    {
+      "i": 1147,
+      "action": "thinking",
+      "text": "es remai"
+    },
+    {
+      "i": 1148,
+      "action": "thinking",
+      "text": "ns the "
+    },
+    {
+      "i": 1149,
+      "action": "thinking",
+      "text": "big"
+    },
+    {
+      "i": 1150,
+      "action": "thinking",
+      "text": "ge"
+    },
+    {
+      "i": 1151,
+      "action": "thinking",
+      "text": "st h"
+    },
+    {
+      "i": 1152,
+      "action": "thinking",
+      "text": "urdle"
+    },
+    {
+      "i": 1153,
+      "action": "thinking",
+      "text": ".\n"
+    },
+    {
+      "i": 1154,
+      "action": "thinking",
+      "text": "\nIf y"
+    },
+    {
+      "i": 1155,
+      "action": "thinking",
+      "text": "ou want "
+    },
+    {
+      "i": 1156,
+      "action": "thinking",
+      "text": "a more "
+    },
+    {
+      "i": 1157,
+      "action": "thinking",
+      "text": "p"
+    },
+    {
+      "i": 1158,
+      "action": "thinking",
+      "text": "re"
+    },
+    {
+      "i": 1159,
+      "action": "thinking",
+      "text": "cise"
+    },
+    {
+      "i": 1160,
+      "action": "thinking",
+      "text": " fig"
+    },
+    {
+      "i": 1161,
+      "action": "thinking",
+      "text": "ure, "
+    },
+    {
+      "i": 1162,
+      "action": "thinking",
+      "text": "I ca"
+    },
+    {
+      "i": 1163,
+      "action": "thinking",
+      "text": "n dig in"
+    },
+    {
+      "i": 1164,
+      "action": "thinking",
+      "text": "to the"
+    },
+    {
+      "i": 1165,
+      "action": "thinking",
+      "text": " Goldm"
+    },
+    {
+      "i": 1166,
+      "action": "thinking",
+      "text": "an Sachs m"
+    },
+    {
+      "i": 1167,
+      "action": "thinking",
+      "text": "ode"
+    },
+    {
+      "i": 1168,
+      "action": "thinking",
+      "text": "l speci"
+    },
+    {
+      "i": 1169,
+      "action": "thinking",
+      "text": "fics or "
+    },
+    {
+      "i": 1170,
+      "action": "thinking",
+      "text": "Acti"
+    },
+    {
+      "i": 1171,
+      "action": "thinking",
+      "text": "on Networ"
+    },
+    {
+      "i": 1172,
+      "action": "thinking",
+      "text": "k’s detai"
+    },
+    {
+      "i": 1173,
+      "action": "thinking",
+      "text": "led simula"
+    },
+    {
+      "i": 1174,
+      "action": "thinking",
+      "text": "tion "
+    },
+    {
+      "i": 1175,
+      "action": "thinking",
+      "text": "brea"
+    },
+    {
+      "i": 1176,
+      "action": "thinking",
+      "text": "kdown f"
+    },
+    {
+      "i": 1177,
+      "action": "thinking",
+      "text": "rom the"
+    },
+    {
+      "i": 1178,
+      "action": "thinking",
+      "text": " "
+    },
+    {
+      "i": 1179,
+      "action": "thinking",
+      "text": "lates"
+    },
+    {
+      "i": 1180,
+      "action": "thinking",
+      "text": "t u"
+    },
+    {
+      "i": 1181,
+      "action": "thinking",
+      "text": "pda"
+    },
+    {
+      "i": 1182,
+      "action": "thinking",
+      "text": "te. W"
+    },
+    {
+      "i": 1183,
+      "action": "thinking",
+      "text": "ant m"
+    },
+    {
+      "i": 1184,
+      "action": "thinking",
+      "text": "e to "
+    },
+    {
+      "i": 1185,
+      "action": "thinking",
+      "text": "p"
+    },
+    {
+      "i": 1186,
+      "action": "thinking",
+      "text": "ull tha"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.reuters.com/sports/soccer/soccer-spain-favorites-win-world-cup-goldman-model-shows-2026-05-29/",
+      "title": "Spain favorites to win 2026 World Cup, Goldman model shows"
+    },
+    {
+      "url": "https://www.foxsports.com/stories/soccer/world-cup-2026-champion-odds",
+      "title": "2026 World Cup Odds: Spain Narrowly Favored Over France"
+    },
+    {
+      "url": "https://www.facebook.com/seastats/posts/the-race-for-the-2026-fifa-world-cup-is-already-heating-up-with-spain-leading-th/972193025152549/",
+      "title": "The race for the 2026 FIFA World Cup is already heating up, with ..."
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=qnKhvmqazDw",
+      "title": "Why Spain Might WIN the 2026 FIFA World Cup - YouTube"
+    },
+    {
+      "url": "https://www.reddit.com/r/worldcup/comments/1lx9xf1/hot_take_is_it_fair_to_judge_teams_now_or_to_wait/",
+      "title": "is it fair to judge teams now or to wait to do it during / after the World ..."
+    },
+    {
+      "url": "https://michaelpallettleeds.substack.com/p/spain-guide-for-the-world-cup-2026",
+      "title": "Spain Guide for the World Cup 2026 - This Is Leeds United"
+    },
+    {
+      "url": "https://www.actionnetwork.com/soccer/spain-world-cup-2026-preview",
+      "title": "Spain World Cup Preview: 2026 Predictions, Odds - Action Network"
+    },
+    {
+      "url": "http://www.sportinglife.com/free-bets/news/spain-world-cup-2026/667",
+      "title": "Spain World Cup 2026: Squad, Tactics & Betting Odds - Sporting Life"
+    },
+    {
+      "url": "https://www.spainenglish.com/2026/06/01/goldman-sachs-model-tips-spain-to-win-2026-world-cup-ahead-of-france-and-argentina/",
+      "title": "Goldman Sachs model tips Spain to win 2026 World Cup ahead of ..."
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 25048,
+    "completion_tokens": 3210,
+    "total_tokens": 28258,
+    "completion_tokens_details": {
+      "reasoning_tokens": 1546
+    },
+    "num_search_queries": 1
+  },
+  "elapsed_s": 73.2,
+  "timed_out": false,
+  "error": null
+}

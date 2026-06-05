@@ -1,0 +1,86 @@
+{
+ "match_id": 3869354,
+ "date": "2022-12-10",
+ "stage": "Quarter-finals",
+ "home_team": "England",
+ "away_team": "France",
+ "score": {
+  "home": 1,
+  "away": 2
+ },
+ "winner": "France",
+ "team_xg": {
+  "England": 2.353,
+  "France": 0.839
+ },
+ "shots": {
+  "England": 16,
+  "France": 8
+ },
+ "shots_on_target": {
+  "England": 7,
+  "France": 5
+ },
+ "possession_proxy_pass_share": {
+  "England": 0.573,
+  "France": 0.427
+ },
+ "goals": [
+  {
+   "minute": 16,
+   "second": 22,
+   "player": "Aurélien Djani Tchouaméni",
+   "team": "France",
+   "xg": 0.028,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 53,
+   "second": 27,
+   "player": "Harry Kane",
+   "team": "England",
+   "xg": 0.783,
+   "type": "Penalty",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 77,
+   "second": 10,
+   "player": "Olivier Giroud",
+   "team": "France",
+   "xg": 0.147,
+   "type": "Open Play",
+   "body_part": "Head"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 42,
+   "player": "Antoine Griezmann",
+   "team": "France",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 45,
+   "player": "Ousmane Dembélé",
+   "team": "France",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 79,
+   "player": "Theo Bernard François Hernández",
+   "team": "France",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 88,
+   "player": "Harry Maguire",
+   "team": "England",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3239,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

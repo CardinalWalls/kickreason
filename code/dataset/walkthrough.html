@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE LEDGER · the whole loop — recordable walkthrough</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Hanken+Grotesk:wght@400;500;600&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0a0c0b; --panel:#141714; --panel2:#191d18;
+    --ink:#f3f1e9; --mute:#9aa39a; --faint:#5d655c; --line:#262b25;
+    --edge:#4cf0a3; --edge-dim:#1d6b4c; --down:#ff6b5e; --break:#ffc24d;
+    --pitch:rgba(76,240,163,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:"Hanken Grotesk",sans-serif;
+    overflow:hidden;-webkit-font-smoothing:antialiased;height:100vh}
+  body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:1;opacity:.5;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.035'/%3E%3C/svg%3E")}
+  .mono{font-family:"JetBrains Mono",monospace}
+  .up{color:var(--edge)} .dn{color:var(--down)} .br{color:var(--break)}
+
+  /* ---- stage / scenes ---- */
+  .stage{position:relative;height:100vh;width:100vw;z-index:2}
+  .scene{position:absolute;inset:0;display:none;flex-direction:column;justify-content:center;
+    padding:0 7vw;opacity:0;transition:opacity .45s ease}
+  .scene.active{display:flex;opacity:1}
+  .scene.active .rise{animation:rise .6s cubic-bezier(.2,.7,.2,1) both}
+  .scene.active .rise:nth-child(2){animation-delay:.08s}
+  .scene.active .rise:nth-child(3){animation-delay:.16s}
+  .scene.active .rise:nth-child(4){animation-delay:.24s}
+  .scene.active .rise:nth-child(5){animation-delay:.32s}
+  @keyframes rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+
+  .step{font-family:"JetBrains Mono";font-size:13px;letter-spacing:.24em;text-transform:uppercase;color:var(--edge);margin-bottom:18px}
+  .step .n{color:var(--faint)}
+  h1{font-family:"Bricolage Grotesque";font-weight:800;letter-spacing:-.03em;line-height:.98;
+    font-size:clamp(34px,6vw,76px)}
+  h1 em{font-style:normal;color:var(--edge)}
+  h2{font-family:"Bricolage Grotesque";font-weight:700;letter-spacing:-.02em;line-height:1.02;
+    font-size:clamp(28px,4.4vw,52px);max-width:20ch}
+  .lead{color:var(--mute);font-size:clamp(15px,1.6vw,20px);max-width:60ch;margin-top:18px;line-height:1.5}
+  .pitchring{position:absolute;right:-160px;top:50%;transform:translateY(-50%);width:640px;height:640px;
+    border-radius:50%;border:1px solid var(--pitch);box-shadow:0 0 0 80px var(--pitch) inset;opacity:.45;pointer-events:none}
+
+  /* ---- trace scene ---- */
+  .console{margin-top:30px;background:#070907;border:1px solid var(--line);border-radius:12px;
+    padding:22px 24px;height:300px;overflow:hidden;font-family:"JetBrains Mono";font-size:13px;position:relative}
+  .console .ln{opacity:0;white-space:nowrap}
+  .console .ln.show{opacity:1;transition:opacity .12s}
+  .tk{color:var(--faint)} .ws{color:var(--break)} .ft{color:var(--edge)}
+  .tracestats{display:flex;gap:30px;margin-top:22px}
+  .tracestats b{font-family:"Bricolage Grotesque";font-weight:800;font-size:34px;display:block;letter-spacing:-.02em}
+  .tracestats span{font-family:"JetBrains Mono";font-size:10px;color:var(--faint);letter-spacing:.12em;text-transform:uppercase}
+
+  /* ---- node cards ---- */
+  .ndgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:30px;max-width:1000px}
+  .nd{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:16px 18px;display:flex;gap:14px}
+  .nd .d{width:30px;height:30px;border-radius:7px;display:grid;place-items:center;font-family:"JetBrains Mono";font-weight:700;flex-shrink:0}
+  .nd .d.u{color:var(--edge);background:rgba(76,240,163,.08)} .nd .d.d{color:var(--down);background:rgba(255,107,94,.08)}
+  .nd .j{font-size:14px;line-height:1.4}
+  .nd .s{font-family:"JetBrains Mono";font-size:10.5px;color:var(--faint);margin-top:7px}
+  .nd .s b{color:var(--edge)} .nd .s .t2{color:var(--break)} .nd .s .t3{color:var(--mute)}
+
+  /* ---- value scene ---- */
+  .vrow{display:grid;grid-template-columns:1fr 1fr;gap:40px;margin-top:26px;align-items:start}
+  .rcp{display:grid;gap:10px}
+  .rc{display:flex;justify-content:space-between;align-items:center;background:var(--panel);
+    border:1px solid var(--line);border-radius:9px;padding:12px 16px;font-size:14px}
+  .rc .mk{font-family:"JetBrains Mono";font-size:12px;color:var(--mute)}
+  .rc .mk b{color:var(--down)}
+  .wts{display:grid;gap:9px}
+  .wt{display:flex;align-items:center;gap:12px;font-family:"JetBrains Mono";font-size:12px}
+  .wt .nm{width:160px;color:var(--ink)}
+  .wt .bar{flex:1;height:8px;background:var(--panel2);border-radius:4px;overflow:hidden}
+  .wt .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--edge-dim),var(--edge))}
+  .wt .v{width:36px;text-align:right;color:var(--mute)}
+
+  /* ---- forecast scene ---- */
+  .fc{display:flex;align-items:flex-end;gap:26px;margin-top:24px}
+  .fc .big{font-family:"Bricolage Grotesque";font-weight:800;font-size:clamp(110px,19vw,210px);line-height:.8;letter-spacing:-.05em}
+  .fc .big .p{font-size:.32em;color:var(--mute);vertical-align:super}
+  .fc .agree{padding-bottom:22px;font-family:"JetBrains Mono";font-size:15px;color:var(--mute);max-width:24ch}
+  .fc .agree b{color:var(--edge)}
+  .tree{font-family:"JetBrains Mono";font-size:14px;line-height:2;color:var(--mute);margin-top:26px}
+  .tree .root{color:var(--ink)} .tree .me{color:var(--edge)} .tree .stale{color:var(--break)}
+
+  /* ---- three views ---- */
+  .three{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:30px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:20px;min-height:280px}
+  .card .who{font-family:"JetBrains Mono";font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--edge);margin-bottom:6px}
+  .card h3{font-family:"Bricolage Grotesque";font-weight:700;font-size:20px;margin-bottom:14px}
+  .card .row{font-size:12.5px;color:var(--mute);margin:8px 0;line-height:1.4}
+  .card .row b{color:var(--ink)}
+  .card .mono{font-size:11px;color:var(--faint)}
+
+  /* ---- doctor scene (climax) ---- */
+  .dwrap{display:grid;grid-template-columns:1.1fr 1fr;gap:44px;align-items:center;margin-top:24px}
+  .newschip{border-left:3px solid var(--break);background:rgba(255,194,77,.06);padding:14px 18px;border-radius:0 10px 10px 0;margin-bottom:24px}
+  .newschip .tag{font-family:"JetBrains Mono";font-size:9px;letter-spacing:.16em;color:var(--break);border:1px solid var(--break);border-radius:3px;padding:2px 7px}
+  .newschip p{margin-top:8px;font-size:15px;color:var(--ink)}
+  .move{display:flex;align-items:baseline;gap:16px}
+  .move .a{font-family:"Bricolage Grotesque";font-weight:800;font-size:90px;letter-spacing:-.04em}
+  .move .from{font-family:"JetBrains Mono";font-size:22px;color:var(--faint);text-decoration:line-through}
+  .gauge{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:24px}
+  .gauge h4{font-family:"JetBrains Mono";font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--mute);margin-bottom:18px}
+  .track{position:relative;height:46px;border-radius:8px;background:var(--panel2);border:1px solid var(--line)}
+  .mk2{position:absolute;top:-6px;bottom:-6px;width:2px}
+  .mk2.market{left:73.3%;background:var(--mute)} .mk2.ours{left:53.3%;background:var(--edge);box-shadow:0 0 12px var(--edge)}
+  .mk2 span{position:absolute;top:-22px;left:50%;transform:translateX(-50%);font-family:"JetBrains Mono";font-size:10px;white-space:nowrap}
+  .fillg{position:absolute;left:53.3%;width:20%;top:0;bottom:0;background:repeating-linear-gradient(45deg,rgba(76,240,163,.22),rgba(76,240,163,.22) 6px,transparent 6px,transparent 12px)}
+  .ticks{display:flex;justify-content:space-between;font-family:"JetBrains Mono";font-size:10px;color:var(--faint);margin-top:9px}
+  .edgeline{margin-top:18px;font-family:"JetBrains Mono";font-size:13px;color:var(--edge)}
+
+  /* ---- close ---- */
+  .badges{display:flex;gap:10px;margin-top:26px;flex-wrap:wrap}
+  .bdg{font-family:"JetBrains Mono";font-size:11px;color:var(--faint);border:1px solid var(--line);padding:6px 11px;border-radius:5px;letter-spacing:.06em}
+  .honest{margin-top:26px;max-width:62ch;font-size:12.5px;color:var(--faint);line-height:1.7}
+
+  /* ---- chrome: progress + nav ---- */
+  .topbar{position:fixed;top:0;left:0;right:0;height:54px;display:flex;align-items:center;justify-content:space-between;
+    padding:0 24px;z-index:30}
+  .brand{font-family:"Bricolage Grotesque";font-weight:800;font-size:16px;letter-spacing:-.02em}
+  .brand .dot{color:var(--edge)}
+  .count{font-family:"JetBrains Mono";font-size:12px;color:var(--mute)}
+  .prog{position:fixed;top:0;left:0;height:2px;background:var(--edge);z-index:31;transition:width .4s}
+  .hint{position:fixed;bottom:20px;left:0;right:0;text-align:center;font-family:"JetBrains Mono";font-size:11px;color:var(--faint);z-index:30}
+  .dots{position:fixed;bottom:46px;left:0;right:0;display:flex;justify-content:center;gap:8px;z-index:30}
+  .dot{width:7px;height:7px;border-radius:50%;background:var(--line);cursor:pointer;transition:.2s}
+  .dot.on{background:var(--edge);width:22px;border-radius:4px}
+  .nav{position:fixed;inset:54px 0 70px 0;display:flex;z-index:5}
+  .nav .half{flex:1;cursor:pointer}
+</style>
+</head>
+<body>
+
+<div class="prog" id="prog"></div>
+<div class="topbar">
+  <div class="brand">THE LEDGER<span class="dot">.</span> <span class="count mono" style="margin-left:10px;color:var(--faint)">FIFA 2026 · the whole loop</span></div>
+  <div class="count"><span id="cur">1</span> / <span id="tot">8</span></div>
+</div>
+
+<div class="nav"><div class="half" onclick="go(-1)"></div><div class="half" onclick="go(1)"></div></div>
+
+<div class="stage" id="stage">
+
+  <!-- 1 TITLE -->
+  <section class="scene active">
+    <div class="pitchring"></div>
+    <div class="step rise"><span class="n">the question ·</span> a real, host-nation forecast</div>
+    <h1 class="rise">Will the USA <em>advance</em><br>from Group D?</h1>
+    <p class="lead rise">Watch the whole loop on one real MiroMind trace: research → auditable nodes → a graded forecast that <b style="color:var(--ink)">moves before the market does</b>.</p>
+    <p class="lead mono rise" style="color:var(--faint);font-size:13px">GROUP D — United States · Paraguay · Australia · Türkiye &nbsp;·&nbsp; venues: Los Angeles · Seattle</p>
+  </section>
+
+  <!-- 2 TRACE -->
+  <section class="scene">
+    <div class="step rise">step <span class="n">1 / 6</span> · the MiroMind trace</div>
+    <h2 class="rise">Deep research, streaming live.</h2>
+    <div class="console rise" id="console"></div>
+    <div class="tracestats rise">
+      <div><b>22,054</b><span>trace steps</span></div>
+      <div><b class="br">22,008</b><span>thinking (99.8%)</span></div>
+      <div><b class="up">46</b><span>searches + fetches</span></div>
+      <div><b>100</b><span>real sources</span></div>
+    </div>
+  </section>
+
+  <!-- 3 EXTRACT -->
+  <section class="scene">
+    <div class="step rise">step <span class="n">2 / 6</span> · the compiler extracts nodes</div>
+    <h2 class="rise">Raw thinking → auditable decision-nodes.</h2>
+    <div class="ndgrid rise">
+      <div class="nd"><div class="d u">▲</div><div><div class="j">USA priced <b>−1000 / −750</b> to advance → ~88–91% de-vigged: clear favourite.</div><div class="s"><b>● T2</b> foxsports.com · nytimes.com</div></div></div>
+      <div class="nd"><div class="d u">▲</div><div><div class="j">Format safety-net: top two <b>+ eight best third-place</b> teams advance.</div><div class="s"><b>● T1</b> fifa.com</div></div></div>
+      <div class="nd"><div class="d u">▲</div><div><div class="j">All three group games <b>effectively home</b> — Los Angeles & Seattle.</div><div class="s"><b>● T1</b> fifa.com · wikipedia</div></div></div>
+      <div class="nd"><div class="d d">▼</div><div><div class="j">Form caution: lost a 2025 friendly to <b>Türkiye 1–2</b> (beat Australia & Paraguay).</div><div class="s"><span class="t2">● T2</span> espn.com</div></div></div>
+    </div>
+    <p class="lead mono rise" style="font-size:12.5px">20 nodes · every one traces to a real source URL in the trace · nothing hardcoded.</p>
+  </section>
+
+  <!-- 4 VALUE -->
+  <section class="scene">
+    <div class="step rise">step <span class="n">3 / 6</span> · which node matters — learned from past upsets</div>
+    <h2 class="rise">A number alone is worthless. The signal that moved is everything.</h2>
+    <div class="vrow">
+      <div class="rcp rise">
+        <div class="rc"><span>Saudi Arabia <b class="up">beat</b> Argentina 2–1</span><span class="mk">market <b>87%</b> wrong</span></div>
+        <div class="rc"><span>Japan <b class="up">beat</b> Germany 2–1</span><span class="mk">market <b>68%</b> wrong</span></div>
+        <div class="rc"><span>Morocco <b class="up">beat</b> Portugal 1–0</span><span class="mk">market <b>60%</b> wrong</span></div>
+      </div>
+      <div class="wts rise">
+        <div class="wt"><span class="nm">rotation / motivation</span><span class="bar"><i style="width:100%"></i></span><span class="v">0.60</span></div>
+        <div class="wt"><span class="nm">venue</span><span class="bar"><i style="width:100%"></i></span><span class="v">0.60</span></div>
+        <div class="wt"><span class="nm">defence / set-piece</span><span class="bar"><i style="width:100%"></i></span><span class="v">0.60</span></div>
+        <div class="wt"><span class="nm">form</span><span class="bar"><i style="width:75%"></i></span><span class="v">0.45</span></div>
+        <div class="wt"><span class="nm">injury</span><span class="bar"><i style="width:50%"></i></span><span class="v">0.30</span></div>
+        <div class="wt"><span class="nm">consensus (restating the price)</span><span class="bar"><i style="width:8%"></i></span><span class="v">0.05</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 FORECAST + GRAPH -->
+  <section class="scene">
+    <div class="step rise">step <span class="n">4 / 6</span> · the forecast = the sharp market</div>
+    <h2 class="rise" style="font-size:clamp(22px,3vw,34px)">We agree with the line — one pass has no edge.</h2>
+    <div class="fc rise">
+      <div class="big" id="fcnum">91<span class="p">%</span></div>
+      <div class="agree">P(USA advance) <b>= the de-vigged market</b>. Every public factor (odds, format, home) is already in the price — so we don't pretend to beat it.</div>
+    </div>
+    <div class="tree rise">
+      <div class="root">● CHAMPION 2026</div>
+      <div>&nbsp;&nbsp;├─ France · Spain · England …</div>
+      <div>&nbsp;&nbsp;└─ <span class="me">USA advance Group D → 91%</span> ⟵ built from 20 sourced nodes</div>
+    </div>
+  </section>
+
+  <!-- 6 THREE VIEWS -->
+  <section class="scene">
+    <div class="step rise">step <span class="n">5 / 6</span> · one trace, three products</div>
+    <h2 class="rise">The same research, handed over three ways.</h2>
+    <div class="three">
+      <div class="card rise">
+        <div class="who">FAN · the casual</div>
+        <h3>USA advance ✓</h3>
+        <div class="row"><b>91%</b> — clear group favourite.</div>
+        <div class="row">• −1000/−750 to advance.<br>• 48-team format is forgiving.<br>• Three home games (LA / Seattle).</div>
+        <div class="mono">5-second call, with receipts.</div>
+      </div>
+      <div class="card rise">
+        <div class="who">ANALYST · the expert</div>
+        <h3>The auditable trace</h3>
+        <div class="row"><b>▲</b> −1000 de-vig 91% · <span class="mono">foxsports ↗</span></div>
+        <div class="row"><b>▲</b> format: top-2 + best-thirds · <span class="mono">fifa.com ↗</span></div>
+        <div class="row"><b>▼</b> lost Türkiye 1–2 (2025) · <span class="mono">espn ↗</span></div>
+        <div class="mono">20 nodes · every claim sourced.</div>
+      </div>
+      <div class="card rise">
+        <div class="who">MOVING-LINE · the sharp</div>
+        <h3>What just moved</h3>
+        <div class="row" style="color:var(--break)"><b style="color:var(--break)">⚡ injury node</b> — top value, contrarian vs the line.</div>
+        <div class="row">ranked by value = source × magnitude × signal-class.</div>
+        <div class="mono">the actionable signal + the line gap.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7 DOCTOR (climax) -->
+  <section class="scene">
+    <div class="step rise">step <span class="n">6 / 6</span> · breaking news, before the market</div>
+    <div class="newschip rise"><span class="tag">DEMO EVENT</span><p><b class="br">Breaking:</b> USMNT key forward ruled out (hamstring) — news the line hasn't absorbed.</p></div>
+    <div class="dwrap">
+      <div class="rise">
+        <div class="move"><span class="from">91%</span><span class="a dn" id="docnum">88<span style="font-size:.4em;color:var(--mute)">%</span></span></div>
+        <p class="lead" style="margin-top:10px">The injury node flips, re-scores, and re-computes the forecast <span class="dn">down, below the market</span> — the only honest edge: <b style="color:var(--ink)">we priced it first.</b></p>
+      </div>
+      <div class="gauge rise">
+        <h4>our number vs the market</h4>
+        <div class="track">
+          <div class="fillg"></div>
+          <div class="mk2 ours"><span class="up">ours 88%</span></div>
+          <div class="mk2 market"><span style="color:var(--mute)">market 91%</span></div>
+        </div>
+        <div class="ticks"><span>80%</span><span>85%</span><span>90%</span><span>95%</span></div>
+        <div class="edgeline">▸ 3 pts BELOW the stale line — the market hasn't moved yet.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8 CLOSE -->
+  <section class="scene">
+    <div class="pitchring"></div>
+    <div class="step rise">the whole loop · in one trace</div>
+    <h1 class="rise" style="font-size:clamp(30px,4.6vw,60px);max-width:18ch">Forecasts that show their work, keep score, and move before the market.</h1>
+    <div class="badges rise"><span class="bdg">FIFA.com</span><span class="bdg">ESPN</span><span class="bdg">FOX</span><span class="bdg">NYT Athletic</span><span class="bdg">Opta</span><span class="bdg">Polymarket</span></div>
+    <p class="honest rise">Every number is <b style="color:var(--mute)">computed from one real MiroMind trace</b> (<span class="mono">wc26-usa-advance</span>, 22,054 steps, 100 sources) — none typed in. Locked before kickoff, graded forward against the closing line. The only injected element is the labeled <span class="br">DEMO EVENT</span> injury. <i>“THE LEDGER” is a working name.</i></p>
+  </section>
+
+</div>
+
+<div class="dots" id="dots"></div>
+<div class="hint">← → or click left / right to move · press <b style="color:var(--mute)">F</b> for fullscreen · 8 scenes ≈ your 60-second walkthrough</div>
+
+<script>
+const scenes=[...document.querySelectorAll('.scene')];
+const dotsWrap=document.getElementById('dots');
+let i=0;
+document.getElementById('tot').textContent=scenes.length;
+scenes.forEach((_,k)=>{const d=document.createElement('div');d.className='dot'+(k===0?' on':'');d.onclick=()=>show(k);dotsWrap.appendChild(d);});
+const dots=[...dotsWrap.children];
+
+function show(n){
+  i=Math.max(0,Math.min(scenes.length-1,n));
+  scenes.forEach((s,k)=>s.classList.toggle('active',k===i));
+  dots.forEach((d,k)=>d.classList.toggle('on',k===i));
+  document.getElementById('cur').textContent=i+1;
+  document.getElementById('prog').style.width=((i+1)/scenes.length*100)+'%';
+  if(i===1) streamTrace();
+  if(i===4) countTo('fcnum',91,'%');
+  if(i===6) tickDown('docnum',91,88);
+}
+function go(d){show(i+d);}
+document.addEventListener('keydown',e=>{
+  if(e.key==='ArrowRight'||e.key===' ')go(1);
+  else if(e.key==='ArrowLeft')go(-1);
+  else if(e.key.toLowerCase()==='f'){if(!document.fullscreenElement)document.documentElement.requestFullscreen();else document.exitFullscreen();}
+});
+
+// scene 2: stream the real trace
+const TRACE=[
+  ['tk',"[thinking]  '\\nThe '"],['tk',"[thinking]  'user i'"],['tk',"[thinking]  's as'"],
+  ['tk',"[thinking]  'king ab'"],['tk',"[thinking]  'out the'"],['tk',"[thinking]  ' USMNT'"],
+  ['ws',"[web_search] \"2026 FIFA World Cup USMNT group draw\""],
+  ['ft',"[fetch] en.wikipedia.org/wiki/2026_FIFA_World_Cup_draw"],
+  ['tk',"[thinking]  ' Group D: USA, Paraguay,'"],['tk',"[thinking]  ' Australia, Türkiye.'"],
+  ['ws',"[web_search] \"USA to qualify group 2026 world cup odds\""],
+  ['ft',"[fetch] foxsports.com/.../how-far-will-team-usa-go"],
+  ['tk',"[thinking]  ' -750 → 750/(750+100)'"],['tk',"[thinking]  ' = 0.882 ≈ 88%'"],
+  ['ft',"[fetch] fifa.com/.../group-d-focus"],
+];
+let streamed=false;
+function streamTrace(){
+  const c=document.getElementById('console'); if(streamed){return;} streamed=true; c.innerHTML='';
+  TRACE.forEach((t,k)=>{const d=document.createElement('div');d.className='ln '+t[0];d.textContent=t[1];c.appendChild(d);
+    setTimeout(()=>d.classList.add('show'),120*k);
+    setTimeout(()=>{if(c.scrollHeight>c.clientHeight)c.scrollTop=c.scrollHeight;},120*k+60);});
+}
+function countTo(id,to,suf){const e=document.getElementById(id);let v=70;e.innerHTML=v+'<span class="p">'+suf+'</span>';
+  const t=setInterval(()=>{v++;e.innerHTML=v+'<span class="p">'+suf+'</span>';if(v>=to)clearInterval(t);},22);}
+function tickDown(id,from,to){const e=document.getElementById(id);let v=from;e.innerHTML=v+'<span style="font-size:.4em;color:var(--mute)">%</span>';
+  setTimeout(()=>{const t=setInterval(()=>{v--;e.innerHTML=v+'<span style="font-size:.4em;color:var(--mute)">%</span>';if(v<=to)clearInterval(t);},260);},500);}
+</script>
+</body>
+</html>

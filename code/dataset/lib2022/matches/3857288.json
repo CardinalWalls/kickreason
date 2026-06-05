@@ -1,0 +1,62 @@
+{
+ "match_id": 3857288,
+ "date": "2022-11-26",
+ "stage": "Group Stage",
+ "home_team": "Tunisia",
+ "away_team": "Australia",
+ "score": {
+  "home": 0,
+  "away": 1
+ },
+ "winner": "Australia",
+ "team_xg": {
+  "Tunisia": 1.052,
+  "Australia": 0.359
+ },
+ "shots": {
+  "Tunisia": 14,
+  "Australia": 9
+ },
+ "shots_on_target": {
+  "Tunisia": 4,
+  "Australia": 2
+ },
+ "possession_proxy_pass_share": {
+  "Tunisia": 0.576,
+  "Australia": 0.424
+ },
+ "goals": [
+  {
+   "minute": 22,
+   "second": 50,
+   "player": "Mitchell Thomas Duke",
+   "team": "Australia",
+   "xg": 0.045,
+   "type": "Open Play",
+   "body_part": "Head"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 25,
+   "player": "Aïssa Bilal Laïdouni",
+   "team": "Tunisia",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 63,
+   "player": "Ali Abdi",
+   "team": "Tunisia",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 91,
+   "player": "Ferjani Sassi",
+   "team": "Tunisia",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3359,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}

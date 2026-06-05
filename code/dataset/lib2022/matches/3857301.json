@@ -1,0 +1,107 @@
+{
+ "match_id": 3857301,
+ "date": "2022-11-25",
+ "stage": "Group Stage",
+ "home_team": "Qatar",
+ "away_team": "Senegal",
+ "score": {
+  "home": 1,
+  "away": 3
+ },
+ "winner": "Senegal",
+ "team_xg": {
+  "Qatar": 0.96,
+  "Senegal": 0.903
+ },
+ "shots": {
+  "Qatar": 10,
+  "Senegal": 12
+ },
+ "shots_on_target": {
+  "Qatar": 3,
+  "Senegal": 4
+ },
+ "possession_proxy_pass_share": {
+  "Qatar": 0.452,
+  "Senegal": 0.548
+ },
+ "goals": [
+  {
+   "minute": 40,
+   "second": 20,
+   "player": "Boulaye Dia",
+   "team": "Senegal",
+   "xg": 0.231,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  },
+  {
+   "minute": 47,
+   "second": 51,
+   "player": "Famara Diedhiou",
+   "team": "Senegal",
+   "xg": 0.038,
+   "type": "Open Play",
+   "body_part": "Head"
+  },
+  {
+   "minute": 77,
+   "second": 39,
+   "player": "Mohammed Muntari",
+   "team": "Qatar",
+   "xg": 0.072,
+   "type": "Open Play",
+   "body_part": "Head"
+  },
+  {
+   "minute": 83,
+   "second": 6,
+   "player": "Cheikh Ahmadou Bamba Mbacke Dieng",
+   "team": "Senegal",
+   "xg": 0.116,
+   "type": "Open Play",
+   "body_part": "Right Foot"
+  }
+ ],
+ "shootout": [],
+ "cards": [
+  {
+   "minute": 19,
+   "player": "Ismaeel Mohammad Mohammad",
+   "team": "Qatar",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 29,
+   "player": "Boulaye Dia",
+   "team": "Senegal",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 46,
+   "player": "Homam Alamin Ahmed",
+   "team": "Qatar",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 51,
+   "player": "Ismail Jakobs",
+   "team": "Senegal",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 86,
+   "player": "Pathé Ismaël Ciss",
+   "team": "Senegal",
+   "card": "Yellow Card"
+  },
+  {
+   "minute": 90,
+   "player": "Assim Omer Al Haj Madibo",
+   "team": "Qatar",
+   "card": "Yellow Card"
+  }
+ ],
+ "n_events": 3546,
+ "source": "StatsBomb Open Data CC-BY-NC 4.0 (competition 43 / season 106)"
+}
