@@ -128,7 +128,7 @@ h1 .l2 b{font-weight:400;-webkit-text-stroke:0;color:var(--gold);
 .film-card::before,.film-card::after{content:"";position:absolute;width:34px;height:34px;z-index:4;pointer-events:none}
 .film-card::before{top:14px;left:14px;border-top:3px solid var(--gold);border-left:3px solid var(--gold)}
 .film-card::after{bottom:14px;right:14px;border-bottom:3px solid var(--gold);border-right:3px solid var(--gold)}
-.film-card video{display:block;width:100%;aspect-ratio:16/9;background:#000;position:relative;z-index:2}
+.film-card video,.film-card iframe{display:block;width:100%;aspect-ratio:16/9;background:#000;position:relative;z-index:2;border:0}
 .tvtag{position:absolute;top:16px;right:18px;z-index:5;font-family:var(--mono);font-size:11px;letter-spacing:.14em;
   color:#fff;background:var(--red);padding:6px 12px;border-radius:6px;display:flex;align-items:center;gap:7px;text-transform:uppercase;pointer-events:none}
 .tvtag::before{content:"";width:8px;height:8px;border-radius:50%;background:#fff;animation:blink 1.1s steps(1) infinite}
@@ -196,7 +196,7 @@ footer{margin-top:50px;border-top:1px solid var(--line);padding:50px 0 70px;text
 <nav><div class="nav-in">
   <a class="logo" href="index.html"><span class="ball"></span>Kick<b>Reason</b></a>
   <div class="nav-links">
-    <a href="node.html">Debate</a><a href="match.html">Match Room</a><a href="scoreboard.html">Scoreboard</a><a class="film" href="#film">▶ Film</a>
+    <a href="#mechanism">Mechanism</a><a href="node.html">Debate</a><a href="match.html">Match Room</a><a href="scoreboard.html">Scoreboard</a><a class="film" href="#film">▶ Film</a>
   </div>
 </div></nav>
 
@@ -244,6 +244,18 @@ footer{margin-top:50px;border-top:1px solid var(--line);padding:50px 0 70px;text
       <div class="playbtn" id="play"><div class="disc">▶</div></div>
     </figure>
     <div class="film-cap"><span><b>1:43</b> · 1920×1080</span><span>narrated commentary</span><span>built with MiroMind + the compiler</span><a href="kickreason.mp4" download>↓ download mp4</a></div>
+  </section>
+
+  <!-- ══ MECHANISM (process60) ══ -->
+  <section id="mechanism" class="sec">
+    <div class="sec-eyebrow">The mechanism · 60 seconds, live</div>
+    <h2 class="sec-h">Not a screenshot. <em>The product, running.</em></h2>
+    <p class="sec-sub">One match becomes a node — reasoned through four sourced layers — then pulls back into the whole champion-rooted graph of <b style="color:var(--white)">8,367 graded nodes</b>, and scores itself where it resolved. Drawn live from the real 2022 data.</p>
+    <figure class="film-card">
+      <span class="tvtag" style="background:var(--green);color:var(--greenink)">● Live</span>
+      <iframe id="mechframe" title="KickReason — the 60-second mechanism" data-src="process60.html?play=1" loading="lazy" allow="autoplay"></iframe>
+    </figure>
+    <div class="film-cap"><span><b>60s</b> · auto-plays in view</span><span>real DAG · 8,367 nodes</span><a href="process60.html" target="_blank">↗ open full-screen</a></div>
   </section>
 
   <!-- ══ THE THREE PAGES ══ -->
@@ -308,5 +320,11 @@ var v=document.getElementById('vid'),pb=document.getElementById('play');
 pb.addEventListener('click',function(){v.play();pb.classList.add('hide');});
 v.addEventListener('play',function(){pb.classList.add('hide');});
 v.addEventListener('pause',function(){if(!v.ended&&v.currentTime>0)pb.classList.remove('hide');});
+// lazy-load + autoplay the 60s mechanism demo when it scrolls into view
+var mf=document.getElementById('mechframe');
+if(mf&&'IntersectionObserver'in window){
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){mf.src=mf.dataset.src;io.disconnect();}});},{rootMargin:'250px'});
+  io.observe(mf);
+}else if(mf){mf.src=mf.dataset.src;}
 </script>
 </body></html>
