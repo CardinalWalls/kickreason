@@ -1,5 +1,0 @@
-{
- "n": 22524,
- "vader_vs_human_agreement": 0.584,
- "note": "3-class agreement of VADER vs the dataset's human labels on the opening-day set."
-}

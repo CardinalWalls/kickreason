@@ -1,9 +1,0 @@
-{
-  "current_stage": "compile/v1",
-  "entry_satisfied": true,
-  "blockers": [],
-  "required_artifact": "trajectory-bootstrap.md",
-  "required_next_role": "human review (上升端)",
-  "escalation": "needs_user_clarification",
-  "message_for_user": "Open question(s) need your call: which lane fits a trauma-informed survivor agent | which recently-resolved FutureX-style instance to use as the golden example"
-}

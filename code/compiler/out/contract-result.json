@@ -1,9 +1,0 @@
-{
-  "verdict": "pass",
-  "failures": [],
-  "checked": {
-    "facts": 11,
-    "steps": 5,
-    "decisions": 6
-  }
-}
