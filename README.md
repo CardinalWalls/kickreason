@@ -22,7 +22,8 @@ reasoning on them. This repo refactors that pipeline into modular skills.
 | [`skills/forecast-compiler/`](skills/forecast-compiler/) | trace → structured nodes → DAG |
 | [`skills/forecast-grading/`](skills/forecast-grading/) | calibration / Brier / CLV (not win/loss) |
 | [`skills/wc-data-library/`](skills/wc-data-library/) | the graded tournament dataset |
-| [`examples/`](examples/) · [`evidence/`](evidence/) · [`docs/`](docs/) | sample output · REAL proof · the research behind it |
+| [`examples/`](examples/) · [`evidence/`](evidence/) · [`research/`](research/) | sample output · REAL proof · the research behind it |
+| [`docs/`](docs/) | the live-demo site (served by GitHub Pages) |
 
 See [DESIGN.md](DESIGN.md) for the architecture and [PROJECT_GUIDE.md](PROJECT_GUIDE.md) for how the skills chain.
 

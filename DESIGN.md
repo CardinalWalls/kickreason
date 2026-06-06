@@ -51,7 +51,8 @@ kickreason-skills/
 │     └─ references/              ← data-sources.md  (StatsBomb · 538 · Elo · Guardian · tweets)
 ├─ examples/              ← a real debatable-node card · a graded scoreboard · the Saudi–Argentina case
 ├─ evidence/              ← REAL 2022 artifacts proving the loop closes (graded arc Brier 0.262, the 5.9-min update)
-└─ docs/                  ← the deep-research backing (north-star · intel-industry · stakeholder-demand)
+├─ research/              ← the deep-research backing (north-star · intel-industry · stakeholder-demand)
+└─ docs/                  ← the deployed live-demo site (GitHub Pages serves this folder)
 ```
 
 **Conventions (from the reference):** skill dirs `kebab-case`; entrypoint `SKILL.md` (uppercase);
